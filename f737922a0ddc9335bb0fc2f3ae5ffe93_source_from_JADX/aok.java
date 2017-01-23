@@ -1,0 +1,16 @@
+public enum aok {
+    BARE,
+    SAFE,
+    MERGING,
+    MERGING_RESOLVED,
+    CHERRY_PICKING,
+    CHERRY_PICKING_RESOLVED,
+    REBASING,
+    REBASING_REBASING,
+    APPLY,
+    REBASING_MERGE,
+    REBASING_INTERACTIVE,
+    BISECTING;
+
+    public abstract boolean j6();
+}

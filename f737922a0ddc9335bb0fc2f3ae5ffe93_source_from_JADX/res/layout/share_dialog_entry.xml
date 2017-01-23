@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@b/shareDialogEntryImage" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="20dp" android:src="@drawable/community_googleplus" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Medium" android:id="@b/shareDialogEntryText" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

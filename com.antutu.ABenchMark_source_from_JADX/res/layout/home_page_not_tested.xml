@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_width="-1" app:layout_height="-1">
+    <ListView app:id="@id/lv_not_testlist" app:background="@color/bg_home_list" app:scrollbars="0" app:layout_width="-1" app:layout_height="-1" app:divider="@tnetstatuscode/EASY_REQ_STATE_OK" app:dividerHeight="0dp" />
+    <com.antutu.benchmark.view.PromptView app:layout_gravity="51" app:id="@id/pv_prompt" app:visibility="2" app:layout_width="-1" app:layout_height="-2" />
+</FrameLayout>

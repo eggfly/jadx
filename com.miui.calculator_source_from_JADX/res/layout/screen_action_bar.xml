@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.support.internal.widget.ActionBarOverlayLayout android:id="@id/action_bar_overlay_layout" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="0x1020002" android:layout_width="-1" android:layout_height="-1" android:foreground="?unknown_attr_ref: 1010059" android:foregroundGravity="37" />
+    <com.miui.support.internal.widget.ActionBarContainer android:layout_gravity="30" android:id="@id/action_bar_container" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 10102ce">
+        <com.miui.support.internal.widget.ActionBarView android:id="@id/action_bar" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 10102ce" />
+        <com.miui.support.internal.widget.ActionBarContextView android:id="@id/action_context_bar" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 1010394" />
+    </com.miui.support.internal.widget.ActionBarContainer>
+    <com.miui.support.internal.widget.ActionBarContainer android:layout_gravity="50" android:id="@id/split_action_bar" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 1010388" />
+    <View android:id="@id/content_mask" android:background="?unknown_attr_ref: 7f010077" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" />
+</com.miui.support.internal.widget.ActionBarOverlayLayout>

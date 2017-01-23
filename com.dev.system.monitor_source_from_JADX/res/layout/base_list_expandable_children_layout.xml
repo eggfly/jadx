@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="40dp" android:clickable="true" android:layout_width="-1" android:layout_height="40dp">
+    <TextView android:textSize="14sp" android:textStyle="1" android:gravity="10" android:id="@id/card_children_simple_title" android:layout_width="-2" android:layout_height="-2" android:drawablePadding="5dp" />
+</LinearLayout>

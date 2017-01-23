@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+    <com.antutu.benchmark.view.SuggestAppSelectView android:id="@id/suggestappselectview" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

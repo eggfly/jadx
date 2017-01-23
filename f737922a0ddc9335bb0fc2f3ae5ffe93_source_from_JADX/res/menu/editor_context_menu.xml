@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="?unknown_attr_ref: 7f01012e" android:id="@b/editorMenuChooseColor" android:title="@f/command_color" android:showAsAction="5" />
+    <item android:icon="?unknown_attr_ref: 7f01012b" android:id="@b/editorMenuFix" android:title="@f/command_fix" android:showAsAction="5">
+        <menu>
+            <item android:id="@b/editorMenuFix0" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix1" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix2" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix3" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix4" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix5" android:title="@f/command_fix" />
+        </menu> />
+    <item android:icon="?unknown_attr_ref: 7f01012a" android:id="@b/editorMenuExpandSelection" android:title="@f/command_select" android:showAsAction="5" />
+    <item android:icon="?unknown_attr_ref: 7f010126" android:id="@b/editorMenuCut" android:title="@f/command_cut" android:showAsAction="1" />
+    <item android:icon="?unknown_attr_ref: 7f010125" android:id="@b/editorMenuCopy" android:title="@f/command_copy" android:showAsAction="1" />
+    <item android:icon="?unknown_attr_ref: 7f010131" android:id="@b/editorMenuPaste" android:title="@f/command_paste" android:showAsAction="1" />
+    <item android:icon="?unknown_attr_ref: 7f01012d" android:id="@b/editorMenuHelp" android:title="@f/command_documentation" android:showAsAction="5" />
+    <item android:icon="?unknown_attr_ref: 7f01012c" android:id="@b/editorMenuGotoDefinition" android:title="@f/command_go_to" android:showAsAction="5" />
+    <item android:id="@b/editorMenuToggleBreakpoint" android:title="@f/command_breakpoint" />
+    <item android:id="@b/editorMenuRefactor" android:title="@f/command_refactor" android:showAsAction="0">
+        <menu>
+            <item android:id="@b/editorMenuRename" android:title="@f/command_rename" />
+            <item android:id="@b/editorMenuInlineVariable" android:title="@f/command_inline_variable" />
+            <item android:id="@b/editorMenuIntroduceVariable" android:title="@f/command_introduce_variable" />
+            <item android:id="@b/editorMenuExtractMethod" android:title="@f/command_extract_method" />
+        </menu> />
+    <item android:id="@b/editorMenuCode" android:title="@f/command_code" android:showAsAction="0">
+        <menu>
+            <item android:id="@b/editorMenuOrganizeImports" android:title="@f/command_organize_imports" />
+            <item android:id="@b/editorMenuSurroundWithTryCatch" android:title="@f/command_surround_with_trycatch" />
+            <item android:id="@b/editorMenuComment" android:title="@f/command_outcomment_code" />
+            <item android:id="@b/editorMenuUnComment" android:title="@f/command_unoutcomment_code" />
+            <item android:id="@b/editorMenuCreateSetters" android:title="@f/command_create_setters_and_getters" />
+            <item android:id="@b/editorMenuCreateConstructor" android:title="@f/command_create_constructor" />
+            <item android:id="@b/editorMenuExtractResources" android:title="@f/command_extract_resources" />
+            <item android:id="@b/editorMenuReplace" android:title="@f/command_replace_textually" />
+        </menu> />
+    <item android:id="@b/editorMenuFormat" android:title="@f/command_format" android:showAsAction="0">
+        <menu>
+            <item android:id="@b/editorMenuFormatCode" android:title="@f/command_format_code" />
+            <item android:id="@b/editorMenuLearnCodeStyle" android:title="@f/command_learn_code_style" />
+            <item android:id="@b/editorMenuConfigureCodeStyle" android:title="@f/command_configure_code_style" />
+        </menu> />
+    <item android:id="@b/editorMenuNavigate" android:title="@f/command_find" android:showAsAction="0">
+        <menu>
+            <item android:id="@b/editorMenuFindUsage" android:title="@f/command_find_usages" />
+            <item android:id="@b/editorMenuFindExtendedUsages" android:title="@f/command_find_extended_usages" />
+            <item android:id="@b/editorMenuFindTextually" android:title="@f/command_find_textually" />
+        </menu> />
+    <item android:id="@b/editorMenuClose" android:title="@f/command_close_file" android:showAsAction="0" />
+</menu>

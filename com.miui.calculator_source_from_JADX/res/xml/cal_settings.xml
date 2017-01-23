@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/preference_settings" android:key="calcualtor_settings">
+        <CheckBoxPreference android:title="@string/preference_use_degress_title" android:key="key_use_degress" android:summary="@string/preference_use_degress_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_about_calculator" android:key="about_calculator">
+        <Preference android:title="@string/preference_check_update_title" android:key="key_check_update" />
+        <Preference android:title="@string/preference_feedback_title" android:key="key_feedback" android:summary="@string/preference_follow_qq_group" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_follow_us" android:key="follow_us">
+        <Preference android:title="@string/preference_follow_wechat_title" android:key="key_follow_wechat" android:summary="@string/preference_follow_wechat_summary" />
+        <Preference android:title="@string/preference_follow_weibo_title" android:key="key_follow_weibo" android:summary="@string/preference_follow_weibo_summary" />
+        <Preference android:title="@string/preference_follow_web_title" android:key="key_follow_web" android:summary="@string/preference_follow_web_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

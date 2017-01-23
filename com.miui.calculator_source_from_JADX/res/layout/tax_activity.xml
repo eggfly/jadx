@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/actionbar_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="78.0">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="-2"
+                <LinearLayout android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="-1" android:layout_height="-1">
+                    <TextView android:id="@id/txv_tab_salary" android:text="@string/tax_income_type_fixed_monthly_salary" style="@style/CalWidget_TabView" />
+                    <TextView android:id="@id/txv_tab_bonus" android:text="@string/tax_income_type_annual_bonus" style="@style/CalWidget_TabView" />
+                </LinearLayout>
+                <View style="@style/CalWidget_Divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                <com.miui.calculator.tax.TaxView android:id="@id/tax_taxview" android:layout_width="-1" android:layout_height="-2" />
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:minHeight="1px" android:layout_weight="1.0">
+                    <View style="@style/CalWidget_Divider" />
+                    <TextView android:textSize="@dimen/currency_update_time" android:textColor="@color/update_time_tax" android:layout_gravity="1" android:id="@id/txv_updatetime" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/div_divider" style="@style/CalWidget_Divider" />
+            <TextView android:textSize="@dimen/currency_update_time" android:textColor="@color/update_time_tax" android:layout_gravity="1" android:id="@id/txv_updatetime_1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14dp" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="50" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="22.0">
+        <Button android:textColor="0x106000b" android:layout_gravity="50" android:id="@id/btn_calculate" android:background="@drawable/btn_calculate" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="15dp" android:text="@string/mortgage_calculate" />
+    </LinearLayout>
+</LinearLayout>

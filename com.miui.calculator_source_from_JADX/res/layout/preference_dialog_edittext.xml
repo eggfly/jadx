@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/preference_dialog_edittext_margin" android:layout_marginBottom="@dimen/preference_dialog_edittext_margin" android:overScrollMode="1">
+    <LinearLayout android:orientation="1" android:id="@id/edittext_container" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textColor="?unknown_attr_ref: 1010038" android:id="0x102000b" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="48dp" style="?unknown_attr_ref: 1010042" />
+    </LinearLayout>
+</ScrollView>

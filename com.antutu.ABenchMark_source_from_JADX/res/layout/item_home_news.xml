@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout card_view:orientation="1" card_view:background="@color/transparent" card_view:padding="@dimen/home_translate_padding" card_view:layout_width="-1" card_view:layout_height="-2">
+    <android.support.v7.widget.CardView card_view:layout_width="-1" card_view:layout_height="-1" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardBackgroundColor="@color/white" card_view:cardCornerRadius="@dimen/normal_radius">
+        <FrameLayout card_view:background="@color/white" card_view:layout_width="-1" card_view:layout_height="-1">
+            <LinearLayout card_view:layout_gravity="11" card_view:orientation="1" card_view:id="@id/ll_loading" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginTop="30dp" card_view:layout_marginBottom="30dp">
+                <com.gc.materialdesign.views.ProgressBarCircularIndeterminateSingle card_view:layout_gravity="11" card_view:id="@id/loading" card_view:background="@color/colorPrimary_day" card_view:layout_width="50dp" card_view:layout_height="50dp" />
+                <TextView card_view:textSize="@dimen/text_size_small" card_view:textColor="@color/deep_black_text" card_view:layout_gravity="1" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_marginTop="5dp" card_view:text="@string/loading_antutu_hot_news" />
+            </LinearLayout>
+            <TextView card_view:textSize="@dimen/text_size_middle" card_view:textColor="@color/shallow_gray_text" card_view:gravity="11" card_view:layout_gravity="11" card_view:id="@id/no_content" card_view:visibility="2" card_view:layout_width="-2" card_view:layout_height="-2" card_view:text="@string/no_have_hot_news" card_view:singleLine="true" />
+            <LinearLayout card_view:orientation="1" card_view:id="@id/ll_bg" card_view:background="@color/white" card_view:padding="12dp" card_view:layout_width="-1" card_view:layout_height="-1">
+                <TextView card_view:textSize="@dimen/text_size_normal" card_view:textColor="@color/colorPrimary_day" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginLeft="5dp" card_view:text="@string/hot_news" />
+                <View card_view:background="@color/gray_divider" card_view:layout_width="-1" card_view:layout_height="1dp" card_view:layout_marginTop="8dp" />
+                <ListView card_view:scrollbarThumbVertical="@drawable/scrollbar" card_view:scrollbarStyle="2000000" card_view:id="@id/list" card_view:scrollbars="200" card_view:layout_width="-1" card_view:layout_height="-1" card_view:cacheColorHint="#00000000" card_view:divider="@color/news_list_divider" card_view:dividerHeight="0.5dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

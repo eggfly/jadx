@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingStart="@dimen/list_padding_horizontal" android:paddingEnd="@dimen/list_padding_horizontal" style="@style/CalWidget_ListItem">
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:id="@id/txv_title" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textAppearance="@style/TextAppearance_List_Secondary" android:gravity="800005" android:id="@id/txv_summary" android:layout_width="0dp" android:layout_height="-2" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="5dp" />
+        <ImageView android:layout_gravity="800015" android:id="@id/imv_arrow" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/arrow_right" />
+    </LinearLayout>
+    <View android:layout_gravity="50" style="@style/CalWidget_Divider" />
+</FrameLayout>

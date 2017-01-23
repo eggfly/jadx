@@ -1,0 +1,7 @@
+public enum aca$a {
+    MOVE_PARAM_COMBINER,
+    SCCP,
+    LITERAL_UPGRADE,
+    CONST_COLLECTOR,
+    ESCAPE_ANALYSIS
+}

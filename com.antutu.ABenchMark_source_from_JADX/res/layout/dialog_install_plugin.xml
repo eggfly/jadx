@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@id/tv_title" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="13dp" android:layout_marginTop="20dp" android:text="@string/need_download3d_reason" android:singleLine="false" />
+    <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@id/tv_message" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="13dp" android:layout_marginTop="13dp" android:layout_marginRight="13dp" android:text="@string/need_download3d_content_new" android:singleLine="false" android:layout_below="@id/tv_title" />
+    <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@id/tv_button2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="13dp" android:layout_marginBottom="20dp" android:singleLine="false" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@id/tv_button1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:singleLine="false" android:layout_toLeftOf="@id/tv_button2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

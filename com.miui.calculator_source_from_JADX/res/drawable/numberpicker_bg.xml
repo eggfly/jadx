@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector miui:variablePadding="true">
+    <item miui:drawable="@drawable/number_picker_bg_first" miui:state_first_h="true" miui:state_single_v="true" />
+    <item miui:drawable="@drawable/number_picker_bg_last" miui:state_last_h="true" miui:state_single_v="true" />
+    <item miui:drawable="@drawable/number_picker_bg_middle" miui:state_middle_h="true" miui:state_single_v="true" />
+    <item miui:drawable="@drawable/number_picker_bg_single" miui:state_single_h="true" miui:state_single_v="true" />
+    <item miui:drawable="@drawable/number_picker_bg_single" />
+</selector>

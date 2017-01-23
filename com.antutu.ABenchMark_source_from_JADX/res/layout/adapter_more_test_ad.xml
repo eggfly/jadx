@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+    <com.antutu.benchmark.view.MaterialRippleLayout android:id="@id/ll_bg" android:paddingLeft="8dp" android:paddingTop="16dp" android:paddingRight="8dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:gravity="10" android:layout_gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <FrameLayout android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="8dp">
+                <ImageView android:id="@id/img" android:layout_width="@dimen/home_more_test_icon_wh" android:layout_height="@dimen/home_more_test_icon_wh" android:src="@drawable/more_test_long" />
+                <ImageView android:layout_gravity="33" android:id="@id/ad_tag" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/tuijian" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:gravity="11" android:layout_gravity="1" android:id="@id/tv_text" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="30dp" android:singleLine="true" />
+        </LinearLayout>
+    </com.antutu.benchmark.view.MaterialRippleLayout>
+</LinearLayout>

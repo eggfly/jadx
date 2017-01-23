@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/gray" android:id="@id/tv_content" android:layout_width="-2" android:layout_height="-2" />
+</RelativeLayout>

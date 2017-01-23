@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.antutu.benchmark.view.MainViewPager android:id="@id/pager" android:focusable="true" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <requestFocus />
+    </com.antutu.benchmark.view.MainViewPager>
+    <View android:background="@color/home_bottom_line" android:layout_width="-1" android:layout_height="@dimen/home_bottom_divider" />
+    <LinearLayout android:orientation="0" android:background="@color/layout_background" android:layout_width="-1" android:layout_height="@dimen/home_bottom_bar_height">
+        <RelativeLayout android:gravity="11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <CheckedTextView android:id="@id/ctv_home_test" android:layout_width="-2" android:layout_height="-2" android:text="@string/tab_test" android:drawableTop="@drawable/selector_home_test" android:layout_centerInParent="true" style="@style/main_bottombar_text" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <CheckedTextView android:id="@id/ctv_home_rank" android:layout_width="-2" android:layout_height="-2" android:text="@string/tab_rank" android:drawableTop="@drawable/selector_home_rank" android:layout_centerInParent="true" style="@style/main_bottombar_text" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <CheckedTextView android:id="@id/ctv_home_info" android:layout_width="-2" android:layout_height="-2" android:text="@string/tab_device" android:drawableTop="@drawable/selector_home_device" android:layout_centerInParent="true" style="@style/main_bottombar_text" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="1" android:id="@id/rl_home_news" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <CheckedTextView android:id="@id/ctv_home_news" android:layout_width="-2" android:layout_height="-2" android:text="@string/tab_news" android:drawableTop="@drawable/selector_home_news" android:layout_centerInParent="true" style="@style/main_bottombar_text" />
+            <LinearLayout android:gravity="35" android:paddingLeft="30dp" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true">
+                <TextView android:textColor="0x106000b" android:gravity="11" android:id="@id/unread" android:background="@drawable/news_tag" android:visibility="2" android:layout_width="10dp" android:layout_height="10dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

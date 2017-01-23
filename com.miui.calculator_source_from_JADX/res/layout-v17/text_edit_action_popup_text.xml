@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?unknown_attr_ref: 1010044" android:textSize="@dimen/text_edit_action_popup_text_size" android:textColor="@color/text_edit_action_popup_text" android:gravity="11" android:background="@drawable/menu_popup_bg" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:paddingStart="@dimen/menu_popup_margin_horizontal" android:paddingEnd="@dimen/menu_popup_margin_horizontal" />

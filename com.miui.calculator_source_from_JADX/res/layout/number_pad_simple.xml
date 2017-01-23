@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/lyt_simple" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="3.0"
+        <LinearLayout android:orientation="0" android:id="@id/lyt_c_d_d" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <ImageView android:id="@id/btn_c_1" android:src="@drawable/btn_pad_ac" android:scaleType="5" style="@style/CalWidget_Button_Pad_H" />
+            <ImageView android:id="@id/btn_del_1" android:src="@drawable/btn_pad_del" android:scaleType="5" style="@style/CalWidget_Button_Pad_H" />
+            <ImageView android:id="@id/btn_div" android:src="@drawable/btn_pad_div" android:scaleType="5" style="@style/CalWidget_Button_Pad_H" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <Button android:id="@id/btn_7" android:text="@string/digit7" style="@style/CalWidget_Button_Pad_H" />
+            <Button android:id="@id/btn_8" android:text="@string/digit8" style="@style/CalWidget_Button_Pad_H" />
+            <Button android:id="@id/btn_9" android:text="@string/digit9" style="@style/CalWidget_Button_Pad_H" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <Button android:id="@id/btn_4" android:text="@string/digit4" style="@style/CalWidget_Button_Pad_H" />
+            <Button android:id="@id/btn_5" android:text="@string/digit5" style="@style/CalWidget_Button_Pad_H" />
+            <Button android:id="@id/btn_6" android:text="@string/digit6" style="@style/CalWidget_Button_Pad_H" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <Button android:id="@id/btn_1" android:text="@string/digit1" style="@style/CalWidget_Button_Pad_H" />
+            <Button android:id="@id/btn_2" android:text="@string/digit2" style="@style/CalWidget_Button_Pad_H" />
+            <Button android:id="@id/btn_3" android:text="@string/digit3" style="@style/CalWidget_Button_Pad_H" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <ImageView android:id="@id/btn_percent" android:src="@drawable/btn_pad_percent" android:scaleType="5" style="@style/CalWidget_Button_Pad_H" />
+            <TextView android:id="@id/btn_0_p" android:text="@string/digit0" style="@style/CalWidget_Button_Pad_H" />
+            <LinearLayout android:id="@id/btn_0" android:layout_weight="2.0" style="@style/CalWidget_Button_Pad_H">
+                <TextView android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:text="@string/digit0" style="@style/CalWidget_Button_Pad_H" />
+                <View android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" style="@style/CalWidget_Button_Pad_H" />
+            </LinearLayout>
+            <ImageView android:id="@id/btn_dot" android:src="@drawable/btn_pad_dot" android:scaleType="5" style="@style/CalWidget_Button_Pad_H" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/lyt_c_d" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0"
+        <LinearLayout android:orientation="1" android:id="@id/btn_c" android:layout_weight="2.0" style="@style/CalWidget_Button_Pad_V_Last">
+            <ImageView android:id="@id/btn_c_2" android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:src="@drawable/btn_pad_ac" android:scaleType="5" style="@style/CalWidget_Button_Pad_V_Last" />
+            <View android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" style="@style/CalWidget_Button_Pad_V_Last" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="@id/btn_del" android:layout_weight="2.0" style="@style/CalWidget_Button_Pad_V_Last">
+            <View android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" style="@style/CalWidget_Button_Pad_V_Last" />
+            <ImageView android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:src="@drawable/btn_pad_del" android:scaleType="5" style="@style/CalWidget_Button_Pad_V_Last" />
+        </LinearLayout>
+        <ImageView android:id="@id/btn_del_2" android:src="@drawable/btn_pad_del" android:scaleType="5" style="@style/CalWidget_Button_Pad_V_Last" />
+        <ImageView android:id="@id/btn_neg" android:src="@drawable/btn_pad_neg" android:scaleType="5" style="@style/CalWidget_Button_Pad_V_Last" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/lyt_m_m_p_e" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+        <ImageView android:id="@id/btn_mul" android:src="@drawable/btn_pad_mul" android:scaleType="5" style="@style/CalWidget_Button_Pad_V_Last" />
+        <ImageView android:id="@id/btn_minus" android:src="@drawable/btn_pad_minus" android:scaleType="5" style="@style/CalWidget_Button_Pad_V_Last" />
+        <ImageView android:id="@id/btn_plus" android:src="@drawable/btn_pad_plus" android:scaleType="5" style="@style/CalWidget_Button_Pad_V_Last" />
+        <LinearLayout android:orientation="1" android:id="@id/btn_equal" android:background="@drawable/btn_pad_equal_last_bg" android:layout_weight="2.0" style="@style/CalWidget_Button_Pad_V_Last">
+            <View android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" style="@style/CalWidget_Button_Pad_V_Last" />
+            <ImageView android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:src="@drawable/btn_pad_equal" android:scaleType="5" style="@style/CalWidget_Button_Pad_V_Last" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="@id/btn_ok" android:background="@drawable/btn_pad_ok_last_bg" android:layout_weight="2.0" style="@style/CalWidget_Button_Pad_V_Last">
+            <View android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" style="@style/CalWidget_Button_Pad_V_Last" />
+            <TextView android:textSize="@dimen/btn_pad_ok" android:textColor="0x106000b" android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:text="0x104000a" style="@style/CalWidget_Button_Pad_V_Last" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

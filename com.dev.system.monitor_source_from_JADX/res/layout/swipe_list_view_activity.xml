@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout swipe:orientation="1" swipe:background="@color/app_background" swipe:layout_width="-1" swipe:layout_height="-1">
+    <com.fortysevendeg.swipelistview.SwipeListView swipe:id="@id/example_lv_list" swipe:layout_width="-1" swipe:layout_height="-2" swipe:layout_marginLeft="12dp" swipe:layout_marginRight="12dp" swipe:listSelector="#00000000" swipe:dividerHeight="12dp" swipe:swipeCloseAllItemsWhenMoveList="true" swipe:swipeFrontView="@id/front" swipe:swipeBackView="@id/back" swipe:swipeMode="1" swipe:swipeDrawableChecked="@drawable/choice_selected" swipe:swipeDrawableUnchecked="@drawable/choice_unselected" />
+    <ProgressBar swipe:id="@id/progressBar1" swipe:visibility="0" swipe:layout_width="-2" swipe:layout_height="-2" swipe:progressDrawable="@drawable/progress_color" swipe:minWidth="200dp" swipe:minHeight="10dp" swipe:layout_centerHorizontal="true" swipe:layout_centerVertical="true" style="?unknown_attr_ref: 1010078" />
+</RelativeLayout>

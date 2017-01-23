@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:padding="8dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:gravity="3" android:id="@b/keybindingsEntryName" android:layout_width="-2" android:layout_height="-2" android:text=" " />
+    <TextView android:textStyle="2" android:gravity="5" android:id="@b/keybindingsEntryBinding" android:paddingLeft="3dp" android:layout_width="-1" android:layout_height="-2" android:text=" " />
+</LinearLayout>

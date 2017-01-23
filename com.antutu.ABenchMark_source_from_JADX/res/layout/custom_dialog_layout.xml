@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <FrameLayout android:background="@drawable/popupwindow_title_bg" android:layout_width="-1" android:layout_height="61dp">
+        <TextView android:textSize="18sp" android:textStyle="1" android:textColor="@color/white" android:layout_gravity="10" android:id="@id/title_textview" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="22dp" android:text="@string/attention" />
+    </FrameLayout>
+    <LinearLayout android:orientation="1" android:background="@color/layout_background" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="16sp" android:textColor="@color/white" android:id="@id/content_textview" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:text="@string/verify_need_test" android:lineSpacingExtra="2dp" android:lineSpacingMultiplier="1.1" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="21dp" android:layout_marginTop="5dp" android:layout_marginRight="21dp" android:layout_marginBottom="20dp">
+            <Button android:textSize="16dp" android:textColor="@color/white" android:id="@id/confirm_btn" android:background="@drawable/btn_common_selector" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="11dp" android:layout_marginRight="11dp" android:text="@string/confirm" android:layout_weight="1.0" />
+            <Button android:textSize="16dp" android:textColor="@color/white" android:id="@id/cancel_btn" android:background="@drawable/btn_common_selector" android:visibility="2" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="11dp" android:layout_marginRight="11dp" android:text="@string/cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

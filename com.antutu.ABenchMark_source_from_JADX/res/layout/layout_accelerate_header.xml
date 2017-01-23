@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/bg_f7" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="@id/ll_boost_header" android:background="@color/bg_boost_header_cold" android:layout_width="-1" android:layout_height="215dp">
+        <RelativeLayout android:gravity="31" android:paddingTop="60dp" android:layout_width="-1" android:layout_height="175dp">
+            <TextView android:textSize="80sp" android:textStyle="1" android:textColor="0x106000b" android:id="@id/tv_temperture" android:layout_width="-2" android:layout_height="-2" android:text="0.0" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <LinearLayout android:orientation="1" android:layout_width="28dp" android:layout_height="-1" android:layout_toRightOf="@id/tv_temperture" android:layout_alignBottom="@id/tv_temperture">
+                <TextView android:textSize="24sp" android:textColor="0x106000b" android:id="@id/tv_temperture_unit" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="°C" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/iv_thermometer" android:layout_width="-1" android:layout_height="30dp" android:layout_marginTop="4dp" android:src="@drawable/thermometer_low" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/ll_checkedSize" android:background="@drawable/selected_bg" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="40dp">
+            <TextView android:textSize="18sp" android:textColor="0x106000b" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="@string/selected" />
+            <TextView android:textSize="18sp" android:textColor="0x106000b" android:id="@id/tv_selectedAppCount" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="0" />
+            <TextView android:textSize="18sp" android:textColor="0x106000b" android:id="@id/tv_selectedAppUnit" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/selected_app_unit" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_checkedCount" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true">
+            <TextView android:textSize="13sp" android:textColor="@color/text_33" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="@string/running_app" />
+            <TextView android:textSize="18sp" android:textColor="@color/text_33" android:id="@id/tv_runningAppCount" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="0" />
+            <TextView android:textSize="13sp" android:textColor="@color/text_33" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/str1" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_selectApp" android:background="@drawable/bg_cb_checked" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="26dp" android:checked="true" android:src="@drawable/cb_checked" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="13sp" android:textColor="0x106000c" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/select_all" android:layout_toLeftOf="@id/iv_selectApp" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

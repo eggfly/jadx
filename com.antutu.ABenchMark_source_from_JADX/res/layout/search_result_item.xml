@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/search_suggestion_selector" android:layout_width="-1" android:layout_height="115dp" android:minHeight="115dp">
+    <ImageView android:id="@id/device_imageview" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginLeft="10dp" android:scaleType="7" android:layout_centerVertical="true" />
+    <TextView android:textSize="12sp" android:textStyle="1" android:textColor="@color/search_suggestion_item" android:id="@id/lowprice_textview" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" />
+    <Button android:id="@id/pk_btn" android:focusable="false" android:layout_width="61dp" android:layout_height="31dp" android:layout_marginRight="15dp" android:text="@string/pk" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/btn_pk" />
+    <LinearLayout android:orientation="1" android:id="@id/mid_info_layout" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="16dp" android:layout_toLeftOf="@id/pk_btn" android:layout_toRightOf="@id/device_imageview" android:layout_alignParentTop="true">
+        <TextView android:textSize="16sp" android:textStyle="1" android:textColor="@color/black" android:ellipsize="3" android:id="@id/device_name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+        <TextView android:textSize="12sp" android:textColor="@color/search_suggestion_item" android:id="@id/cpu_info" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" />
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp">
+            <TextView android:textSize="12sp" android:textColor="@color/search_suggestion_item" android:id="@id/socre_name_tv" android:layout_width="-2" android:layout_height="-2" android:text="@string/search_average_score" />
+            <TextView android:textStyle="1" android:textColor="@color/black" android:id="@id/textScore" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" style="@style/ranking_level_text" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

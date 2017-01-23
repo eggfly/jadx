@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2">
+    <Button android:id="@id/more" android:background="?unknown_attr_ref: 7f0100f6" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="@dimen/action_mode_immersion_more_margin_right" />
+</FrameLayout>

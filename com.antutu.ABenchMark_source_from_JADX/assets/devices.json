@@ -1,0 +1,4 @@
+[
+  {"model":"*", "brand":"samsung", "cpuHard":"SAMSUNG Exynos7420", "cpuid":"0x41-AArch64-0x0-0xd03-2", "cpuid2":"0x41-AArch64-0x1-0xd07-0"},
+  {"model":"PRO 5", "brand":"Meizu", "cpuHard":"M86", "cpuid":"0x41-AArch64-0x0-0xd03-2", "cpuid2":"0x41-AArch64-0x1-0xd07-0"}
+]

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@string/accessibility_description" android:accessibilityEventTypes="20" android:accessibilityFeedbackType="10" android:notificationTimeout="0" android:canRetrieveWindowContent="true" />

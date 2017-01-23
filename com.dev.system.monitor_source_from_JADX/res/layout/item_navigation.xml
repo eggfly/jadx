@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/item_navigation_container" android:background="#fff" android:paddingLeft="16dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="60dp">
+    <ImageView android:layout_gravity="10" android:id="@id/item_navigation_img" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="36dp" />
+    <TextView android:textSize="16sp" android:textColor="@color/dark_grey" android:gravity="13" android:id="@id/item_navigation_title" android:background="#fff" android:layout_width="-1" android:layout_height="60dp" />
+</LinearLayout>

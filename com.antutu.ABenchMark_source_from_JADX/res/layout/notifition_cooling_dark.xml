@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="6dp" android:layout_marginRight="6dp">
+        <ImageView android:id="@id/cooling_icon" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/app_icon" android:scaleType="3" />
+        <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_weight="1.0"
+            <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.5">
+                <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_noti_buttery_white" />
+                <LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="9sp" android:textColor="@color/white" android:id="@id/cooling_temperature" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="9sp" android:textColor="@color/white" android:id="@id/cooling_temperature_desc" android:layout_width="-2" android:layout_height="-2" android:text="@string/battery_temperature" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.5">
+                <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_noti_cpu_white" />
+                <LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="9sp" android:textColor="@color/white" android:id="@id/cooling_cpu" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="9sp" android:textColor="@color/white" android:id="@id/cooling_cpu_desc" android:layout_width="-2" android:layout_height="-2" android:text="@string/cpu_detail_load" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <Button android:textSize="10sp" android:textColor="@color/white" android:layout_gravity="5" android:id="@id/cooling_start" android:background="@color/green_lime" android:paddingLeft="3dp" android:paddingTop="8dp" android:paddingRight="3dp" android:paddingBottom="8dp" android:layout_width="56dp" android:layout_height="36dp" android:text="@string/cool_down_now" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

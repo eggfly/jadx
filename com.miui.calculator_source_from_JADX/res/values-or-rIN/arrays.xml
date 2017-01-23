@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mortgage_repayment">
+        <item>ସମାନ କିସ୍ତି</item>
+        <item>କିସ୍ତି ବୃଦ୍ଧି</item>
+    </string-array>
+    <string-array name="operatorDescs">
+        <item>ବାମ ବିରାମ</item>
+        <item>ଡାହାଣ ବିରାମ</item>
+        <item>ଗୁଣକ</item>
+        <item>ପ୍ରାକୃତିକ ଲୋଗାରିଦିମ୍</item>
+        <item>ଲୋଗାରିଦିମ୍</item>
+        <item>ମୂଳ ଚତୁର୍ଭୁଜ</item>
+        <item>ଦ୍ୱାରା ବିଭକ୍ତ</item>
+        <item>ଦ୍ୱାରା ଗୁଣିତକ</item>
+        <item>ଯୋଗ</item>
+        <item>ବିଯୋଗ</item>
+        <item>ପଏଣ୍ଟ୍</item>
+        <item>ପାୱାର୍</item>
+        <item>ସ୍ପର୍ଶରେଖା</item>
+        <item>ସାଇନ୍</item>
+        <item>କୋସାଇନ୍</item>
+        <item>ପି</item>
+        <item>ସମାନ</item>
+    </string-array>
+    <string-array name="unit_data_order_currency_">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>HKD</item>
+        <item>JPY</item>
+        <item>CNY</item>
+    </string-array>
+</resources>

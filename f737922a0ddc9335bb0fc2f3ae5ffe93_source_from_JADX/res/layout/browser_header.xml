@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="-2" style="@g/BrowserHeaderBackgroundOuter"
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" style="@g/BrowserHeaderBackgroundInner">
+        <ImageView android:id="@b/browserHeaderIcon" android:paddingRight="5dp" android:layout_marginLeft="3dp" android:src="@drawable/file_type_unknown" style="@g/BrowserHeaderImage" />
+        <TextView android:ellipsize="1" android:id="@b/browserHeaderLabel" android:layout_width="-2" android:layout_height="-2" android:text="/" android:singleLine="true" android:layout_weight="1.0" style="@g/BrowserHeaderLabel" />
+        <ImageView android:id="@b/browserHeaderMenuButton" android:focusable="true" android:layout_marginLeft="5dp" android:src="?unknown_attr_ref: 7f01012f" style="@g/BrowserHeaderMenuButton" />
+    </LinearLayout>
+</LinearLayout>

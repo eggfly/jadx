@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false">
+    <item android:duration="100" android:drawable="@drawable/progressbar_horizontal_indeterminate1" />
+    <item android:duration="100" android:drawable="@drawable/progressbar_horizontal_indeterminate2" />
+    <item android:duration="100" android:drawable="@drawable/progressbar_horizontal_indeterminate3" />
+    <item android:duration="100" android:drawable="@drawable/progressbar_horizontal_indeterminate4" />
+    <item android:duration="100" android:drawable="@drawable/progressbar_horizontal_indeterminate5" />
+</animation-list>

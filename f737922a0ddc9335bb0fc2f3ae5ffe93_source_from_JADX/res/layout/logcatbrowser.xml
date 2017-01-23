@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:minHeight="1000dp">
+    <com.aide.ui.views.CodeEditTextScrollView android:id="@b/logcatScrollView" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-1">
+        <HorizontalScrollView android:scrollbars="0" android:fadingEdge="0" android:layout_width="-2" android:layout_height="-2">
+            <LinearLayout android:orientation="1" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2"
+                <LinearLayout android:layout_width="-1" android:layout_height="-2" style="@g/BrowserHeaderBackgroundOuter"
+                    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" style="@g/BrowserHeaderBackgroundInner">
+                        <ImageView android:paddingRight="5dp" android:layout_marginLeft="3dp" android:src="@drawable/file_type_unknown" style="@g/BrowserHeaderImage" />
+                        <TextView android:id="@b/logcatHeaderText" android:layout_width="-2" android:layout_height="-2" android:text="LogCat" style="@g/BrowserHeaderLabel" />
+                        <ImageView android:id="@b/logcatHeaderMenuButton" android:focusable="true" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:src="?unknown_attr_ref: 7f01012f" style="@g/BrowserHeaderMenuButton" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.aide.ui.LogCatConsole android:id="@b/logcatConsole" android:background="#00000000" android:nextFocusUp="@b/logcatHeaderMenuButton" android:layout_width="-2" android:layout_height="-2">
+                    <requestFocus />
+                </com.aide.ui.LogCatConsole>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </com.aide.ui.views.CodeEditTextScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:id="@id/shape_bacground">
+        <shape android:shape="0">
+            <stroke android:width="2dp" android:color="#6d6d6d" />
+            <solid android:color="0x106000d" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+</layer-list>

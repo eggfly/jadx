@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item miui:state_pressed="true" miui:drawable="@drawable/btn_bg_main_action_pressed_light" />
+    <item miui:state_checked="true" miui:drawable="@drawable/btn_bg_main_action_pressed_light" />
+    <item miui:state_enabled="false" miui:drawable="@drawable/btn_bg_main_action_disabled_light" />
+    <item miui:drawable="@drawable/btn_bg_main_action_normal_light" />
+</selector>

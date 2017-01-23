@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/main_bg" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <com.antutu.utils.widget.MultiButton android:id="@id/touch" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

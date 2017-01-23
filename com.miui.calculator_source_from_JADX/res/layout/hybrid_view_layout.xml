@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="@dimen/secondary_text_size" android:textColor="@color/hybrid_provider_light" android:layout_gravity="31" android:id="@id/hybrid_provider" android:paddingTop="@dimen/hybrid_provider_padding_top" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <com.miui.support.internal.hybrid.WebContainerView android:id="@id/webContainer" android:background="0x106000b" android:layout_width="-1" android:layout_height="-1">
+        <ViewStub android:id="@id/webview_reload_stub" android:layout="@layout/webview_reload" android:layout_width="-1" android:layout_height="-1" />
+        <com.miui.support.widget.ProgressBar android:layout_gravity="11" android:id="@id/progress_circular" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    </com.miui.support.internal.hybrid.WebContainerView>
+    <com.miui.support.internal.hybrid.HybridProgressView android:layout_gravity="30" android:id="@id/progress_horizontal" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/hybrid_horizontal_progress" />
+</merge>

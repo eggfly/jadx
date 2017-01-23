@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@color/apptheme_primary">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_gravity="11" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginTop="15dp" android:src="@drawable/android_system" />
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_system_info" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</ScrollView>

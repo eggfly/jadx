@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="@dimen/action_bar_tab_layout_width" android:layout_height="-2" class="com.miui.support.internal.widget.ScrollingTabContainerView$TabView" style="?unknown_attr_ref: 10102f3" />

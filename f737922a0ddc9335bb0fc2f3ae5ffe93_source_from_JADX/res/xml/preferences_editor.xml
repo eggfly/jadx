@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>>
+<PreferenceScreen>
+    <PreferenceCategory android:title="Font size">
+        <EditTextPreference android:title="Editor font size" android:key="editor_font_size" android:summary="Specify the default font size of the editor." android:dialogTitle="Default editor font size:" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Save">
+        <ListPreference android:entries="0x7f0a0000" android:title="Auto save" android:key="autosafe_time" android:summary="Automatically save open files." android:defaultValue="60" android:dialogTitle="Auto save" android:entryValues="0x7f0a0001" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Tabs and spaces">
+        <CheckBoxPreference android:title="Use spaces" android:key="use_spaces_for_tabs" android:summary="Insert spaces instead of tabs." android:defaultValue="false" />
+        <ListPreference android:entries="0x7f0a0004" android:title="Tab size" android:key="tabsize" android:summary="Displayed width of tabs in the editor." android:defaultValue="4" android:dialogTitle="Tab size" android:entryValues="0x7f0a0005" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Keyboard">
+        <CheckBoxPreference android:title="Soft keyboard" android:key="force_soft_keyboard" android:summary="Always use soft keyboard." android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Help">
+        <Preference android:title="Download Offline Docs" android:key="download_doc" android:summary="Download the docs for offline access." />
+        <com.aide.ui.preferences.PremiumEditTextPreference android:title="Offline Docs Directory" android:key="local_doc_dir_path" android:summary="Directory where downloaded offline doc files are stored." android:dialogTitle="Full path of local docs directory:" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Code completion">
+        <CheckBoxPreference android:title="After '.'" android:key="complete_after_dot" android:summary="Automatically open code completion popup after '.' has been typed." android:defaultValue="true" />
+        <CheckBoxPreference android:title="After 'a'-'Z'" android:key="complete_after_letter" android:summary="Automatically open code completion popup after a letter has been typed." android:defaultValue="true" />
+        <CheckBoxPreference android:title="Show all types" android:key="complete_all_types" android:summary="Show types which are not yet imported by an import statement." android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

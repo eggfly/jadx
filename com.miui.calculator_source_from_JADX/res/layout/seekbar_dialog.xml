@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/icon" android:paddingTop="20dp" android:layout_width="-2" android:layout_height="-2" />
+    <com.miui.support.widget.SeekBar android:id="@id/seekbar" android:padding="20dp" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

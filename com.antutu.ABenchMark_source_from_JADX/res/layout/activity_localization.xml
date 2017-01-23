@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/white" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <ScrollView android:id="@id/feedback_scroll_view" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+            <TextView android:textColor="@color/common_view_title" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginBottom="10dp" android:text="@string/connect" />
+            <EditText android:textSize="14sp" android:textColor="@color/black" android:textColorHint="@color/search_hint" android:id="@id/contact_edit" android:background="@color/feedback_edittext_bg" android:padding="5dp" android:layout_width="-1" android:layout_height="@dimen/edit_height" android:layout_marginBottom="15dp" android:hint="@string/email" android:singleLine="true" android:maxLength="50" />
+            <TextView android:textColor="@color/common_view_title" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginBottom="10dp" android:text="@string/language" />
+            <EditText android:textSize="14sp" android:textColor="@color/black" android:textColorHint="@color/search_hint" android:id="@id/et_language" android:background="@color/feedback_edittext_bg" android:padding="5dp" android:layout_width="-1" android:layout_height="@dimen/edit_height" android:layout_marginBottom="15dp" android:hint="@string/language" android:singleLine="true" android:maxLength="50" />
+            <Button android:textColor="@color/white" android:gravity="11" android:layout_gravity="1" android:id="@id/btn_submit" android:background="@color/light_red_bg" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="@string/send" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

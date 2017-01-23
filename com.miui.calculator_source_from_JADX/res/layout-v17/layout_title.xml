@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="?unknown_attr_ref: 7f010001" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 10102eb">
+    <FrameLayout android:background="@color/actionbar_bg" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_gravity="800013" android:id="@id/imv_home_menu" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/btn_title_menu" android:scaleType="5" android:paddingStart="@dimen/title_menu_margin_left" />
+        <TextView android:textAppearance="@style/TextAppearance_WindowTitle" android:layout_gravity="11" android:id="@id/txv_title" android:layout_width="-2" android:layout_height="-2" />
+    </FrameLayout>
+</LinearLayout>

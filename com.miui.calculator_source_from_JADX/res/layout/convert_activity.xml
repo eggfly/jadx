@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/conversion_layout" android:background="@color/actionbar_bg" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="@dimen/convert_content_height"
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <com.miui.calculator.convert.UnitView android:id="@id/unv_1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+            <com.miui.calculator.convert.UnitView android:id="@id/unv_2" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+            <com.miui.calculator.convert.UnitView android:id="@id/unv_3" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/currency_update_time" android:textColor="@color/update_time_currency" android:gravity="51" android:id="@id/txv_updatetime" android:paddingBottom="@dimen/currency_update_time_margin_bottom" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+    <com.miui.calculator.common.widget.NumberPad android:id="@id/nbp_pad" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+</LinearLayout>

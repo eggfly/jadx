@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+            <com.echo.holographlibrary.PieGraph android:id="@id/graph_main_storage" android:layout_width="-1" android:layout_height="200dp" android:layout_marginTop="25dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textColor="@color/black" android:id="@id/stat_main_storage" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_main_storage" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+            <com.echo.holographlibrary.PieGraph android:id="@id/graph_extra_storage" android:layout_width="-1" android:layout_height="200dp" android:layout_marginTop="25dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textColor="@color/black" android:id="@id/stat_extra_storage" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_extra_storage" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</ScrollView>

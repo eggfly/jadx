@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.NativeActionModeAwareLayout android:orientation="1" android:id="@id/action_bar_root" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/abc_action_bar_decor_include" />
+</android.support.v7.internal.widget.NativeActionModeAwareLayout>

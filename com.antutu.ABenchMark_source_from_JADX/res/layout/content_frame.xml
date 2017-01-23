@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/dl_mainpage" android:background="@color/layout_background" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/rl_main_content" android:background="@color/layout_background" android:layout_width="-1" android:layout_height="-1">
+        <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+        <LinearLayout android:orientation="0" android:id="@id/content_frame" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/title_layout" />
+        <ProgressBar android:id="@id/progress_large" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" style="?unknown_attr_ref: 101007a" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="800003" android:id="@id/main_scroll" android:background="@drawable/more_bg" android:scrollbars="0" android:layout_width="@dimen/menu_width" android:layout_height="-1"
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <ListView android:id="@id/lv_other" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:divider="@tnetstatuscode/EASY_REQ_STATE_OK" android:dividerHeight="0dp" />
+            <View android:background="@color/divide_line" android:layout_width="-1" android:layout_height="1dp" />
+            <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/ll_wx_bg" android:layout_width="-1" android:layout_height="-2">
+                <ImageView android:layout_gravity="1" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="24dp" android:src="@drawable/qr_240" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:gravity="11" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:text="@string/wx_number" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:gravity="11" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:text="@string/wx_id" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:gravity="11" android:layout_gravity="1" android:id="@id/tv_title1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:gravity="11" android:layout_gravity="1" android:id="@id/tv_title2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

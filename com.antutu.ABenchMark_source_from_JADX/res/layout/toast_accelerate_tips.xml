@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/light_blue" android:padding="23dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textColor="@color/white" android:gravity="11" android:layout_gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="23dp" android:text="@string/toast_accelerate_title" />
+    <LinearLayout android:orientation="1" android:background="@color/white" android:layout_width="-1" android:layout_height="120dp">
+        <TextView android:textColor="@color/black" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:layout_marginTop="8dp" android:layout_marginRight="13dp" android:text="@string/str17" />
+        <View android:background="@color/text_99" android:layout_width="-1" android:layout_height="0.5dp" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+            <LinearLayout android:orientation="1" android:id="@id/ll_layout" android:background="@drawable/shape_toast" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+                <TextView android:textColor="@color/black" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:text="@string/app_name" />
+                <TextView android:textColor="@color/text_99" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:text="@string/str16" />
+            </LinearLayout>
+            <View android:background="@color/text_99" android:layout_width="-1" android:layout_height="0.5dp" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_below="@id/ll_layout" />
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="13dp" android:src="@drawable/hand" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

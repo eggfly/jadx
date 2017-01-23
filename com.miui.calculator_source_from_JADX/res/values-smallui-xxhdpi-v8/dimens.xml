@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_preferred_item_height">63.0dip</dimen>
+    <dimen name="list_preferred_item_height_large">70.0dip</dimen>
+    <dimen name="list_preferred_item_height_small">50.0dip</dimen>
+    <dimen name="secondary_text_size">12.399994sp</dimen>
+    <dimen name="button_text_size">13.199982sp</dimen>
+</resources>

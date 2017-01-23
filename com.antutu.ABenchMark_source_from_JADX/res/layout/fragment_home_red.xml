@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/bg" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="14sp" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="25dp" android:text="@string/sel_red_apps" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <GridView android:id="@id/gridViewApp" android:layout_width="-1" android:layout_height="-1" android:numColumns="2" />
+        <TextView android:textSize="24sp" android:id="@id/textNoApp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/no_app" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="0" android:id="@id/layoutProgress" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ProgressBar android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 1010077" />
+            <TextView android:textSize="20sp" android:layout_gravity="10" android:id="@id/textProgress" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/loading" />
+            <TextView android:textSize="20sp" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:text="@string/please_wait" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

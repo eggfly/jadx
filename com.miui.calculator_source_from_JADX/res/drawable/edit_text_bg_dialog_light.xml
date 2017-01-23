@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item miui:drawable="@drawable/edit_text_bg_dialog_first_light" miui:state_first_v="true" />
+    <item miui:drawable="@drawable/edit_text_bg_dialog_middle_light" miui:state_middle_v="true" />
+    <item miui:drawable="@drawable/edit_text_bg_dialog_last_light" miui:state_last_v="true" />
+    <item miui:state_single="true" miui:drawable="@drawable/edit_text_bg_dialog_single_light" />
+    <item miui:drawable="@drawable/edit_text_bg_dialog_single_light" />
+</selector>

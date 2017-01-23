@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="@id/lyt_yearly_title" android:background="@color/mortgage_yearly_title_bg" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="13sp" android:textColor="@color/detail_title_unit" android:id="@id/txv_year" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_weight="1.0" android:layout_marginStart="20dp" />
+            <ImageView android:layout_gravity="800055" android:id="@id/imv_arrow" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp" android:src="@drawable/arrow_down" android:layout_marginEnd="20dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" android:layout_marginStart="20dp"
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="-4.5dp" android:layout_weight="1.0"
+                <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="23sp" android:id="@id/txv_yearly_repayment" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="13sp" android:textColor="@color/detail_title_unit" android:layout_width="-2" android:layout_height="-2" android:text="@string/unit_yuan" android:layout_marginStart="6dp" />
+                </LinearLayout>
+                <TextView android:textSize="14sp" android:textColor="@color/detail_title_secondary" android:layout_width="-2" android:layout_height="-2" android:text="@string/mortgage_detail_yearly_repayment" />
+            </LinearLayout>
+            <View android:layout_width="1px" android:layout_height="41dp" android:layout_marginTop="-4.5dp" style="@style/CalWidget_Divider" />
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="-4.5dp" android:layout_weight="1.0" android:layout_marginStart="20dp"
+                <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="24sp" android:id="@id/txv_yearly_interest" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="13sp" android:textColor="@color/detail_title_unit" android:layout_width="-2" android:layout_height="-2" android:text="@string/unit_yuan" android:layout_marginStart="6dp" />
+                </LinearLayout>
+                <TextView android:textSize="13sp" android:textColor="@color/detail_title_secondary" android:layout_width="-2" android:layout_height="-2" android:text="@string/mortgage_detail_yearly_interest" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_marginTop="10dp" style="@style/CalWidget_Divider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/lyt_monthly_item" android:layout_width="-1" android:layout_height="-2" /> />

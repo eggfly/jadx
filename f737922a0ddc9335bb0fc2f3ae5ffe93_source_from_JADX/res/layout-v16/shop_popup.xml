@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="20sp" android:textColor="#333333" android:id="@b/shopPopupTitle" android:padding="15dp" android:layout_width="-2" android:layout_height="-2" android:text="                                                    " android:fontFamily="sans-serif-light" />
+        <LinearLayout android:gravity="11" android:orientation="1" android:id="@b/shopPopupEntries" android:layout_width="-1" android:layout_height="-2">
+            <ProgressBar android:layout_width="-1" android:layout_height="-1" android:layout_margin="20dp" />
+        </LinearLayout>
+        <TextView android:textSize="14sp" android:textStyle="2" android:textColor="#ff0000" android:id="@b/shopPopupErrorMessage" android:padding="15dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="14sp" android:textColor="#828282" android:id="@b/shopPopupHelpMessage" android:padding="15dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        <LinearLayout android:gravity="10" android:orientation="0" android:padding="15dp" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:layout_width="110dp" android:layout_height="30dp" android:src="@drawable/google_play" />
+            <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textColor="#828282" android:gravity="10" android:id="@b/shoppopupHelpButton" android:background="?unknown_attr_ref: 101030e" android:layout_width="-2" android:layout_height="-1" android:text="Help" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

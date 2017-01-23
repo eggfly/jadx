@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="?unknown_attr_ref: 7f010001" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:layout_width="-1" android:layout_height="@dimen/cal_content_height">
+        <com.miui.calculator.cal.CalVerticalView android:id="@id/cvv_cal_vertical_view" android:layout_width="-1" android:layout_height="-1" android:layoutDirection="0" android:layout_marginStart="@dimen/cal_maring_left" android:layout_marginEnd="@dimen/cal_maring_right" />
+    </FrameLayout>
+    <com.miui.calculator.common.widget.NumberPad android:id="@id/nbp_pad" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+</LinearLayout>

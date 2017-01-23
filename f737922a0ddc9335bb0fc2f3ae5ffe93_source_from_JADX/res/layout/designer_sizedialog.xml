@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="5dp" android:layout_width="-1" android:layout_height="-2">
+    <EditText android:id="@b/designersizedialogEditText" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:inputType="91" />
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+        <Button android:textAppearance="?unknown_attr_ref: 1010040" android:id="@b/designersizedialogMinusButton" android:layout_width="-2" android:layout_height="-2" android:text="-" style="?unknown_attr_ref: 1010049" />
+        <SeekBar android:id="@b/designersizedialogSeekBar" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" />
+        <Button android:textAppearance="?unknown_attr_ref: 1010040" android:id="@b/designersizedialogPlusButton" android:layout_width="-2" android:layout_height="-2" android:text="+" style="?unknown_attr_ref: 1010049" />
+    </LinearLayout>
+</LinearLayout>

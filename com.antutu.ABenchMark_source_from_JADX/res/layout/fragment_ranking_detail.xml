@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/ranking_bg" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/main_ranking_layout" android:layout_width="-1" android:layout_height="-1">
+        <WebView android:id="@id/wv_main_ranking_webview" android:scrollbars="200" android:layout_width="-1" android:layout_height="-1" />
+    </RelativeLayout>
+</LinearLayout>

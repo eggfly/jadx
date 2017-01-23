@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/card_expand_inner_simple_title" android:layout_width="-2" android:layout_height="-2" style="@style/card_expand_simple_title" />
+</LinearLayout>

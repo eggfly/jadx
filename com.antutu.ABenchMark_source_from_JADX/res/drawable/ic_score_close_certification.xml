@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true" android:drawable="@drawable/ic_score_close_certification_normal" />
+    <item android:state_focused="true" android:drawable="@drawable/ic_score_close_certification_focused" />
+    <item android:drawable="@drawable/ic_score_close_certification_normal" />
+</selector>

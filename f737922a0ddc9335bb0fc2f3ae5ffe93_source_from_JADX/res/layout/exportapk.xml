@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="7dp" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="Output APK file:" style="@g/DialogLabel" />
+        <EditText android:id="@b/exportapkFile" android:layout_width="-1" android:layout_height="-2" android:text="/" style="@g/DialogLabel" />
+        <TextView android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Keystore file:" style="@g/DialogLabel" />
+        <EditText android:id="@b/exportapkKeystoreFile" android:layout_width="-1" android:layout_height="-2" android:text="/" style="@g/DialogEditText" />
+    </LinearLayout>
+</ScrollView>

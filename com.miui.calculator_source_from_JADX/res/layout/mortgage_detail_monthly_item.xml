@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/lyt_monthly_item" android:background="@drawable/item_bg" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50dp" android:layout_weight="1.0">
+        <TextView android:textSize="12sp" android:textColor="@color/detail_captital" android:gravity="11" android:layout_gravity="11" android:id="@id/txv_month" android:layout_width="0dp" android:layout_height="-2" android:text="@string/mortgage_detail_month" android:layout_weight="2.0" />
+        <View android:layout_width="1px" android:layout_height="-1" style="@style/CalWidget_Divider" />
+        <TextView android:textSize="12sp" android:textColor="@color/detail_captital" android:gravity="11" android:layout_gravity="11" android:id="@id/txv_repayment" android:layout_width="0dp" android:layout_height="-2" android:text="@string/mortgage_detail_monthly_repayment" android:layout_weight="3.0" />
+        <View android:layout_width="1px" android:layout_height="-1" style="@style/CalWidget_Divider" />
+        <TextView android:textSize="12sp" android:textColor="@color/detail_captital" android:gravity="11" android:layout_gravity="11" android:id="@id/txv_principal" android:layout_width="0dp" android:layout_height="-2" android:text="@string/mortgage_detail_monthly_principal" android:layout_weight="3.0" />
+        <View android:layout_width="1px" android:layout_height="-1" style="@style/CalWidget_Divider" />
+        <TextView android:textSize="12sp" android:textColor="@color/detail_captital" android:gravity="11" android:layout_gravity="11" android:id="@id/txv_interest" android:layout_width="0dp" android:layout_height="-2" android:text="@string/mortgage_detail_monthly_interest" android:layout_weight="3.0" />
+        <View android:layout_width="1px" android:layout_height="-1" style="@style/CalWidget_Divider" />
+        <TextView android:textSize="12sp" android:textColor="@color/detail_captital" android:gravity="11" android:layout_gravity="11" android:id="@id/txv_remain" android:layout_width="0dp" android:layout_height="-2" android:text="@string/mortgage_detail_monthly_remain" android:layout_weight="3.0" />
+        <View android:layout_width="1px" android:layout_height="-1" style="@style/CalWidget_Divider" />
+    </LinearLayout>
+    <View style="@style/CalWidget_Divider" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/app_background" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/card_scrollview" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <ImageView android:id="@id/bluetooth_state" android:paddingTop="12dp" android:layout_width="150dp" android:layout_height="150dp" android:src="@drawable/bluetooth_off" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_mobile" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="39dp" android:layout_marginRight="12dp" android:layout_below="@id/card_scrollview" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

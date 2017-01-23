@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@drawable/actionbar_shadow</item>
+        <item name="android:actionBarStyle">@style/AppTheme_ActionBar</item>
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme_ActionBar_Overflow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_ab_up_compat</item>
+        <item name="android:colorEdgeEffect">@color/apptheme_primary</item>
+    </style>
+    <style name="AppTheme_ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:icon">@drawable/actionbar_icon_placeholder_compat</item>
+        <item name="android:background">@color/apptheme_primary</item>
+        <item name="android:titleTextStyle">@style/AppTheme_ActionBar_Title</item>
+    </style>
+    <style name="AppTheme_ActionBar_Overflow" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_ab_overflow_compat</item>
+    </style>
+    <style name="AppTheme_ActionBar_Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

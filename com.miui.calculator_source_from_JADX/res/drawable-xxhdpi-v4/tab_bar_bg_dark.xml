@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape>
+    <padding android:left="23dp" android:top="13dp" android:right="23dp" android:bottom="13dp" />
+</shape>

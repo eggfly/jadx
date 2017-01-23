@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <com.antutu.benchmark.view.MaterialRippleLayout android:id="@id/ll_background" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:paddingLeft="20dp" android:paddingTop="15dp" android:paddingRight="25dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="30dp">
+            <FrameLayout android:orientation="0" android:layout_width="-2" android:layout_height="-1">
+                <ImageView android:gravity="11" android:id="@id/iv_icon" android:layout_width="-2" android:layout_height="-1" android:layout_margin="6dp" />
+                <ImageView android:layout_gravity="35" android:id="@id/iv_red_point" android:background="@drawable/red_point" android:visibility="2" android:layout_width="10dp" android:layout_height="10dp" />
+            </FrameLayout>
+            <TextView android:textSize="16sp" android:textColor="@color/white" android:gravity="10" android:layout_gravity="3" android:id="@id/tv_text" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10dp" android:singleLine="true" />
+            <TextView android:textSize="8sp" android:textColor="@color/white" android:gravity="15" android:layout_gravity="15" android:id="@id/tv_desc" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="10dp" android:singleLine="true" android:layout_weight="1.0" />
+            <FrameLayout android:gravity="10" android:layout_width="-2" android:layout_height="-1">
+                <android.support.v7.widget.SwitchCompat android:gravity="11" android:layout_gravity="10" android:id="@id/ss_toggle" android:visibility="2" android:fadingEdge="1000" android:layout_width="-2" android:layout_height="25dp" />
+            </FrameLayout>
+        </LinearLayout>
+    </com.antutu.benchmark.view.MaterialRippleLayout>
+</LinearLayout>

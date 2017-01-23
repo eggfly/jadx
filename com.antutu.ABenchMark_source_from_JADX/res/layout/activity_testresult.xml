@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout card_view:orientation="1" card_view:layout_width="-1" card_view:layout_height="-1">
+    <include card_view:id="@id/title_layout" layout="@layout/common_title_view" />
+    <FrameLayout card_view:layout_width="-1" card_view:layout_height="-1">
+        <com.antutu.benchmark.view.CustomSwipeRefreshLayout card_view:id="@id/sr_ll_refresh" card_view:background="@color/white" card_view:fadingEdge="0" card_view:layout_width="-1" card_view:layout_height="-1">
+            <ListView card_view:scrollbarStyle="2000000" card_view:id="@id/list" card_view:background="@color/bg_deep_gray" card_view:scrollbars="200" card_view:layout_width="-1" card_view:layout_height="-1" card_view:layout_marginLeft="8dp" card_view:layout_marginRight="8dp" card_view:cacheColorHint="#00000000" card_view:divider="@tnetstatuscode/EASY_REQ_STATE_OK" />
+        </com.antutu.benchmark.view.CustomSwipeRefreshLayout>
+        <ImageView card_view:layout_gravity="1" card_view:id="@id/iv_flash_arrow" card_view:visibility="2" card_view:layout_width="25dp" card_view:layout_height="25dp" card_view:layout_marginTop="120dp" card_view:src="@drawable/flash_arrow_up" />
+    </FrameLayout>
+</LinearLayout>

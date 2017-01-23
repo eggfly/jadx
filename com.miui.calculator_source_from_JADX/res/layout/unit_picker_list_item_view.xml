@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:id="@id/lyt_unit" android:layout_width="-1" android:layout_height="50dp">
+        <ImageView android:layout_gravity="10" android:id="@id/unit_icon" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textAppearance="@style/CalTextAppearance_Alert_List_Primary" android:layout_gravity="10" android:id="@id/unit_display" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <View style="@style/CalWidget_Divider_Alert" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@f/dialog_replace_message_replace" style="@g/DialogLabel" />
+        <EditText android:id="@b/replaceFindText" android:layout_width="-1" android:layout_height="-2" android:text=" " style="@g/DialogEditText" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@f/dialog_replace_message_with" style="@g/DialogLabel" />
+        <EditText android:id="@b/replaceWithText" android:layout_width="-1" android:layout_height="-2" android:text=" " style="@g/DialogEditText" />
+        <TextView android:id="@b/replaceScope" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text=" " style="@g/DialogLabel" />
+    </LinearLayout>
+</ScrollView>

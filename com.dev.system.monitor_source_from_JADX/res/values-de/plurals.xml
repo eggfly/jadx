@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_selected_items">
+        <item quantity="other">%d Elemente gewählt</item>
+        <item quantity="one">1 Element gewählt</item>
+    </plurals>
+    <plurals name="list_card_undo_items">
+        <item quantity="other">%d Karten entfernt</item>
+        <item quantity="one">1 Karte entfernt</item>
+    </plurals>
+</resources>

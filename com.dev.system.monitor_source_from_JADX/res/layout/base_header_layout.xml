@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/card_header_compound_view">
+    <FrameLayout android:id="@id/card_header_inner_frame" android:layout_width="-2" android:layout_height="-2" />
+    <FrameLayout android:id="@id/card_header_button_frame" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/card_header_button_frame">
+        <ImageButton android:id="@id/card_header_button_overflow" android:layout_width="-2" android:layout_height="-2" style="@style/card_header_button_base_overflow" />
+        <ImageButton android:id="@id/card_header_button_expand" android:layout_width="-2" android:layout_height="-2" style="@style/card_header_button_base_expand" />
+        <ImageButton android:id="@id/card_header_button_other" android:layout_width="-2" android:layout_height="-2" style="@style/card_header_button_base_other" />
+    </FrameLayout>
+</RelativeLayout>

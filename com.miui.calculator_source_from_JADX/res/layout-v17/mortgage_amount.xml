@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/martgage_num_marginTop" android:paddingStart="@dimen/martgage_padding_left" android:paddingEnd="@dimen/martgage_padding_right">
+    <TextView android:gravity="11" android:layout_width="-2" android:layout_height="@dimen/martgage_item_height" android:text="@string/mortgage_amount" android:layout_marginStart="5dp" style="@style/CalTextAppearance_List_Primary" />
+    <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/fl_commercial" android:layout_width="-1" android:layout_height="@dimen/martgage_item_height">
+            <EditText android:id="@id/et_loan_number_commercial" android:background="@drawable/edt_focusable" android:layout_width="-1" android:layout_height="-1" android:hint="@string/loan_edittext_hint_commercial" android:inputType="2002" android:paddingEnd="20dp" />
+            <TextView android:gravity="11" android:layout_gravity="800005" android:layout_width="-2" android:layout_height="-1" android:text="@string/loan_unit" android:layout_marginEnd="@dimen/martgage_gap" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_fund" android:layout_width="-1" android:layout_height="@dimen/martgage_item_height" android:layout_marginTop="@dimen/martgage_gap">
+            <EditText android:id="@id/et_loan_number_fund" android:background="@drawable/edt_focusable" android:layout_width="-1" android:layout_height="-1" android:hint="@string/loan_edittext_hint_fund" android:inputType="2002" android:paddingEnd="20dp" />
+            <TextView android:gravity="11" android:layout_gravity="800005" android:layout_width="-2" android:layout_height="-1" android:text="@string/loan_unit" android:layout_marginEnd="5dp" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

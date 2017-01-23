@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:id="@id/card_thumbnail_image" style="@style/card_thumbnail_image" />

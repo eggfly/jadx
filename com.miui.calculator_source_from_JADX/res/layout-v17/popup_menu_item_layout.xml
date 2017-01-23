@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.support.internal.view.menu.ListMenuItemView android:layout_width="-2" android:layout_height="?unknown_attr_ref: 7f010043" android:itemBackground="?unknown_attr_ref: 7f01004f" android:minWidth="196dp" android:paddingEnd="16dp">
+    <RelativeLayout android:layout_gravity="10" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="16dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010301" android:ellipsize="4" android:id="@id/title" android:fadingEdge="1000" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010302" android:id="@id/shortcut" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_below="@id/title" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</com.miui.support.internal.view.menu.ListMenuItemView>

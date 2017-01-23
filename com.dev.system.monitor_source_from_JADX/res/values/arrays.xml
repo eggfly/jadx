@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/wifi_ico</item>
+        <item>@drawable/mobile</item>
+        <item>@drawable/bluetooth</item>
+        <item>@drawable/gps</item>
+        <item>@drawable/storage</item>
+        <item>@drawable/cpu</item>
+        <item>@drawable/ram</item>
+        <item>@drawable/gpu</item>
+        <item>@drawable/_sensors</item>
+        <item>@drawable/app</item>
+        <item>@drawable/battery</item>
+        <item>@drawable/system_info</item>
+    </array>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>WiFi</item>
+        <item>Mobile</item>
+        <item>Bluetooth</item>
+        <item>GPS</item>
+        <item>@string/storage</item>
+        <item>CPU</item>
+        <item>RAM</item>
+        <item>GPU</item>
+        <item>@string/sensor</item>
+        <item>Apps</item>
+        <item>@string/battery</item>
+        <item>@string/system_info</item>
+    </string-array>
+</resources>

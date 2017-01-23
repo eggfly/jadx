@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/viewItem" android:layout_width="-1" android:layout_height="80dp">
+    <ImageView android:id="@id/imageIcon" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:src="@drawable/ic_app_default" android:scaleType="3" android:layout_centerVertical="true" />
+    <TextView android:textSize="24sp" android:ellipsize="4" android:id="@id/textName" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="70dp" android:singleLine="true" android:layout_centerVertical="true" />
+    <RadioButton android:id="@id/rbSelected" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

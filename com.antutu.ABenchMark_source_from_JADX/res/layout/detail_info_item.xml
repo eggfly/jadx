@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ads:orientation="0" ads:background="@color/device_info_item_background" ads:layout_width="-1" ads:layout_height="-2">
+    <FrameLayout ads:layout_width="-1" ads:layout_height="-2">
+        <RelativeLayout ads:id="@id/list_item_container" ads:layout_width="-1" ads:layout_height="-2">
+            <TextView ads:textSize="14sp" ads:textColor="@color/device_info_left_name" ads:id="@id/name" ads:padding="10dp" ads:layout_width="-2" ads:layout_height="-2" ads:layout_centerVertical="true" />
+            <TextView ads:textSize="14sp" ads:textColor="@color/device_info_right_data" ads:gravity="5" ads:id="@id/detail" ads:background="@tnetstatuscode/EASY_REQ_STATE_OK" ads:padding="10dp" ads:layout_width="160dp" ads:layout_height="-2" ads:layout_alignParentRight="true" ads:layout_centerVertical="true" />
+            <Button ads:textSize="12sp" ads:textColor="@color/device_info_right_data" ads:id="@id/btn_adv_txt" ads:visibility="2" ads:layout_width="90dp" ads:layout_height="29dp" ads:layout_marginRight="10dp" ads:text="test" ads:layout_alignParentRight="true" ads:layout_centerVertical="true" style="@style/btn_text" />
+            <ImageView ads:id="@id/err_img" ads:visibility="2" ads:layout_width="-2" ads:layout_height="-2" ads:layout_toLeftOf="@id/detail" ads:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout ads:id="@id/item_more" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-2">
+            <Button ads:textSize="12sp" ads:textColor="@color/white" ads:id="@id/more_info" ads:background="@drawable/btn_small_clean_selector" ads:layout_width="-1" ads:layout_height="-2" ads:layout_margin="10dp" ads:text="@string/more_cpu_info" ads:drawableRight="@drawable/more_info_icon" ads:layout_centerVertical="true" />
+        </RelativeLayout>
+        <include ads:id="@id/root_tools" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-2" layout="@layout/info_root" />
+        <include ads:id="@id/info_touch" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-2" layout="@layout/info_touch" />
+        <include ads:id="@id/info_cpu" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-2" layout="@layout/info_cpu" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.NativeActionModeAwareLayout android:orientation="1" android:id="@id/action_bar_root" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@id/action_bar_activity_content" android:layout_width="-1" android:layout_height="-1" android:foreground="?unknown_attr_ref: 1010059" />
+</android.support.v7.internal.widget.NativeActionModeAwareLayout>

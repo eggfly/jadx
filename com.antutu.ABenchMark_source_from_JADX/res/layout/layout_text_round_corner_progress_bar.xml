@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/layout_background" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/layout_progress_holder" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="0" android:id="@id/layout_secondary_progress" android:layout_width="-1" android:layout_height="-1" />
+        <LinearLayout android:orientation="0" android:id="@id/layout_progress" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:id="@id/tv_progress" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

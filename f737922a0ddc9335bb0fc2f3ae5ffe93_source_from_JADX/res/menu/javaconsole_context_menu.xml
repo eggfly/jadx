@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="?unknown_attr_ref: 7f010125" android:id="@b/javaconsoleMenuCopy" android:title="@f/command_copy" android:showAsAction="5" />
+</menu>

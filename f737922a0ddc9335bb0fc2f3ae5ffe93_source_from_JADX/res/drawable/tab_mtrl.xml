@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_focused="true">
+        <ripple android:color="?unknown_attr_ref: 101042c">
+            <item>
+                <color android:color="#ffffff" />
+            </item>
+        </ripple>
+    </item>
+    <item android:state_selected="true">
+        <nine-patch android:src="@drawable/tab_indicator_mtrl_alpha" android:tint="?unknown_attr_ref: 101042a" />
+    </item>
+    <item android:drawable="0x7f08005d" />
+</selector>

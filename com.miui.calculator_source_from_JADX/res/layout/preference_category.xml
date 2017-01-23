@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/preference_category_background" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:layout_gravity="800013" android:id="0x1020016" android:layout_width="-2" android:layout_height="-2" android:textAllCaps="true" style="@style/TextAppearance_PreferenceCategory" />
+</FrameLayout>

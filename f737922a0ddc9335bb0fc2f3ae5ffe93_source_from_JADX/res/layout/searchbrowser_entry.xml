@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="2dp" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="@b/searchbrowserFile" android:paddingLeft="20dp" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@b/searchbrowserEntryFileImage" style="@g/BrowserImage" />
+        <TextView android:ellipsize="3" android:id="@b/searchbrowserEntryFileName" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text=" " android:singleLine="true" style="@g/BrowserLabelLarge" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="@b/searchbrowserCode" android:paddingLeft="40dp" android:paddingTop="4dp" android:paddingBottom="4dp" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="-2">
+        <com.aide.ui.browsers.FindResultTextView android:ellipsize="3" android:id="@b/searchbrowserCodeLine" android:layout_width="-2" android:layout_height="-2" android:text=" " android:singleLine="true" style="@g/BrowserCodeLine" />
+    </LinearLayout>
+</FrameLayout>

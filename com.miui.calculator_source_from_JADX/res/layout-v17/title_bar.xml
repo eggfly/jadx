@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="0" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="10dp">
+    <ImageView android:id="@id/back" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/btn_title_menu" />
+    <TextView android:textSize="@dimen/title_bar_text_size" android:layout_gravity="11" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" android:text="@string/title_bar" />
+</FrameLayout>

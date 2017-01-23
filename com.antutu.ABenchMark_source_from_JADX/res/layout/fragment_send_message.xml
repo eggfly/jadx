@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/commen_light_bg" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="1" android:id="@id/ll_nocomment" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:gravity="51" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="16dp" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/exclamation" />
+        </LinearLayout>
+        <LinearLayout android:gravity="51" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="16dp" android:layout_weight="1.0">
+            <TextView android:textColor="@color/shallow_gray_text" android:gravity="11" android:layout_gravity="31" android:id="@id/tv_nocomment" android:layout_width="-2" android:layout_height="-2" android:text="@string/no_comment_look_other" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.antutu.benchmark.view.CustomSwipeRefreshLayout android:id="@id/sr_ll_refresh" android:background="@color/commen_light_bg" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-1">
+        <ListView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbarStyle="2000000" android:id="@id/list" android:scrollbars="200" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:cacheColorHint="#00000000" android:divider="@color/news_list_divider" android:dividerHeight="0.5dp" />
+    </com.antutu.benchmark.view.CustomSwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/actionbar_bg" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:id="@id/mortgage_tab" android:background="@color/item_bg" android:visibility="2" android:layout_width="-1" android:layout_height="-2"
+                <LinearLayout android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="-1" android:layout_height="-1">
+                    <TextView android:id="@id/txv_commercial_loan" android:text="@string/mortgage_tab_commercial_loan" style="@style/CalWidget_TabView" />
+                    <TextView android:id="@id/txv_accumulation_fund" android:text="@string/mortgage_tab_accumulation_fund" style="@style/CalWidget_TabView" />
+                    <TextView android:id="@id/txv_combining_loan" android:text="@string/mortgage_tab_combining_loan" style="@style/CalWidget_TabView" />
+                </LinearLayout>
+                <View style="@style/CalWidget_Divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                <com.miui.calculator.mortgage.MortgageView android:id="@id/mgv_mortgage" android:layout_width="-1" android:layout_height="-2" />
+                <FrameLayout android:layout_width="-1" android:layout_height="-2" android:minHeight="1px" android:layout_weight="1.0">
+                    <View style="@style/CalWidget_Divider" />
+                </FrameLayout>
+            </LinearLayout>
+            <View android:id="@id/viw_divider" style="@style/CalWidget_Divider" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textColor="0x106000b" android:id="@id/btn_calculate" android:background="@drawable/btn_calculate" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="15dp" android:text="@string/mortgage_calculate" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:background="?attr/actionBarItemBackground" android:layout_width="-2" android:layout_height="-1" class="android.support.v7.internal.widget.ActionBarView$HomeView">
+    <ImageView android:layout_gravity="13" android:id="@id/up" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="-8dp" android:src="?attr/homeAsUpIndicator" />
+    <ImageView android:layout_gravity="11" android:id="@id/home" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding" android:layout_marginRight="8dp" android:layout_marginBottom="@dimen/abc_action_bar_icon_vertical_padding" android:scaleType="3" android:adjustViewBounds="true" />
+</view>

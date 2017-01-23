@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="3dp" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="Commit message:" style="@g/DialogLabel" />
+        <EditText android:id="@b/gitcommitdatamessage" android:layout_width="-1" android:layout_height="-2" android:text=" " android:inputType="20001" style="@g/DialogEditText" />
+    </LinearLayout>
+</ScrollView>

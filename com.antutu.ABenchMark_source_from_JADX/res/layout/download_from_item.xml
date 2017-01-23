@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="53dp" android:minHeight="53dp">
+    <FrameLayout android:background="@drawable/take_photo_bg" android:layout_width="-1" android:layout_height="53dp" android:minHeight="53dp">
+        <TextView android:textSize="17sp" android:textColor="@color/black" android:layout_gravity="10" android:id="@id/number_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="22dp" android:text="@string/take_photo" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/transparent" android:padding="@dimen/home_translate_padding" android:layout_width="-1" android:layout_height="@dimen/home_item_height">
+    <FrameLayout android:background="@color/white" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@id/ll_loading" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <com.gc.materialdesign.views.ProgressBarCircularIndeterminateSingle android:layout_gravity="11" android:id="@id/loading" android:layout_width="50dp" android:layout_height="50dp" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/loading_user_exposure" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/shallow_gray_text" android:gravity="11" android:layout_gravity="11" android:id="@id/no_content" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/not_have_newphone_exposure" android:singleLine="true" />
+        <LinearLayout android:orientation="1" android:id="@id/ll_bg" android:background="@color/white" android:padding="12dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:layout_gravity="3" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="14dp">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:ellipsize="3" android:id="@id/tv_title" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:singleLine="true" />
+                <ImageView android:layout_gravity="10" android:id="@id/iv_red_point" android:background="@drawable/red_point" android:visibility="2" android:layout_width="10dp" android:layout_height="10dp" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="11" android:id="@id/iv_img" android:layout_width="-1" android:layout_height="0dp" android:scaleType="3" android:adjustViewBounds="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/shallow_gray_text" android:ellipsize="3" android:gravity="10" android:layout_gravity="50" android:id="@id/tv_subtitle" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:singleLine="true" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@b/createprojectType" android:layout_width="-2" android:layout_height="-2" android:text="X" style="@g/DialogLabel" />
+        <TextView android:id="@b/createprojectLocation" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="/" style="@g/DialogLabelSmall" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@f/dialog_create_project_name" style="@g/DialogLabel" />
+        <EditText android:id="@b/createprojectName" android:layout_width="-1" android:layout_height="-2" android:text=" " style="@g/DialogEditText" />
+        <TextView android:id="@b/createprojectPackageLabel" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@f/dialog_create_project_package_name" style="@g/DialogLabel" />
+        <EditText android:id="@b/createprojectPackage" android:layout_width="-1" android:layout_height="-2" android:text=" " style="@g/DialogEditText" />
+    </LinearLayout>
+</ScrollView>

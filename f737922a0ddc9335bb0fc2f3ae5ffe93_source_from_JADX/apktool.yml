@@ -1,0 +1,45 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: f737922a0ddc9335bb0fc2f3ae5ffe93.apk
+compressionType: false
+doNotCompress:
+- arsc
+- zip
+- txt
+- der
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  overviewj.html: '8'
+  bin/AndroidManifest.xml: '8'
+  bin/samplingprofilerfacade.jar: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  keys/keystore.ks: '8'
+  keys/media.pk8: '8'
+  keys/media.sbt: '8'
+  keys/media.x509.pem: '8'
+  keys/platform.pk8: '8'
+  keys/platform.sbt: '8'
+  keys/platform.x509.pem: '8'
+  keys/shared.pk8: '8'
+  keys/shared.sbt: '8'
+  keys/shared.x509.pem: '8'
+  keys/testkey.pk8: '8'
+  keys/testkey.sbt: '8'
+  keys/testkey.x509.pem: '8'
+  org/eclipse/jgit/JGitText.properties: '8'
+  org/eclipse/jgit/storage/dfs/DfsText.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '1612160001'
+  versionName: 3.2.161216

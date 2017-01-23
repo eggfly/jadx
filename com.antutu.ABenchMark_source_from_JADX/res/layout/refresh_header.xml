@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:id="@id/pull_to_refresh_header" android:background="0x106000b" android:paddingTop="10dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2">
+    <ProgressBar android:id="@id/pull_to_refresh_progress" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:indeterminate="true" style="?unknown_attr_ref: 1010079" />
+    <ImageView android:gravity="11" android:layout_gravity="11" android:id="@id/pull_to_refresh_image" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_pulltorefresh_arrow" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="1" android:textColor="#000000" android:gravity="11" android:layout_gravity="11" android:id="@id/pull_to_refresh_text" android:layout_width="-1" android:layout_height="-2" android:text="@string/pull_to_refresh_pull_label" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="11" android:layout_gravity="11" android:id="@id/pull_to_refresh_updated_at" android:visibility="2" android:layout_width="-1" android:layout_height="30dp" android:layout_below="@id/pull_to_refresh_text" />
+</RelativeLayout>

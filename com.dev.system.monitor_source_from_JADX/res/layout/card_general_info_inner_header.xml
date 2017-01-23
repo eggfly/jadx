@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="32dp" style="@style/card">
+    <TextView android:id="@id/card_header_inner_simple_title" android:layout_width="-2" android:layout_height="-2" style="@style/card_header_simple_title" />
+</LinearLayout>

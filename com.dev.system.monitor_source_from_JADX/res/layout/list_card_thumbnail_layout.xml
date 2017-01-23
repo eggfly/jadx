@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<it.gmariotti.cardslib.library.view.CardView card:id="@id/list_cardId" card:layout_width="-1" card:layout_height="-2" card:card_layout_resourceID="@layout/card_thumbnail_layout" style="@style/list_card_thumbnail" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/suggest_apps_bg" android:paddingLeft="20dp" android:paddingTop="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="16sp" android:textColor="@color/sshallow_black_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/suggest_apps" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_close" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/suggest_close" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <GridView android:gravity="11" android:layout_gravity="11" android:id="@id/gv_apps" android:layout_width="-1" android:layout_height="-2" android:numColumns="3" />
+    <TextView android:textSize="14sp" android:textColor="@color/shallow_gray_text" android:gravity="11" android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:text="@string/now_wifi_can_download" />
+    <Button android:textSize="16sp" android:textColor="@color/white" android:id="@id/btn_download" android:background="@color/red_button_bg" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:minHeight="40dp" android:text="@string/download" />
+</LinearLayout>

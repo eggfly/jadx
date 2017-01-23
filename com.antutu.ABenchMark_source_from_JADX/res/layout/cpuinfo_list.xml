@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@color/layout_background" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <ScrollView android:layout_below="@id/title_layout" style="@style/matchxy">
+        <LinearLayout style="@style/matchxy">
+            <ListView android:id="@id/cpu_list" android:layout_margin="10dp" android:divider="@tnetstatuscode/EASY_REQ_STATE_OK" style="@style/matchxy" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

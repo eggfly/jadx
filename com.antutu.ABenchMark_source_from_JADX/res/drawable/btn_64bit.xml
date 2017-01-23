@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true" android:drawable="@drawable/btn_64bit_pressed" />
+    <item android:state_focused="true" android:drawable="@drawable/btn_64bit_focused" />
+    <item android:state_enabled="false" android:drawable="@drawable/btn_64bit_normal" />
+    <item android:drawable="@drawable/btn_64bit_normal" />
+</selector>

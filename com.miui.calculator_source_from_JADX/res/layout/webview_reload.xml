@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:background="0x106000b" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="@dimen/secondary_text_size" android:textColor="@color/no_network_tip_text_light" android:gravity="1" android:paddingBottom="@dimen/no_network_padding_bottom" android:layout_width="-2" android:layout_height="-2" android:text="@string/no_network" android:drawableTop="@drawable/no_network_light" android:drawablePadding="@dimen/no_network_tip_drawable_padding" android:lineSpacingExtra="@dimen/no_network_line_spacing_extra" />
+    <Button android:id="@id/reload" android:text="@string/webview_reload" style="@style/Widget_Button_Rect_BlankPage" />
+</LinearLayout>

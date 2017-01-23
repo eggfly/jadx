@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/device_info_page_background" android:layout_width="-1" android:layout_height="-1">
+    <com.antutu.benchmark.view.DragListView android:id="@id/list" android:background="@color/device_info_item_background" android:scrollbars="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="@dimen/list_padding" android:layout_marginRight="@dimen/list_padding" android:divider="@color/device_info_dividerline" android:dividerHeight="1dp" />
+    <com.antutu.benchmark.view.AlphabetScrollBar android:layout_gravity="5" android:id="@id/menu_shortcut" android:visibility="2" android:layout_width="110dp" android:layout_height="-1" />
+</FrameLayout>

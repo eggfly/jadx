@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:id="@b/errorsViewContainer" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="5dp" style="@g/ErrorsView">
+    <ImageView android:id="@b/errorsViewIcon" android:layout_marginLeft="5dp" android:src="@drawable/project_errors" style="@g/ActionBarButton" />
+    <TextView android:id="@b/errorsViewLabel" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="1/1" style="@g/ActionBarLabel" />
+</LinearLayout>

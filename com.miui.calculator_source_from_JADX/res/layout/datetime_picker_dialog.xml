@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.miui.support.widget.DateTimePicker android:orientation="1" android:id="@id/dateTimePicker" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/date_picker_dialog_marginBottom" />
+</LinearLayout>

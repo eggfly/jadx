@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textAppearance="@style/TextAppearance_List_Secondary" android:gravity="10" android:id="@id/txv_capital" android:layout_width="-2" android:layout_height="34dp" android:layout_marginStart="@dimen/list_padding_horizontal" android:layout_marginEnd="@dimen/list_padding_horizontal" />
+    <LinearLayout android:id="@id/lyt_city" android:background="@drawable/item_bg" android:layout_width="-1" android:layout_height="50dp" android:paddingStart="@dimen/list_padding_horizontal" android:paddingEnd="@dimen/list_padding_horizontal">
+        <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:layout_gravity="10" android:id="@id/txv_city" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="10" android:id="@id/imv_located" android:background="@drawable/ic_located" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <View style="@style/CalWidget_Divider" />
+</FrameLayout>

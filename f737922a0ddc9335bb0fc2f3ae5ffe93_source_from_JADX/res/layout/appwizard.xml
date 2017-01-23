@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:id="@b/appwizardContentContainer" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:gravity="55" android:padding="30dp" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:orientation="0" android:id="@b/appwizardEditButtonLayout" android:background="@drawable/appwizard_edit" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp">
+            <ImageView android:gravity="11" android:id="@b/appwizardEditButton" android:background="?unknown_attr_ref: 101030e" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_menu_manage" android:scaleType="7" />
+            <ImageView android:gravity="11" android:id="@b/appwizardUndoButton" android:background="?unknown_attr_ref: 101030e" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_menu_revert" android:scaleType="7" />
+            <ImageView android:gravity="11" android:id="@b/appwizardRedoButton" android:background="?unknown_attr_ref: 101030e" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_menu_redo" android:scaleType="7" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/appwizard_edit" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:gravity="11" android:id="@b/appwizardModeButton" android:background="?unknown_attr_ref: 101030e" android:clickable="true" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_menu_edit" android:scaleType="7" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

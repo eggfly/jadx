@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2" android:minHeight="45dp">
+    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="0" android:id="@b/designerViewlistentryViewLayout" android:padding="4dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@b/designerViewlistEntryImage" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/objects" />
+        <TextView android:textSize="16sp" android:id="@b/designerViewlistEntryName" android:paddingLeft="10dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="0" android:id="@b/designerViewlistentryFileLayout" android:layout_width="-1" android:layout_height="-2">
+        <RadioButton android:id="@b/designerViewlistentryFileRadioButton" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:id="@b/designerViewlistFileImage" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/file_type_xml" />
+        <TextView android:textSize="16sp" android:ellipsize="1" android:id="@b/designerViewlistentryFileName" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="layout.xml" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@b/designerViewlistentryDelete" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:src="?unknown_attr_ref: 7f010127" />
+    </LinearLayout>
+</FrameLayout>

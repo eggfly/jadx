@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/text_left" style="@style/compare_left" />
+    <ImageView android:id="@id/win" android:background="@drawable/vs_ico" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/text_left" android:layout_centerVertical="true" />
+    <TextView android:id="@id/text_right" style="@style/compare_right" />
+    <ImageView android:gravity="11" android:id="@id/img_info" android:background="@drawable/vs_ico" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@id/text_right" android:layout_centerVertical="true" />
+    <TextView android:id="@id/text_info" style="@style/compare_icon" />
+</RelativeLayout>

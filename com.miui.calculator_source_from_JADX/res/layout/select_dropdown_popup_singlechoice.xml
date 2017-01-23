@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.support.widget.CheckedTextView android:textAppearance="@style/TextAppearance_DropDownPopupListItem_SingleChoice" android:ellipsize="3" android:gravity="10" android:id="0x1020014" android:background="@drawable/list_item_bg_dropdown_popup_light" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010043" android:checkMark="?unknown_attr_ref: 1010219" android:singleLine="true" />

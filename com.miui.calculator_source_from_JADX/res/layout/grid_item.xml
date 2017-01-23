@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:background="@drawable/bg_item" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_gravity="11" android:id="@id/imv_icon" android:layout_width="-1" android:layout_height="-2" />
+    <TextView android:textSize="@dimen/menu_grid_item_title_text_size" android:textColor="@color/grid_item_text" android:gravity="11" android:id="@id/txv_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" />
+</LinearLayout>

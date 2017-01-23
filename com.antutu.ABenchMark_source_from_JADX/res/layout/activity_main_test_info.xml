@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:layout_gravity="11" android:layout_width="50dp" android:layout_height="78dp">
+        <View android:id="@id/title_line" android:background="#ff7f838c" android:layout_width="2dp" android:layout_height="-1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/img_static" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/img_anim" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/loading_big" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="30" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="15sp" android:textColor="@color/text_big" android:id="@id/text_title" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="12sp" android:textColor="@color/text_small" android:id="@id/text_info" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:maxLines="4" android:lines="2" />
+    </LinearLayout>
+</LinearLayout>

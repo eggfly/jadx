@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:background="@color/bg_home_list" android:paddingTop="14dp" android:paddingBottom="24dp" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="11" android:layout_gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-1"
+        <LinearLayout android:layout_gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp" android:layout_marginBottom="25dp">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/green_text" android:gravity="51" android:layout_gravity="51" android:id="@id/tv_device_name" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="1" android:layout_gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="50dp" android:textColor="@color/green_text" android:gravity="50" android:layout_gravity="50" android:id="@id/tv_score" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" />
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/green_text" android:gravity="50" android:layout_gravity="50" android:id="@id/tv_score_tail" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7dp" android:text="@string/score" />
+        </LinearLayout>
+        <LinearLayout android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp">
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/shallow_black_text" android:gravity="50" android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:text="@string/user_comments" />
+            <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/green_text" android:gravity="50" android:layout_gravity="50" android:id="@id/tv_praise" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/green_text" android:gravity="50" android:layout_gravity="50" android:id="@id/tv_praise_percent" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

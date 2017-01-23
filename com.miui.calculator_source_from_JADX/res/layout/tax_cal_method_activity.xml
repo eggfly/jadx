@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/actionbar_bg" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/scv_content" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@id/txv_cap_title" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:id="@id/txv_cap_desc" android:layout_width="-1" android:layout_height="-2" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" />
+    </ScrollView>
+</FrameLayout>

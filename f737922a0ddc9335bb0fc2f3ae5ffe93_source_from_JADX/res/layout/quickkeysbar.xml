@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="5" android:orientation="1" android:id="@b/quickKeyBar" android:visibility="2" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:id="@b/quickKeyBarKeysContainer" android:background="?unknown_attr_ref: 7f010121" android:layout_width="-1" android:layout_height="-2">
+        <HorizontalScrollView android:scrollbars="0" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+            <LinearLayout android:orientation="0" android:id="@b/quickKeyBarList" android:layout_width="-2" android:layout_height="-2" />
+        </HorizontalScrollView>
+        <ImageView android:gravity="11" android:id="@b/quickKeyBarCloseButton" android:background="?unknown_attr_ref: 101030e" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:src="?unknown_attr_ref: 7f010124" android:scaleType="7" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="@b/quickKeyBarOpenButtonContainer" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:gravity="11" android:id="@b/quickKeyBarOpenButton" android:background="?unknown_attr_ref: 101030e" android:clickable="true" android:layout_width="40dp" android:layout_height="40dp" android:src="?unknown_attr_ref: 7f010130" android:scaleType="7" />
+    </LinearLayout>
+</LinearLayout>

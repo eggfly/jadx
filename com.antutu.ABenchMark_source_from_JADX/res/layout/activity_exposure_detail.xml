@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/ranking_bg" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <WebView android:id="@id/wv_detail_exposure" android:scrollbars="200" android:layout_width="-1" android:layout_height="-1" />
+        <ProgressBar android:id="@id/progressWeb" android:visibility="2" android:layout_width="-1" android:layout_height="3dp" android:max="100" android:progressDrawable="@drawable/progress_web" style="?unknown_attr_ref: 1010078" />
+    </RelativeLayout>
+</LinearLayout>

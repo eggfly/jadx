@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/bg_header" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:background="@drawable/bg_title" android:layout_width="-1" android:layout_height="50dp">
+        <ImageView android:layout_gravity="10" android:id="@id/iv_menu" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:src="@drawable/setting" />
+        <TextView android:textSize="20sp" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:text="@string/app_name" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp">
+        <TextView android:textSize="60sp" android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:text="38" />
+        <TextView android:textSize="18sp" android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="%" />
+        <TextView android:textSize="18sp" android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:text="@string/internal_storage" />
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:text="705.13MB已用/1.81GB总计" />
+    <View android:background="@color/title_bar_bg" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="60dp" android:layout_marginTop="30dp" android:layout_marginRight="60dp" />
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp">
+        <TextView android:textSize="60sp" android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:text="8" />
+        <TextView android:textSize="18sp" android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="%" />
+        <TextView android:textSize="18sp" android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:text="@string/memory" />
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:text="1.06GB已用/12.55GB总计" />
+    <LinearLayout android:orientation="1" android:background="@color/main_bg" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="30dp">
+        <TextView android:textSize="15sp" android:textColor="@color/black_bg" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:text="@string/home_description" />
+        <TextView android:textSize="17sp" android:textColor="0x106000b" android:gravity="11" android:id="@id/tv_accelerate" android:background="#0000ff" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:layout_marginBottom="20dp" android:text="@string/accelerate" />
+    </LinearLayout>
+</LinearLayout>

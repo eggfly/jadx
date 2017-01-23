@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout card:orientation="1" card:layout_width="-1" card:layout_height="-2"
+    <LinearLayout card:orientation="1" card:id="@id/card_main_layout" card:layout_width="-1" card:layout_height="-1" style="@style/card_main_layout">
+        <it.gmariotti.cardslib.library.view.component.CardHeaderView card:id="@id/card_header_layout" card:layout_width="-1" card:layout_height="-2" style="@style/card_header_outer_layout" />
+        <LinearLayout card:orientation="0" card:id="@id/card_thumb_and_content_layout" card:layout_width="-1" card:layout_height="-2">
+            <it.gmariotti.cardslib.library.view.component.CardThumbnailView card:id="@id/card_thumbnail_layout" card:layout_width="-2" card:layout_height="-1" style="@style/card_thumbnail_outer_layout" />
+            <FrameLayout card:id="@id/card_main_content_layout" card:layout_width="-1" card:layout_height="-1" style="@style/card_content_outer_layout" />
+            <FrameLayout card:id="@id/card_overlap" card:layout_width="-1" card:layout_height="-1" />
+        </LinearLayout>
+    </LinearLayout>
+    <it.gmariotti.cardslib.library.view.component.CardShadowView card:id="@id/card_shadow_layout" card:layout_width="-1" card:layout_height="-2" style="@style/card_shadow_outer_layout" />
+    <FrameLayout card:id="@id/card_content_expand_layout" card:layout_width="-1" card:layout_height="-2" style="@style/card_main_contentExpand" />
+</LinearLayout>

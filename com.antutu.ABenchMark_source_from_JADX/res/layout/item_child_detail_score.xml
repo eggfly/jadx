@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@color/transparent" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:background="@color/bg_deep_gray" android:paddingLeft="40dp" android:paddingTop="18dp" android:paddingRight="40dp" android:paddingBottom="18dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_deep_black" android:gravity="11" android:layout_gravity="10" android:id="@id/tv_title" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_deep_black" android:gravity="11" android:layout_gravity="10" android:id="@id/tv_colon" android:layout_width="-2" android:layout_height="-2" android:text="@string/colon" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/text_deep_black" android:gravity="11" android:layout_gravity="10" android:id="@id/tv_score" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" />
+    </LinearLayout>
+</LinearLayout>

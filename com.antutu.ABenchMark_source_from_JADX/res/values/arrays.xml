@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_bar_tips">
+        <item>@string/color_1</item>
+        <item>@string/color_2</item>
+        <item>@string/color_3</item>
+        <item>@string/color_4</item>
+        <item>@string/color_5</item>
+        <item>@string/color_6</item>
+        <item>@string/color_7</item>
+        <item>@string/color_8</item>
+    </string-array>
+    <string-array name="dev_basic">
+        <item>@string/Brand</item>
+        <item>@string/Model</item>
+        <item>@string/Android_Version</item>
+        <item>@string/CPU_Model</item>
+        <item>@string/Renderer</item>
+        <item>@string/Resolution</item>
+        <item>@string/Rear_Camera</item>
+        <item>@string/IMEI</item>
+    </string-array>
+    <string-array name="dev_camera">
+        <item>@string/Rear_Camera</item>
+        <item>@string/Front_facing_Camera</item>
+        <item>@string/Video_Specification</item>
+        <item>@string/Photograph</item>
+        <item>@string/Sensor</item>
+    </string-array>
+    <string-array name="dev_cpu">
+        <item>@string/CPU_Model</item>
+        <item>@string/CPU_Type</item>
+        <item>@string/Cores</item>
+        <item>@string/frequency</item>
+        <item>@string/More</item>
+    </string-array>
+    <string-array name="dev_gpu">
+        <item>@string/Renderer</item>
+        <item>@string/Vender</item>
+        <item>@string/GPU_Version</item>
+        <item>@string/GPU_Frequency</item>
+        <item>@string/Resolution</item>
+        <item>@string/Size</item>
+        <item>@string/Material</item>
+        <item>@string/Density</item>
+        <item>@string/Multi_touch</item>
+    </string-array>
+    <string-array name="dev_net">
+        <item>@string/Access</item>
+    </string-array>
+    <string-array name="dev_os">
+        <item>@string/Android_Version</item>
+        <item>@string/Android_SDK_Version</item>
+        <item>@string/Kernel</item>
+    </string-array>
+    <string-array name="dev_others">
+        <item>@string/Acceleration_Sensor</item>
+        <item>@string/Ambient_Temperature_Sensor</item>
+        <item>@string/Game_rotation_vector</item>
+        <item>@string/Geomagnetic</item>
+        <item>@string/Gravity</item>
+        <item>@string/Gyroscope</item>
+        <item>@string/Gyroscope_uncalibrated</item>
+        <item>@string/Heart_rate</item>
+        <item>@string/Light</item>
+        <item>@string/Linear_acceleration</item>
+        <item>@string/Magnetic_field</item>
+        <item>@string/Magnetic_field_uncalibrated</item>
+        <item>@string/Orientation</item>
+        <item>@string/Pressure</item>
+        <item>@string/Proximity</item>
+        <item>@string/Relative_humidity</item>
+        <item>@string/Rotation_vector</item>
+        <item>@string/Significant_motion</item>
+        <item>@string/Step_counter</item>
+        <item>@string/Step_detector</item>
+    </string-array>
+    <string-array name="dev_power">
+        <item>@string/Battery_Level</item>
+        <item>@string/TemperatureC</item>
+    </string-array>
+    <string-array name="dev_storager">
+        <item>@string/RAM</item>
+        <item>@string/System_Storage</item>
+        <item>@string/Internal_Storage</item>
+        <item>@string/External_Storage</item>
+    </string-array>
+    <string-array name="dev_surface">
+        <item>@string/Weight</item>
+        <item>@string/Specifications</item>
+        <item>@string/Color</item>
+    </string-array>
+    <string-array name="dev_transfer">
+        <item>@string/GPS</item>
+        <item>@string/Loc</item>
+        <item>@string/WIFI</item>
+        <item>@string/Bluetooth</item>
+        <item>@string/NFC</item>
+    </string-array>
+    <string-array name="device">
+        <item>@string/Brand</item>
+        <item>@string/Device_Model</item>
+        <item>@string/IMEI</item>
+    </string-array>
+    <string-array name="screen_entry_array">
+        <item>@string/screen_huaidian</item>
+        <item>@string/screen_huijie</item>
+        <item>@string/screen_caitiao</item>
+        <item>@string/screen_duodian</item>
+    </string-array>
+    <string-array name="screen_entry_array_d">
+        <item>@string/screen_huaidian_d</item>
+        <item>@string/screen_huijie_d</item>
+        <item>@string/screen_caitiao_d</item>
+        <item>@string/screen_duodian_d</item>
+    </string-array>
+    <string-array name="test_title">
+        <item>@string/grey_0</item>
+        <item>@string/grey_1</item>
+        <item>@string/grey_2</item>
+        <item>@string/grey_3</item>
+        <item>@string/grey_4</item>
+        <item>@string/grey_5</item>
+        <item>@string/grey_6</item>
+        <item>@string/grey_7</item>
+        <item>@string/grey_8</item>
+        <item>@string/grey_9</item>
+        <item>@string/grey_10</item>
+        <item>@string/grey_11</item>
+        <item>@string/grey_12</item>
+        <item>@string/grey_13</item>
+        <item>@string/grey_14</item>
+        <item>@string/grey_15</item>
+        <item>@string/grey_16</item>
+        <item>@string/grey_17</item>
+        <item>@string/grey_18</item>
+        <item>@string/grey_19</item>
+        <item>@string/grey_20</item>
+        <item>@string/grey_21</item>
+        <item>@string/grey_22</item>
+        <item>@string/grey_23</item>
+        <item>@string/grey_24</item>
+        <item>@string/grey_25</item>
+    </string-array>
+    <string-array name="work_mode_titles">
+        <item>@string/work_mode_root</item>
+        <item>@string/work_mode_unroot</item>
+    </string-array>
+    <string-array name="work_mode_values">
+        <item>root</item>
+        <item>unroot</item>
+    </string-array>
+</resources>

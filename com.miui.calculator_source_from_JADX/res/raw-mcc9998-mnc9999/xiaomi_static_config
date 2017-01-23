@@ -1,0 +1,22 @@
+{
+    data: [
+        {
+            title: "item_title_scientific_calculator",
+            type: "activity",
+            image: "force_touch_icon_science",
+            intent: "#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.miui.calculator/.cal.AllInOneCalculatorActivity;B.extra_is_scientific=true;S.miref=forceTouch;end"
+        },
+        {
+            title: "item_title_currency",
+            type: "activity",
+            image: "force_touch_icon_currency_global",
+            intent: "#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.miui.calculator/.convert.CurrencyActivity;S.miref=forceTouch;end"
+        },
+        {
+            title: "item_title_mortgage",
+            type: "activity",
+            image: "force_touch_icon_mortgage",
+            intent: "#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.miui.calculator/.mortgage.MortgageActivity;S.miref=forceTouch;end"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <com.antutu.benchmark.view.CustomSwipeRefreshLayout android:id="@id/sr_ll_refresh" android:background="@color/white" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-1">
+        <android.support.v7.widget.RecyclerView android:scrollbarStyle="2000000" android:id="@id/list" android:background="@color/white" android:scrollbars="200" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:cacheColorHint="#00000000" android:divider="@tnetstatuscode/EASY_REQ_STATE_OK" />
+    </com.antutu.benchmark.view.CustomSwipeRefreshLayout>
+    <TextView android:textColor="@color/white" android:gravity="11" android:layout_gravity="30" android:id="@id/update_text" android:background="@color/light_red" android:visibility="2" android:layout_width="-1" android:layout_height="40dp" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true" android:drawable="@drawable/btn_html5_pressed" />
+    <item android:state_focused="true" android:drawable="@drawable/btn_html5_focused" />
+    <item android:state_enabled="false" android:drawable="@drawable/btn_html5_normal" />
+    <item android:drawable="@drawable/btn_html5_normal" />
+</selector>

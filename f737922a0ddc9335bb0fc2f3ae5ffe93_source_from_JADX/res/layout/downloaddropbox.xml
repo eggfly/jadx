@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="5dp" android:paddingTop="3dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@b/downloadDropboxLocation" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-2" android:text=" " style="@g/DialogLabel" />
+    <TextView android:id="@b/downloadDropboxFolder" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text=" " style="@g/DialogLabel" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-1">
+        <ListView android:id="@b/downloadDropboxList" android:layout_width="-1" android:layout_height="-1" style="@g/DialogListView" />
+        <LinearLayout android:gravity="11" android:orientation="0" android:id="@b/downloadDropboxProgress" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+            <ProgressBar android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

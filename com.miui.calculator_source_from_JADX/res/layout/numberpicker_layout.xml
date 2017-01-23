@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <view android:gravity="11" android:id="@id/numberpicker_input" android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" class="com.miui.support.widget.NumberPicker$CustomEditText" />
+</merge>

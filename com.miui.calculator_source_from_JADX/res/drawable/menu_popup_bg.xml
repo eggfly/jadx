@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item miui:state_pressed="true" miui:drawable="@drawable/text_select_button_bg_single_pressed" miui:state_single_h="true" />
+    <item miui:drawable="@drawable/text_select_button_bg_single_normal" miui:state_single_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/text_select_button_bg_left_normal" miui:state_first_h="true" />
+    <item miui:drawable="@drawable/text_select_button_bg_left_normal" miui:state_first_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/text_select_button_bg_middle_pressed" miui:state_middle_h="true" />
+    <item miui:drawable="@drawable/text_select_button_bg_middle_normal" miui:state_middle_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/text_select_button_bg_right_pressed" miui:state_last_h="true" />
+    <item miui:drawable="@drawable/text_select_button_bg_right_normal" miui:state_last_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/text_select_button_bg_single_pressed" />
+    <item miui:drawable="@drawable/text_select_button_bg_single_normal" />
+</selector>

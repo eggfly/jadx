@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:background="@color/transparent" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="1" android:id="@id/ll_background" android:background="@color/white" android:paddingLeft="24dp" android:paddingTop="24dp" android:paddingRight="24dp" android:paddingBottom="24dp" android:layout_width="-1" android:layout_height="102dp"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_deep_black" android:id="@id/tv_title" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_deep_black" android:layout_width="-2" android:layout_height="-2" android:text="@string/colon" />
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/green_text" android:id="@id/tv_score" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" />
+            <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/green_text" android:id="@id/tv_score_tail" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/score" />
+            <View android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="15" android:id="@id/iv_arrow" android:layout_width="12dp" android:layout_height="12dp" android:src="@drawable/arrow_down" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

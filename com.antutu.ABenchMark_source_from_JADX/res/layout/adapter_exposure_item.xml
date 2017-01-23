@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:background="@drawable/selector_news_item" android:paddingLeft="8dp" android:paddingTop="16dp" android:paddingRight="8dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:layout_gravity="10" android:id="@id/iv_img" android:layout_width="100dp" android:layout_height="75dp" android:layout_marginRight="10dp" android:scaleType="3" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_marginRight="17dp" android:layout_weight="1.0"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <TextView android:gravity="10" android:layout_gravity="30" android:id="@id/tv_title" android:paddingTop="2dp" android:layout_width="-1" android:layout_height="-2" style="@style/news_title" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/shallow_gray_text" android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:text="@string/score_exponsure" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/shallow_gray_text" android:ellipsize="3" android:id="@id/tv_score" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/shallow_gray_text" android:gravity="10" android:layout_gravity="10" android:id="@id/tv_date" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/shallow_gray_text" android:gravity="15" android:layout_gravity="15" android:layout_width="0dp" android:layout_height="-2" android:text="@string/hits" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/shallow_gray_text" android:gravity="15" android:layout_gravity="15" android:id="@id/tv_hits" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

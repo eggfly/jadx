@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/app_background" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textColor="@color/white" android:gravity="11" android:background="#318ce7" android:layout_width="-1" android:layout_height="20dp" android:text="Random Access Memory" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="1" android:id="@id/widget_ram_linear" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp">
+            <TextView android:textColor="@color/black" android:id="@id/widget_ram_text" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textColor="@color/black" android:id="@id/widget_ram_text1" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textColor="@color/black" android:id="@id/widget_ram_text2" android:layout_width="-2" android:layout_height="-2" />
+            <Button android:textColor="#ffffff" android:id="@id/widget_ram_clean" android:background="@drawable/widget_ram_circle_clean" android:layout_width="-2" android:layout_height="36dp" android:layout_marginTop="10dp" android:text=" CLEAN RAM " />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/graph_widget" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginTop="5dp" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

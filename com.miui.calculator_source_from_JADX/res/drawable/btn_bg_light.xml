@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector miui:variablePadding="true" miui:exitFadeDuration="@integer/button_exit_fade_duration">
+    <item miui:state_pressed="true" miui:drawable="@drawable/btn_bg_first_pressed_light" miui:state_first_h="true" />
+    <item miui:state_checked="true" miui:drawable="@drawable/btn_bg_first_pressed_light" miui:state_first_h="true" />
+    <item miui:state_selected="true" miui:drawable="@drawable/btn_bg_first_pressed_light" miui:state_first_h="true" />
+    <item miui:drawable="@drawable/btn_bg_first_pressed_light" miui:state_activated="true" miui:state_first_h="true" />
+    <item miui:drawable="@drawable/btn_bg_first_normal_light" miui:state_first_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/btn_bg_middle_pressed_light" miui:state_middle_h="true" />
+    <item miui:state_checked="true" miui:drawable="@drawable/btn_bg_middle_pressed_light" miui:state_middle_h="true" />
+    <item miui:state_selected="true" miui:drawable="@drawable/btn_bg_middle_pressed_light" miui:state_middle_h="true" />
+    <item miui:drawable="@drawable/btn_bg_middle_pressed_light" miui:state_activated="true" miui:state_middle_h="true" />
+    <item miui:drawable="@drawable/btn_bg_middle_normal_light" miui:state_middle_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/btn_bg_last_pressed_light" miui:state_last_h="true" />
+    <item miui:state_checked="true" miui:drawable="@drawable/btn_bg_last_pressed_light" miui:state_last_h="true" />
+    <item miui:state_selected="true" miui:drawable="@drawable/btn_bg_last_pressed_light" miui:state_last_h="true" />
+    <item miui:drawable="@drawable/btn_bg_last_pressed_light" miui:state_activated="true" miui:state_last_h="true" />
+    <item miui:drawable="@drawable/btn_bg_last_normal_light" miui:state_last_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/btn_bg_single_pressed_light" miui:state_single_h="true" />
+    <item miui:state_checked="true" miui:drawable="@drawable/btn_bg_single_pressed_light" miui:state_single_h="true" />
+    <item miui:state_selected="true" miui:drawable="@drawable/btn_bg_single_pressed_light" miui:state_single_h="true" />
+    <item miui:drawable="@drawable/btn_bg_single_pressed_light" miui:state_activated="true" miui:state_single_h="true" />
+    <item miui:drawable="@drawable/btn_bg_single_normal_light" miui:state_single_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/btn_bg_single_pressed_light" />
+    <item miui:state_checked="true" miui:drawable="@drawable/btn_bg_single_pressed_light" />
+    <item miui:state_selected="true" miui:drawable="@drawable/btn_bg_single_pressed_light" />
+    <item miui:drawable="@drawable/btn_bg_single_pressed_light" miui:state_activated="true" />
+    <item miui:drawable="@drawable/btn_bg_single_normal_light" />
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="10" android:orientation="0" android:id="@id/ll_bg" android:background="@color/bg_shallow_gray" android:padding="5dp" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+        <TextView android:textSize="12sp" android:textColor="@color/white" android:gravity="10" android:layout_gravity="10" android:id="@id/tv_prompt" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="10" android:id="@id/iv_close" android:padding="8dp" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/search_cancel_btn" />
+</LinearLayout>

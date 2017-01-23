@@ -1,0 +1,43 @@
+class bz$a {
+    public int BT;
+    public boolean DW;
+    public int EQ;
+    public boolean FH;
+    public boolean Hw;
+    public int J0;
+    public int J8;
+    public String KD;
+    public dm<co> Mr;
+    public int P8;
+    public int QX;
+    public boolean SI;
+    public do U2;
+    public int VH;
+    public int Ws;
+    public boolean XL;
+    public int Zo;
+    public do a8;
+    public boolean aM;
+    public do cb;
+    public boolean cn;
+    public int ei;
+    public ea<ca> er;
+    public co gW;
+    public int gn;
+    public dm<co> j3;
+    public int j6;
+    public ea<bz> lg;
+    public long nw;
+    public dr<ca> rN;
+    public boolean ro;
+    public dm<co> sh;
+    public int tp;
+    public int u7;
+    public int v5;
+    public boolean vy;
+    public int we;
+    public dm<ca> yS;
+
+    private bz$a() {
+    }
+}

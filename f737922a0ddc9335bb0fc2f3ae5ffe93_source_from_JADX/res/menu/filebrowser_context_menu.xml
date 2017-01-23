@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:id="@b/filebrowserMenuRename" android:title="@f/command_files_rename" />
+    <item android:id="@b/filebrowserMenuDelete" android:title="@f/command_files_delete" />
+    <item android:id="@b/filebrowserMenuCopyPath" android:title="@f/command_files_copy_path" />
+    <item android:id="@b/filebrowserShowProjects" android:title="@f/command_files_show_projects" />
+    <item android:id="@b/filebrowserShowCurrent" android:title="@f/command_files_show_current_file" />
+    <item android:id="@b/filebrowserMenuNewItem" android:title="@f/command_files_create_new_project_item" />
+    <item android:id="@b/filebrowserMenuNewFile" android:title="@f/command_files_create_new_file" />
+    <item android:id="@b/filebrowserMenuNewDir" android:title="@f/command_files_create_new_folder" />
+    <item android:id="@b/filebrowserMenuNewProject" android:title="@f/command_files_create_new_project" />
+    <item android:id="@b/filebrowserMenuAddLibrary" android:title="@f/command_files_add_library_to_project" />
+    <item android:id="@b/filebrowserMenuRemoveLibrary" android:title="@f/command_files_remove_library_from_project" />
+    <item android:id="@b/filebrowserMenuSetAndroidJar" android:title="@f/command_files_set_as_androidjar" />
+    <item android:id="@b/filebrowserMenuGitCloneRepository" android:title="@f/command_files_clone_git_repository" />
+</menu>

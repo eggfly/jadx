@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/app_background" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/battery_scrollview" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="1" android:paddingTop="12dp" android:layout_width="-1" android:layout_height="-2">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <com.echo.holographlibrary.PieGraph android:id="@id/graph" android:layout_width="-1" android:layout_height="200dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="30dp" android:textColor="@color/black" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_battery" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="20dp" android:layout_marginRight="12dp" android:layout_below="@id/battery_scrollview" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

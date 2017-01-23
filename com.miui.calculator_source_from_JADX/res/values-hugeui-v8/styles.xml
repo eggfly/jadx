@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalTextAppearance.List.Primary" parent="@style/TextAppearance.List.Primary">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="CalTextAppearance.Widget.List.Primary" parent="@style/TextAppearance.Widget.List.Primary">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+</resources>

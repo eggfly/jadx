@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="3dp" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="Location:" style="@g/DialogLabel" />
+        <TextView android:id="@b/gitclonerepositoryLocation" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="/" style="@g/DialogLabelSmall" />
+        <TextView android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Repository URL:" style="@g/DialogLabel" />
+        <EditText android:id="@b/gitclonerepositoryUrl" android:layout_width="-1" android:layout_height="-2" android:text=" " style="@g/DialogEditText" />
+        <TextView android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Directory Name:" style="@g/DialogLabel" />
+        <EditText android:id="@b/gitclonerepositoryDirectoryName" android:layout_width="-1" android:layout_height="-2" android:text=" " style="@g/DialogEditText" />
+    </LinearLayout>
+</ScrollView>

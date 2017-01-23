@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/abc_action_bar_decor_include" />
+</LinearLayout>

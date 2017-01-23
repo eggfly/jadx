@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clickable="false" android:layout_width="-1" android:layout_height="-2" style="@style/Widget_SearchActionMode">
+    <TextView android:gravity="800013" android:layout_gravity="10" android:id="0x1020009" android:background="@drawable/edit_text_search_bg_light" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@style/TextAppearance_Widget_EditText_Search" />
+</FrameLayout>

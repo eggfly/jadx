@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="@drawable/project_errors" android:id="@b/mainMenuErrorsView" android:visible="true" android:title="Show Errors" android:showAsAction="2" android:actionViewClass="com.aide.ui.AIDEErrorsView" />
+    <item android:icon="?unknown_attr_ref: 7f010133" android:id="@b/mainMenuRun" android:title="@f/trainer_run" android:showAsAction="6" />
+    <item android:icon="?unknown_attr_ref: 7f010128" android:id="@b/mainMenuPreview" android:title="@f/trainer_design" android:showAsAction="6" />
+    <item android:icon="?unknown_attr_ref: 7f010135" android:id="@b/mainMenuUndo" android:title="@f/trainer_undo" android:showAsAction="1" />
+    <item android:icon="?unknown_attr_ref: 7f010132" android:id="@b/mainMenuRedo" android:title="@f/trainer_redo" android:showAsAction="1" />
+    <item android:id="@b/mainMenuLessonRestart" android:title="@f/trainer_restart_lesson" android:showAsAction="0" />
+    <item android:id="@b/mainMenuExpertMode" android:title="@f/trainer_open_lesson_as_expert" android:showAsAction="0" />
+    <item android:id="@b/mainMenuTrainerQuestion" android:title="@f/trainer_ask_a_question" android:showAsAction="0" />
+</menu>

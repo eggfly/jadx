@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingRight="12dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/app_icon" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:gravity="10" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp" android:text="@string/today_news" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/linearlayout" android:background="@color/bg_deep_gray" android:layout_width="-1" android:layout_height="-2" /> />

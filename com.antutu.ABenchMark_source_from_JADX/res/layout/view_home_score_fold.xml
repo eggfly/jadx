@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <View android:background="@color/normal_dividerline" android:layout_width="-1" android:layout_height="1dp" />
+    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="0" android:id="@id/ll_background" android:paddingLeft="20dp" android:paddingTop="12dp" android:paddingRight="20dp" android:paddingBottom="12dp" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="18sp" android:textColor="@color/shallow_gray_text" android:gravity="13" android:layout_gravity="13" android:id="@id/tv_score_name" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+        <TextView android:textSize="18sp" android:textColor="@color/shallow_gray_text" android:gravity="10" android:layout_gravity="10" android:id="@id/tv_score_value" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:layout_gravity="10" android:id="@id/iv_arrow" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:src="@drawable/home_array" />
+    </LinearLayout>
+    <ListView android:id="@id/lv_child_item" android:paddingLeft="20dp" android:paddingRight="20dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:divider="@tnetstatuscode/EASY_REQ_STATE_OK" android:dividerHeight="0dp" />
+</LinearLayout>

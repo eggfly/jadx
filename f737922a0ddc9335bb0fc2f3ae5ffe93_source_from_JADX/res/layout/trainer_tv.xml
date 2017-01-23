@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:background="@drawable/trainer_header_normal" android:layout_width="-1" android:layout_height="57dp" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:orientation="1" android:id="@b/trainerSideDrawer" android:background="#ffffff" android:layout_width="240dp" android:layout_height="-1" android:layout_marginLeft="48dp" android:layout_marginRight="10dp">
+            <ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                <LinearLayout android:gravity="3" android:orientation="1" android:id="@b/trainerLinearLayout2" android:paddingTop="40dp" android:layout_width="-1" android:layout_height="-1" />
+            </ScrollView> />
+        <android.support.v4.view.ViewPager android:id="@b/trainerViewPager" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="48dp">
+            <android.support.v4.view.PagerTitleStrip android:textSize="16sp" android:textColor="#ffffff" android:layout_gravity="30" android:id="@b/trainerPagerTitleStrip" android:background="@drawable/trainer_header_normal" android:padding="2dp" android:layout_width="-1" android:layout_height="57dp" />
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+</FrameLayout>

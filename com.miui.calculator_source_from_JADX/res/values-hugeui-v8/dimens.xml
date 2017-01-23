@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cal_primary">43.0sp</dimen>
+    <dimen name="cal_primary_min">30.0sp</dimen>
+    <dimen name="cal_typing_line_margin_top">100.0dip</dimen>
+    <dimen name="convert_unit_short_size">10.5sp</dimen>
+    <dimen name="tax_result_primary_text_size">25.0sp</dimen>
+    <dimen name="tax_si_width">88.0dip</dimen>
+</resources>

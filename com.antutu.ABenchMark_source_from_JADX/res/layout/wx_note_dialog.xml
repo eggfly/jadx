@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#bb000000" android:layout_width="-1" android:layout_height="-2">
+    <Button android:id="@id/float_id" android:background="@drawable/btn_close_selector" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/note_leftRL" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_centerVertical="true">
+        <ImageView android:id="@id/jt_shangIV" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/jt_shang" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13sp" android:textColor="#bbffffff" android:id="@id/note_left_note1TV" android:layout_width="-2" android:layout_height="-2" android:text="上" android:layout_below="@id/jt_shangIV" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13sp" android:textColor="#bbffffff" android:id="@id/note_left_note2TV" android:layout_width="-2" android:layout_height="-2" android:text="下" android:layout_below="@id/note_left_note1TV" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13sp" android:textColor="#bbffffff" android:id="@id/note_left_note3TV" android:layout_width="-2" android:layout_height="-2" android:text="拖" android:layout_below="@id/note_left_note2TV" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13sp" android:textColor="#bbffffff" android:id="@id/note_left_note4TV" android:layout_width="-2" android:layout_height="-2" android:text="动" android:layout_below="@id/note_left_note3TV" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="5dp" android:src="@drawable/jt_xia" android:layout_below="@id/note_left_note4TV" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="3" android:orientation="1" android:padding="6dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24dp" android:layout_centerHorizontal="true"
+        <LinearLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="#ffffff" android:layout_width="0dp" android:layout_height="-2" android:text="@string/antutu" android:layout_weight="1.0" />
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:src="@drawable/pop_search" />
+        </LinearLayout>
+        <View android:background="#ff64a350" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="4dp" android:layout_marginBottom="15dp" />
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="#ffffff" android:layout_width="-2" android:layout_height="-2" android:text="@string/float_view_text_1" />
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="#ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/float_view_text_2" />
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="#ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/float_view_text_3" />
+        <Button android:textSize="@dimen/text_size_small" android:gravity="11" android:layout_gravity="1" android:id="@id/btn" android:background="@drawable/float_btn_selector" android:layout_width="190dp" android:layout_height="40dp" android:layout_marginTop="15dp" android:layout_marginBottom="5dp" android:text="@string/float_view_btn_text" />
+    </LinearLayout>
+</RelativeLayout>

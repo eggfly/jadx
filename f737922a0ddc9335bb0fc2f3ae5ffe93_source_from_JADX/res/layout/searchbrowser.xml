@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:minHeight="1000dp">
+    <FrameLayout android:layout_width="-1" android:layout_height="-2" android:minHeight="1000dp">
+        <LinearLayout android:gravity="1" android:orientation="0" android:id="@b/searchbrowserProgress" android:padding="20dp" android:layout_width="-1" android:layout_height="-1" android:minWidth="1500dp">
+            <ProgressBar android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" style="@g/BrowserProgress" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="@b/searchbrowserResults" android:layout_width="-1" android:layout_height="-1">
+            <com.aide.ui.views.CustomKeysListView android:id="@b/searchbrowserList" android:layout_width="-1" android:layout_height="-1" style="@g/BrowserListView" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

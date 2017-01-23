@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<it.gmariotti.cardslib.library.view.CardView android:id="@id/list_cardId" android:layout_width="-1" android:layout_height="-2" style="@style/list_card_base" />

@@ -1,0 +1,5 @@
+public enum aor$a {
+    NO_CONFLICT,
+    FIRST_CONFLICTING_RANGE,
+    NEXT_CONFLICTING_RANGE
+}

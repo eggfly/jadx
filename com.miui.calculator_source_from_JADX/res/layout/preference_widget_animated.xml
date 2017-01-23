@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="800015" android:layout_gravity="800015" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:id="@id/animate_finish" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/preference_animate_finish" />
+    <com.miui.support.widget.AnimatedImageView android:id="@id/animate" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/preference_animate" />
+    <com.miui.support.widget.SlidingButton android:layout_gravity="10" android:id="0x1020001" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

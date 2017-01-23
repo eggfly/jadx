@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance_GuidePopupItem" android:gravity="11" android:layout_width="-2" android:layout_height="-2" android:maxWidth="140dp" />

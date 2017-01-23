@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="@drawable/project_errors" android:id="@b/mainMenuErrorsView" android:visible="true" android:title="@f/command_show_errors" android:showAsAction="2" android:actionViewClass="com.aide.ui.AIDEErrorsView" />
+    <item android:icon="?unknown_attr_ref: 7f010133" android:id="@b/mainMenuRun" android:title="@f/command_run" android:showAsAction="2" />
+    <item android:icon="?unknown_attr_ref: 7f010134" android:id="@b/mainMenuStepOver" android:title="@f/command_step_over" android:showAsAction="2" />
+    <item android:icon="?unknown_attr_ref: 7f010128" android:id="@b/mainMenuPreview" android:title="@f/command_design" android:showAsAction="2" />
+    <item android:icon="?unknown_attr_ref: 7f010135" android:id="@b/mainMenuUndo" android:title="@f/command_undo" android:showAsAction="2" />
+    <item android:icon="?unknown_attr_ref: 7f010132" android:id="@b/mainMenuRedo" android:title="@f/command_redo" android:showAsAction="2" />
+    <item android:icon="?unknown_attr_ref: 7f010129" android:id="@b/mainMenuNavigateMode" android:title="@f/command_navigate_mode" android:showAsAction="1" />
+    <item android:icon="?unknown_attr_ref: 7f010136" android:id="@b/mainMenuEditMode" android:title="@f/command_edit_mode" android:showAsAction="1" />
+    <item android:id="@b/mainMenuGoPremium" android:title="@f/command_unlock_all_features" />
+    <item android:id="@b/mainMenuStepIn" android:title="@f/command_step_in" />
+    <item android:id="@b/mainMenuStepOut" android:title="@f/command_step_out" />
+    <item android:id="@b/mainMenuStopDebugging" android:title="@f/command_stop" />
+    <item android:id="@b/mainMenuBrowser" android:title="@f/command_view">
+        <menu>
+            <item android:id="@b/mainMenuOpenFileBrowser" android:title="@f/command_files" />
+            <item android:id="@b/mainMenuOpenErrorBrowser" android:title="@f/command_errors" />
+            <item android:id="@b/mainMenuOpenSearchBrowser" android:title="@f/command_search_results" />
+            <item android:id="@b/mainMenuOpenDebugBrowser" android:title="@f/command_debugger" />
+            <item android:id="@b/mainMenuOpenLogCatBrowser" android:title="@f/command_logcat" />
+            <item android:id="@b/mainMenuShowOpenFiles" android:title="@f/command_file_list" />
+        </menu> />
+    <item android:id="@b/mainMenuGoto" android:title="@f/command_go_to" />
+    <item android:id="@b/mainMenuForward" android:title="@f/command_forward" />
+    <item android:id="@b/mainMenuSave" android:title="@f/command_save" />
+    <item android:id="@b/mainMenuTrainerMode" android:title="@f/command_learn" />
+    <item android:id="@b/mainMenuMore" android:title="@f/command_more">
+        <menu>
+            <item android:id="@b/mainMenuFind" android:title="@f/command_find" android:showAsAction="0">
+                <menu>
+                    <item android:id="@b/editorMenuFindUsage" android:title="@f/command_find_usages" />
+                    <item android:id="@b/mainMenuSearch" android:title="@f/command_find_in_file" />
+                    <item android:id="@b/mainMenuSearchWidget" android:title="@f/command_find_in_file" android:showAsAction="8" android:actionViewClass="android.widget.SearchView" />
+                    <item android:id="@b/mainMenuSearchInProject" android:title="@f/command_find_in_project" />
+                    <item android:id="@b/mainMenuGotoLine" android:title="@f/command_goto_line" />
+                    <item android:id="@b/mainMenuGotoLineWidget" android:title="@f/command_goto_line" android:showAsAction="8" android:actionViewClass="android.widget.SearchView" />
+                    <item android:id="@b/editorMenuHelp" android:title="@f/command_documentation" />
+                </menu> />
+            <item android:id="@b/editorMenuRefactor" android:title="@f/command_refactor" android:showAsAction="0">
+                <menu>
+                    <item android:id="@b/editorMenuRename" android:title="@f/command_rename" />
+                    <item android:id="@b/editorMenuInlineVariable" android:title="@f/command_inline_variable" />
+                    <item android:id="@b/editorMenuIntroduceVariable" android:title="@f/command_introduce_variable" />
+                    <item android:id="@b/editorMenuExtractMethod" android:title="@f/command_extract_method" />
+                </menu> />
+            <item android:id="@b/editorMenuCode" android:title="@f/command_code" android:showAsAction="0">
+                <menu>
+                    <item android:id="@b/editorMenuOrganizeImports" android:title="@f/command_organize_imports" />
+                    <item android:id="@b/editorMenuSurroundWithTryCatch" android:title="@f/command_surround_with_trycatch" />
+                    <item android:id="@b/editorMenuComment" android:title="@f/command_outcomment_code" />
+                    <item android:id="@b/editorMenuUnComment" android:title="@f/command_unoutcomment_code" />
+                    <item android:id="@b/editorMenuCreateSetters" android:title="@f/command_create_setters_and_getters" />
+                    <item android:id="@b/editorMenuCreateConstructor" android:title="@f/command_create_constructor" />
+                    <item android:id="@b/editorMenuExtractResources" android:title="@f/command_extract_resources" />
+                    <item android:id="@b/editorMenuReplace" android:title="@f/command_replace_textually" />
+                </menu> />
+            <item android:id="@b/editorMenuFormat" android:title="@f/command_format" android:showAsAction="0">
+                <menu>
+                    <item android:id="@b/editorMenuFormatCode" android:title="@f/command_format_code" />
+                    <item android:id="@b/editorMenuLearnCodeStyle" android:title="@f/command_learn_code_style" />
+                    <item android:id="@b/editorMenuConfigureCodeStyle" android:title="@f/command_configure_code_style" />
+                </menu> />
+            <item android:id="@b/mainMenuProject" android:title="@f/command_project" android:showAsAction="0">
+                <menu>
+                    <item android:id="@b/mainMenuRebuild" android:title="@f/command_refresh_build" />
+                    <item android:id="@b/mainMenuSelectBuildVariant" android:title="@f/command_build_variants" />
+                    <item android:id="@b/mainMenuPublishProject" android:title="@f/command_publish_project" />
+                    <item android:id="@b/mainMenuCloseProject" android:title="@f/command_close_project" />
+                </menu> />
+            <item android:id="@b/mainMenuCommunity" android:title="@f/command_community" />
+            <item android:id="@b/mainMenuSettings" android:title="@f/command_settings" />
+            <item android:id="@b/mainMenuExit" android:title="@f/command_exit" />
+        </menu> />
+</menu>

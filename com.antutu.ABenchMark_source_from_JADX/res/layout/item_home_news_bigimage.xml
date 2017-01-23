@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="@dimen/news_padding" android:layout_width="-1" android:layout_height="-2">
+    <com.antutu.benchmark.view.MaterialRippleLayout android:id="@id/ll_bg" android:padding="@dimen/news_padding" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:layout_gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:gravity="10" android:layout_gravity="10" android:id="@id/tv_title" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="14dp" android:singleLine="true" style="@style/news_title" />
+            <ImageView android:layout_gravity="11" android:id="@id/iv_img" android:layout_width="340dp" android:layout_height="187dp" android:scaleType="3" android:adjustViewBounds="true" />
+            <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp"
+                <LinearLayout android:gravity="53" android:layout_gravity="50" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="50" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/comment_count" />
+                    <TextView android:gravity="53" android:layout_gravity="53" android:id="@id/tv_comment_count" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_weight="1.0" style="@style/news_subtitle" />
+                </LinearLayout>
+                <LinearLayout android:gravity="33" android:layout_gravity="30" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                    <TextView android:gravity="33" android:layout_gravity="50" android:id="@id/tv_love" android:layout_width="-2" android:layout_height="-2" android:drawableLeft="@drawable/heart" android:drawablePadding="3dp" style="@style/news_subtitle" />
+                </LinearLayout>
+                <TextView android:gravity="35" android:layout_gravity="10" android:id="@id/tv_date" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/news_subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.antutu.benchmark.view.MaterialRippleLayout>
+</LinearLayout>

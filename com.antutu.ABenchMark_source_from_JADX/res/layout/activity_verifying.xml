@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/activity_verifying" android:background="#1e9e49" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_gravity="10" android:background="#0c7b31" android:layout_width="-1" android:layout_height="45dp">
+        <ImageView android:id="@id/verifying_back" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/activity_vertical_margin" android:src="@drawable/back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="19dp" android:textColor="@color/white" android:id="@id/verifying_title" android:layout_width="-2" android:layout_height="-2" android:text="@string/verifying" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <FrameLayout android:background="@drawable/bg_oval_verifying" android:layout_width="185dp" android:layout_height="185dp" android:layout_centerInParent="true">
+                <ImageView android:id="@id/verifying_iv" android:layout_width="185dp" android:layout_height="185dp" android:src="@drawable/anim_verifying" />
+            </FrameLayout>
+            <TextView android:textSize="18sp" android:textColor="#ffffff" android:layout_gravity="1" android:id="@id/verifying_waiting" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50dp" android:text="@string/verifying_get_mobile_info" android:layout_below="@id/verifying_iv" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

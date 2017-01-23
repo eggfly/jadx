@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/linear1" android:paddingTop="4dp" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="15dp" android:textColor="@color/black" android:gravity="11" android:id="@id/app_header" android:layout_width="110dp" android:layout_height="-2" android:text="APP" android:layout_weight="1.0" />
+    <TextView android:textSize="15dp" android:textColor="@color/black" android:gravity="11" android:id="@id/ram_header" android:layout_width="90dp" android:layout_height="-2" android:text="RAM" android:layout_weight="1.0" />
+</LinearLayout>

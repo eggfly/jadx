@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/chg_row" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp"
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:minHeight="?unknown_attr_ref: 1010387">
+        <TextView android:textAppearance="@*android:style/TextAppearance.Small" android:gravity="10" android:id="@id/chg_textbullet" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginRight="2dp" android:text="@string/changelog_row_bulletpoint" />
+        <TextView android:textAppearance="@*android:style/TextAppearance.Small" android:gravity="10" android:id="@id/chg_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginRight="5dp" android:minHeight="?unknown_attr_ref: 1010387" />
+    </LinearLayout>
+    <View android:background="@color/chglib_background_default_divider_color" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="12dp" android:layout_marginTop="1dp" android:layout_marginRight="12dp" android:layout_marginBottom="1dp" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:id="@b/gitMenuCommit" android:title="@f/command_git_commit" />
+    <item android:id="@b/gitMenuPush" android:title="@f/command_git_push" />
+    <item android:id="@b/gitMenuPull" android:title="@f/command_git_pull" />
+    <item android:id="@b/gitMenuBranches" android:title="@f/command_git_branches">
+        <menu>
+            <item android:id="@b/gitMenuCheckout" android:title="@f/command_git_checkout_branch" />
+            <item android:id="@b/gitMenuBranch" android:title="@f/command_git_create_branch" />
+            <item android:id="@b/gitMenuMergeBranch" android:title="@f/command_git_merge_branch" />
+            <item android:id="@b/gitMenuDeleteBranch" android:title="@f/command_git_delete_branch" />
+        </menu> />
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="5" android:orientation="1" android:paddingTop="5dp" android:paddingBottom="10dp" android:clipChildren="false" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="20sp" android:textColor="#333333" android:id="@b/shopPopupEntryText" android:layout_width="-2" android:layout_height="-2" android:text="1 year" android:layout_weight="1.0" />
+        <TextView android:textSize="20sp" android:textColor="#689f38" android:id="@b/shopPopupEntryPrice" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="2.50$/month" android:layout_alignParentRight="true" />
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:textColor="#333333" android:id="@b/shopPopupEntryDescription" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:text="All for 1 year" />
+    <FrameLayout android:clipChildren="false" android:layout_width="-2" android:layout_height="-2">
+        <LinearLayout android:background="@drawable/shop_button" android:clipChildren="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:layout_marginRight="15dp">
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="#ffffff" android:id="@b/shopPopupEntryButton" android:background="?unknown_attr_ref: 101030e" android:paddingLeft="45dp" android:paddingTop="8dp" android:paddingRight="45dp" android:paddingBottom="8dp" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:text="@f/shop_choose" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="35" android:id="@b/shopPopupEntrySpecialImage" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="-7dp" android:src="@drawable/badge_sale" />
+    </FrameLayout>
+</LinearLayout>

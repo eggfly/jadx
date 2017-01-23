@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#e6ffffff" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/actionbarLayout" layout="@layout/ssdk_oks_skyblue_share_actionbar" />
+    <RelativeLayout android:id="@id/mainRelLayout" android:background="@drawable/ssdk_oks_skyblue_editpage_bg" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="14dp" android:layout_below="@id/actionbarLayout">
+        <LinearLayout android:orientation="0" android:id="@id/titleLayout" android:layout_width="-1" android:layout_height="-2">
+            <EditText android:textColor="#a7a7a7" android:id="@id/titleEditText" android:background="@tnetstatuscode/EASY_REQ_STATE_OK" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+            <ImageView android:id="@id/closeImageView" android:paddingLeft="10dp" android:layout_width="30dp" android:layout_height="20dp" android:src="@drawable/ssdk_oks_skyblue_editpage_close" android:scaleType="5" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="@drawable/ssdk_oks_skyblue_editpage_divider" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="5dp" android:layout_below="@id/titleLayout" />
+        <EditText android:textColor="#333333" android:gravity="33" android:id="@id/textEditText" android:background="@tnetstatuscode/EASY_REQ_STATE_OK" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:minLines="1" android:layout_below="@id/divider" />
+        <LinearLayout android:orientation="1" android:id="@id/atLayout" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/textEditText" />
+        <TextView android:textSize="14sp" android:textColor="#ffcfcfcf" android:id="@id/textCounterTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/textEditText" android:layout_alignParentRight="true" />
+        <HorizontalScrollView android:id="@id/hScrollView" android:scrollbars="0" android:fadingEdge="0" android:layout_width="-2" android:layout_height="56dp" android:layout_marginTop="5dp" android:layout_below="@id/atLayout">
+            <LinearLayout android:orientation="0" android:id="@id/imagesLinearLayout" android:layout_width="-2" android:layout_height="-2" />
+        </HorizontalScrollView>
+    </RelativeLayout>
+</RelativeLayout>

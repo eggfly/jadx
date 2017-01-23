@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/demo_item_selector" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp">
+    <RelativeLayout android:layout_gravity="10" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:minHeight="45dp">
+        <TextView android:textSize="14sp" android:textColor="@color/demo_card_weather_city_color" android:id="@id/card_info_title" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <TextView android:textSize="16sp" android:textColor="@color/demo_card_weather_temperature_color" android:id="@id/card_info_value" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

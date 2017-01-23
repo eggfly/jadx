@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout card_view:orientation="1" card_view:background="@color/bg_home_list" card_view:padding="@dimen/home_translate_padding" card_view:layout_width="-1" card_view:layout_height="@dimen/home_item_height">
+    <android.support.v7.widget.CardView card_view:background="@color/white" card_view:layout_width="-1" card_view:layout_height="-1" card_view:layout_margin="@dimen/card_margin" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardBackgroundColor="@color/white" card_view:cardCornerRadius="@dimen/normal_radius">
+        <FrameLayout card_view:background="@color/white" card_view:layout_width="-1" card_view:layout_height="-1">
+            <LinearLayout card_view:layout_gravity="11" card_view:orientation="1" card_view:id="@id/ll_loading" card_view:background="@color/white" card_view:visibility="2" card_view:layout_width="-1" card_view:layout_height="-2">
+                <com.gc.materialdesign.views.ProgressBarCircularIndeterminateSingle card_view:layout_gravity="11" card_view:id="@id/progress" card_view:layout_width="50dp" card_view:layout_height="50dp" />
+                <TextView card_view:textSize="@dimen/text_size_small" card_view:textColor="@color/deep_black_text" card_view:layout_gravity="1" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_marginTop="5dp" card_view:text="@string/loading_user_comment" />
+            </LinearLayout>
+            <LinearLayout card_view:orientation="1" card_view:id="@id/ll_nocomment" card_view:background="@color/white" card_view:padding="12dp" card_view:visibility="2" card_view:layout_width="-1" card_view:layout_height="-1">
+                <TextView card_view:textSize="@dimen/text_size_normal" card_view:textColor="@color/deep_black_text" card_view:layout_width="-2" card_view:layout_height="-2" card_view:text="@string/user_comment" card_view:singleLine="true" />
+                <TextView card_view:textSize="@dimen/text_size_small" card_view:textColor="@color/deep_gray_text" card_view:gravity="11" card_view:layout_gravity="1" card_view:layout_width="-2" card_view:layout_height="0dp" card_view:layout_marginTop="8dp" card_view:text="@string/user_comment_desc" card_view:singleLine="true" card_view:layout_weight="1.0" />
+                <Button card_view:textSize="@dimen/text_size_middle" card_view:textColor="@color/white" card_view:gravity="11" card_view:id="@id/btn_add_comment" card_view:background="@color/light_red" card_view:layout_width="-1" card_view:layout_height="40dp" card_view:text="@string/add_comments" card_view:singleLine="true" />
+            </LinearLayout>
+            <com.antutu.benchmark.view.MaterialRippleLayout card_view:id="@id/ll_comment_bg" card_view:layout_width="-1" card_view:layout_height="-1">
+                <RelativeLayout card_view:paddingLeft="@dimen/home_item_paddingleft" card_view:paddingTop="@dimen/home_item_paddingtop" card_view:paddingRight="@dimen/home_item_paddingright" card_view:paddingBottom="@dimen/home_item_paddingbottom" card_view:layout_width="-1" card_view:layout_height="-1">
+                    <ImageView card_view:layout_gravity="10" card_view:id="@id/icon" card_view:layout_width="@dimen/home_item_icon_width" card_view:layout_height="@dimen/home_item_icon_height" card_view:layout_marginRight="24dp" card_view:src="@drawable/comment" card_view:scaleType="1" />
+                    <TextView card_view:textSize="@dimen/home_item_title_text_size" card_view:textColor="@color/home_block_text_normal" card_view:gravity="10" card_view:id="@id/textView" card_view:layout_width="-2" card_view:layout_height="-2" card_view:text="@string/user_comment_score" card_view:layout_toRightOf="@id/icon" card_view:layout_alignTop="@id/icon" card_view:layout_toEndOf="@id/icon" />
+                    <LinearLayout card_view:orientation="0" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_marginTop="10dp" card_view:layout_below="@id/textView" card_view:layout_alignLeft="@id/textView" card_view:layout_alignStart="@id/textView">
+                        <TextView card_view:textSize="@dimen/text_size_small" card_view:textColor="@color/home_block_text_normal" card_view:gravity="10" card_view:layout_width="-2" card_view:layout_height="-2" card_view:text="@string/comment_value" />
+                        <TextView card_view:textSize="@dimen/text_size_small" card_view:textColor="@color/home_block_text_deep" card_view:gravity="10" card_view:id="@id/tv_praise" card_view:layout_width="-2" card_view:layout_height="-2" />
+                    </LinearLayout>
+                    <FrameLayout card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_alignParentRight="true" card_view:layout_alignParentBottom="true" card_view:layout_alignParentEnd="true">
+                        <TextView card_view:textSize="@dimen/text_size_small" card_view:textStyle="1" card_view:textColor="@color/light_red" card_view:gravity="11" card_view:layout_gravity="30" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_margin="5dp" card_view:text="@string/join_comment" />
+                        <ImageView card_view:layout_gravity="35" card_view:id="@id/iv_commnet_red" card_view:background="@drawable/red_point" card_view:visibility="2" card_view:layout_width="10dp" card_view:layout_height="10dp" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </com.antutu.benchmark.view.MaterialRippleLayout>
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/activity_verify_error" android:background="@color/white" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_gravity="10" android:background="#126cb7" android:layout_width="-1" android:layout_height="45dp">
+        <ImageView android:id="@id/verify_unknown_back" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/activity_vertical_margin" android:src="@drawable/back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="19dp" android:textColor="@color/white" android:id="@id/verify_unknown_title" android:layout_width="-2" android:layout_height="-2" android:text="@string/verify_report" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ScrollView android:scrollbarThumbVertical="@drawable/scrollbar2" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:orientation="1" android:background="#117ed9" android:layout_width="-1" android:layout_height="-2"
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="17sp" android:layout_gravity="1" android:id="@id/verify_unknown_mobile" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="MI5" />
+                    <FrameLayout android:layout_width="-1" android:layout_height="-1">
+                        <ImageView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/verify_result_bg" android:scaleType="3" />
+                        <FrameLayout android:layout_gravity="11" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="-1" android:layout_height="-1">
+                            <ImageView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/verify_result_phone" android:scaleType="3" />
+                            <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-1">
+                                <ImageView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/verify_result_unknown" android:scaleType="3" />
+                                <TextView android:textSize="14sp" android:textColor="@color/white" android:id="@id/verify_unknown_result" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/unknown_product" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="14sp" android:textColor="@color/white" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="@string/this_device_is_unknown" />
+                    <Button android:textSize="14dp" android:textColor="@color/white" android:layout_gravity="1" android:id="@id/verify_unknown_again" android:background="@drawable/btn_verify_again" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="213.5dp" android:layout_height="-2" android:layout_marginTop="25dp" android:minWidth="0dp" android:minHeight="0dp" android:text="@string/revalidate" />
+                    <Button android:textSize="14dp" android:textColor="#117ed9" android:layout_gravity="1" android:id="@id/verify_unknown_feedBack" android:background="@drawable/btn_verify_feedback" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="213.5dp" android:layout_height="-2" android:layout_marginTop="25dp" android:layout_marginBottom="25dp" android:minWidth="0dp" android:minHeight="0dp" android:text="@string/feedback" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+                <LinearLayout android:layout_gravity="1" android:orientation="1" android:paddingLeft="58dp" android:paddingTop="20dp" android:paddingRight="58dp" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="13sp" android:textColor="#ff333333" android:layout_width="-2" android:layout_height="-2" android:text="@string/recommend" />
+                    <TextView android:textSize="13sp" android:textColor="#ff333333" android:layout_width="-2" android:layout_height="-2" android:text="@string/recommend_unknown" />
+                </LinearLayout>
+                <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40dp" android:layout_marginBottom="10dp"
+                    <LinearLayout android:gravity="10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textSize="10sp" android:textColor="#ff999999" android:layout_gravity="5" android:layout_width="-2" android:layout_height="-2" android:text="@string/verify_id" />
+                        <TextView android:textSize="10sp" android:textColor="#ff999999" android:layout_gravity="5" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/verify_datetime" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.3">
+                        <TextView android:textSize="10sp" android:textColor="#ff999999" android:layout_gravity="3" android:id="@id/verify_unknown_no" android:layout_width="-2" android:layout_height="-2" android:text="112233444444444" />
+                        <TextView android:textSize="10sp" android:textColor="#ff999999" android:layout_gravity="3" android:id="@id/verify_unknown_time" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="2016-12-07 15:23:18" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

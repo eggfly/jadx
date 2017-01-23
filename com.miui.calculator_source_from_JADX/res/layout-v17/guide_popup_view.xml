@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.support.internal.widget.GuidePopupView android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f01004a">
+    <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/text_group" android:layout_width="-2" android:layout_height="-2" android:paddingStart="@dimen/guide_popup_window_padding" android:paddingEnd="@dimen/guide_popup_window_padding" />
+    <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/mirrored_text_group" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:paddingStart="@dimen/guide_popup_window_padding" android:paddingEnd="@dimen/guide_popup_window_padding" />
+</com.miui.support.internal.widget.GuidePopupView>

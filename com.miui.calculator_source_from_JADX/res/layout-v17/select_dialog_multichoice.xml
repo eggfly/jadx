@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.CheckedTextView android:textAppearance="@style/TextAppearance_AlertDialogListItem" android:ellipsize="3" android:gravity="10" android:id="0x1020014" android:background="@drawable/list_item_bg_dialog_light" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010043" android:checkMark="?unknown_attr_ref: 101021a" android:minHeight="?unknown_attr_ref: 101004d" android:singleLine="true" android:paddingStart="16dp" android:paddingEnd="16dp" />

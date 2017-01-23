@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@drawable/edt_focusable" android:layout_width="-1" android:layout_height="-2">
+    <EditText android:textAppearance="@style/CalTextAppearance_Widget_List_Primary" android:textSize="@dimen/suffix_number_input_text_size" android:layout_gravity="10" android:id="@id/edt_text" android:background="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:layout_width="0dp" android:layout_height="-2" android:maxLength="11" android:layout_weight="1.0" android:inputType="2002" />
+    <TextView android:textAppearance="@style/TextAppearance_Widget_List_Secondary" android:layout_gravity="10" android:id="@id/txv_unit" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

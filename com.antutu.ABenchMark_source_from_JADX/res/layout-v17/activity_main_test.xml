@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#ff1c1c1c" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <TextView android:textSize="15sp" android:textColor="#ff999999" android:layout_gravity="11" android:id="@id/text_dev_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="@string/device" android:drawableLeft="@drawable/icon_phone" android:drawablePadding="10dp" />
+    <RelativeLayout android:layout_gravity="11" android:layout_width="160dp" android:layout_height="110dp" android:layout_margin="5dp">
+        <TextView android:textSize="90sp" android:textColor="#ffff2020" android:id="@id/text_percent" android:layout_width="-2" android:layout_height="-2" android:text="0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="24sp" android:textColor="#ffff2020" android:gravity="50" android:id="@id/text_percent_mark" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="%" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15sp" android:textColor="#ff999999" android:layout_gravity="11" android:id="@id/text_main_info" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/Testing_info" />
+    <View android:layout_gravity="11" android:layout_marginBottom="10dp" style="@style/test_line" />
+    <include android:id="@id/test_layout_3d" layout="@layout/activity_main_test_info" />
+    <include android:id="@id/test_layout_ram" layout="@layout/activity_main_test_info" />
+    <include android:id="@id/test_layout_cpu" layout="@layout/activity_main_test_info" />
+    <include android:id="@id/test_layout_ux" layout="@layout/activity_main_test_info" />
+    <Button android:textColor="#ff999999" android:layout_gravity="11" android:id="@id/btn_test_stop" android:background="@drawable/btn_common_selector" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:layout_marginBottom="10dp" android:text="@string/stop_str" />
+</LinearLayout>

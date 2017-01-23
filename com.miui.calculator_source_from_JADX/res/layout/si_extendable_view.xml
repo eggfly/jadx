@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/lyt_header" style="@style/CalWidget_ListItem">
+        <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:id="@id/txv_title" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tax_insurance_and_fund" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="800015" android:id="@id/imv_arrow_right" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/arrow_right" />
+    </LinearLayout>
+    <View android:id="@id/div_h" style="@style/CalWidget_Divider" />
+    <LinearLayout android:orientation="1" android:id="@id/lyt_si" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout style="@style/CalWidget_ListItem">
+            <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tax_accumulation_fund" android:layout_weight="1.0" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_fund" android:layout_width="@dimen/tax_si_width" android:layout_height="34dp" />
+        </LinearLayout>
+        <View style="@style/CalWidget_Divider" />
+        <LinearLayout style="@style/CalWidget_ListItem">
+            <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tax_medical" android:layout_weight="1.0" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_medical" android:layout_width="@dimen/tax_si_width" android:layout_height="-2" />
+        </LinearLayout>
+        <View style="@style/CalWidget_Divider" />
+        <LinearLayout style="@style/CalWidget_ListItem">
+            <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tax_endowment" android:layout_weight="1.0" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_endowment" android:layout_width="@dimen/tax_si_width" android:layout_height="-2" />
+        </LinearLayout>
+        <View style="@style/CalWidget_Divider" />
+        <LinearLayout style="@style/CalWidget_ListItem">
+            <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tax_unemployment" android:layout_weight="1.0" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_unemployment" android:layout_width="@dimen/tax_si_width" android:layout_height="-2" />
+        </LinearLayout>
+        <View style="@style/CalWidget_Divider" />
+        <LinearLayout style="@style/CalWidget_ListItem">
+            <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tax_injury" android:layout_weight="1.0" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_injury" android:layout_width="@dimen/tax_si_width" android:layout_height="-2" />
+        </LinearLayout>
+        <View style="@style/CalWidget_Divider" />
+        <LinearLayout style="@style/CalWidget_ListItem">
+            <TextView android:textAppearance="@style/CalTextAppearance_List_Primary" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tax_birth" android:layout_weight="1.0" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_birth" android:layout_width="@dimen/tax_si_width" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

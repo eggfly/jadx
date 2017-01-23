@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:textAppearance="@style/TextAppearance_AlertDialogListItem" android:id="@id/select_dialog_listview" android:scrollbars="200" android:layoutAnimation="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" android:divider="?unknown_attr_ref: 1010305" android:overScrollMode="1" />

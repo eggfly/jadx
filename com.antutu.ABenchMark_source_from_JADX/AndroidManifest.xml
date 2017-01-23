@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="6030303" android:versionName="6.3.3" android:installLocation="auto" package="com.antutu.ABenchMark" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <uses-feature android:glEsVersion="20000" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+    <uses-feature android:name="android.software.leanback" android:required="false" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.network" android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="getui.permission.GetuiService.com.antutu.ABenchMark" />
+    <permission android:name="getui.permission.GetuiService.com.antutu.ABenchMark" android:protectionLevel="UNKNOWN_DATA_0x0" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <permission android:name="com.antutu.ABenchMark.permission.MIPUSH_RECEIVE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.antutu.ABenchMark.permission.MIPUSH_RECEIVE" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/app_icon" android:name="com.antutu.benchmark.ABenchmarkApplication" android:allowBackup="true" android:largeHeap="true" android:uiOptions="splitActionBarWhenNarrow" android:supportsRtl="true" android:banner="@drawable/app_banner">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
+        <activity android:theme="@style/AppTheme_Fullscreen" android:label="@string/app_name" android:name="com.antutu.ABenchMark.ABenchMarkStart" android:launchMode="singleTask" android:configChanges="orientation|screenSize" android:windowSoftInputMode="12">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme_Themeday" android:label="@string/app_name" android:name="com.antutu.benchmark.activity.MainActivity" android:launchMode="singleTask" android:configChanges="orientation|screenSize" android:windowSoftInputMode="12" />
+        <activity android:theme="@style/AppTheme_Fullscreen" android:name="com.antutu.benchmark.activity.ScoreBenchActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="12" />
+        <activity android:theme="@style/Theme_Themeday" android:label="@string/setting" android:name="com.antutu.benchmark.activity.SettingsActivity" />
+        <activity android:theme="@style/Theme_Themeday" android:name="com.antutu.benchmark.activity.TestResultActivity" />
+        <activity android:theme="@style/Theme_Themeday" android:label="@string/setting" android:name="com.antutu.benchmark.activity.MyMessageActivity" android:windowSoftInputMode="13" />
+        <activity android:theme="@style/Theme_Themeday" android:name="com.antutu.benchmark.activity.CommentActivity" />
+        <activity android:theme="@style/Theme_Themeday" android:name="com.antutu.benchmark.activity.OtherCommentActivity" android:windowSoftInputMode="10" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:label="@string/detail" android:name="com.antutu.benchmark.activity.ExposureDetailActivity" />
+        <activity android:theme="@style/Theme_Transparent" android:name="com.antutu.utils.update.UpdateActivity" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.FeedbackActivity" android:configChanges="orientation|screenSize" android:windowSoftInputMode="10" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.DetailScoreActivity" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.LocalizationActivity" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:label="@string/about" android:name="com.antutu.benchmark.activity.CompareActivity" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.SearchActivity" android:enabled="true" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="14" />
+        <receiver android:name="com.antutu.benchmark.BenchmarkReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.antutu.benchmark.marooned.FINISHED" />
+                <action android:name="com.antutu.benchmark.marooned.ERROR" />
+                <action android:name="com.antutu.benchmark.marooned.EXIT" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.antutu.benchmark.BenchmarkService" />
+        <service android:name="com.antutu.benchmark.service.BenchmarkLongService" />
+        <service android:name="com.antutu.utils.downloader.DownloadsService" android:exported="false" android:process=":downloader">
+            <intent-filter>
+                <action android:name="com.antutu.ABenchMark.DOWNLOAD_START" />
+                <action android:name="com.antutu.ABenchMark.DOWNLOAD_STOP" />
+            </intent-filter>
+        </service>
+        <activity android:name="com.antutu.benchmark.activity.WebTestActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme_CustomDialog" android:name="com.antutu.utils.downloader.StopActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/Theme_CustomDialog" android:name="com.antutu.utils.downloader.Stop3DPluginActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/Theme_Themeday" android:name="com.antutu.utils.widget.WebBrowserActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.WizardActivity" android:configChanges="orientation|screenSize" android:windowSoftInputMode="12" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.CpuInfoActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.ClearGarbageActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme_Fullscreen" android:label="@string/app_name" android:name="com.antutu.benchmark.activity.NativeLoader" android:process=":remote" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <meta-data android:name="android.app.lib_name" android:value="abenchmark" />
+        </activity>
+        <activity android:theme="@style/Theme_Themeday" android:name="com.antutu.benchmark.activity.WebViewActivity" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.RootIntroActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <service android:name="com.antutu.benchmark.TrackService" android:process=":remote" />
+        <service android:name="com.antutu.benchmark.service.LocationService" />
+        <service android:name="com.antutu.benchmark.TrackReferrerService" />
+        <receiver android:name="com.antutu.benchmark.TrackReferrerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.MultiTouchActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.antutu.benchmark.activity.ScreenActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:label="@string/screen_entry_title" android:name="com.antutu.benchmark.activity.ScreenEntryActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/AppTheme_Fullscreen" android:name="com.antutu.benchmark.activity.HuijieActivity" android:screenOrientation="landscape" android:configChanges="orientation" />
+        <activity android:theme="@style/AppTheme_Fullscreen" android:name="com.antutu.benchmark.activity.ColorLineActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden" />
+        <activity android:theme="@style/AppTheme_Fullscreen" android:name="com.antutu.benchmark.activity.NewDetailActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden" />
+        <activity android:theme="@style/Theme_CustomDialog" android:name="com.antutu.benchmark.view.QuietUpdateFinishedActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.AboutUsActivity" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.HotNewsActivity" />
+        <activity android:theme="@style/Theme_CustomNoTitleBar" android:name="com.antutu.benchmark.activity.MoreTestAdActivity" />
+        <activity android:theme="@style/Theme_Themeday" android:name="com.antutu.benchmark.activity.ExposureActivity" />
+        <activity android:name="com.antutu.benchmark.averify.activity.ActivityVerifying" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/verify_report" android:name="com.antutu.benchmark.averify.activity.ActivityVerifySuccess" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.antutu.benchmark.averify.activity.ActivityVerifyError" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.antutu.benchmark.averify.activity.ActivityVerifyUnknown" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <receiver android:name="com.antutu.benchmark.receiver.ConnectionChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.qq.e.comm.DownloadService" android:exported="false" />
+        <activity android:name="com.qq.e.ads.ADActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/Theme_Translucent" android:name="com.mob.tools.MobUIShell" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="12" />
+        <activity android:theme="@style/Theme_Translucent" android:name="com.antutu.ABenchMark.wxapi.WXEntryActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <provider android:name="com.antutu.benchmark.platform.DataContentProvider" android:enabled="true" android:exported="true" android:authorities="com.antutu.benchmark.provider.udata" />
+        <provider android:name="com.antutu.benchmark.provider.DownloadProvider" android:exported="false" android:authorities="com.antutu.benchmark.provider.download" />
+        <activity android:name="com.antutu.benchmark.activity.BenchLongActivity" />
+        <service android:label="BenchmarkMainService" android:name="com.antutu.benchmark.service.BenchmarkMainService" />
+        <service android:name="com.antutu.benchmark.service.BenchmarkMainService$InnerService" />
+        <service android:name="com.antutu.benchmark.service.JobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="true" android:process=":push" />
+        <receiver android:name="com.antutu.benchmark.receiver.KeepAliveReceiver" android:enabled="true" android:process=":push">
+            <intent-filter android:priority="7fffffff">
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.antutu.benchmark.receiver.GeTuiReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.ZJJ5spRHSxAO0QpkSa6hz8" />
+                <action android:name="com.antutu.ABenchMark.action.GE_TUI_CLICK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.antutu.benchmark.receiver.MiPushReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="UMENG_APPKEY" android:value="5135a322527015535f000059" />
+        <meta-data android:name="UMENG_MESSAGE_SECRET" android:value="75cd45fedaa93e1d4e2e327c982e0670" />
+        <service android:name="com.taobao.accs.ChannelService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.SERVICE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.ELECTION" />
+            </intent-filter>
+        </service>
+        <service android:name="com.taobao.accs.data.MsgDistributeService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.taobao.accs.EventReceiver" android:process=":push">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.taobao.accs.ServiceReceiver" android:process=":push">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.COMMAND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.taobao.accs.ChannelService$KernelService" android:process=":push" />
+        <service android:name="org.android.agoo.accs.AgooService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.umeng.message.UmengIntentService" android:exported="true">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.taobao.agoo.AgooCommondReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.antutu.ABenchMark.intent.action.COMMAND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.umeng.message.NotificationProxyBroadcastReceiver" android:exported="false" />
+        <service android:name="com.umeng.message.UmengMessageCallbackHandlerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.umeng.messge.registercallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.enablecallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.disablecallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.message.handler.action" />
+            </intent-filter>
+        </service>
+        <service android:name="com.umeng.message.UmengDownloadResourceService" android:exported="false" />
+        <service android:name="com.umeng.message.UmengMessageIntentReceiverService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService" />
+            </intent-filter>
+        </service>
+        <provider android:name="com.umeng.message.provider.MessageProvider" android:exported="false" android:authorities="com.antutu.ABenchMark.umeng.message">
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+        <meta-data android:name="BaiduMobAd_APP_ID" android:value="a5bd878c" />
+        <activity android:name="com.baidu.mobads.AppActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name="com.baidu.mobad.feeds.BaiduActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <meta-data android:name="PUSH_APPID" android:value="ZJJ5spRHSxAO0QpkSa6hz8" />
+        <meta-data android:name="PUSH_APPKEY" android:value="MJGbHjPhTF77Y9VddGlSC9" />
+        <meta-data android:name="PUSH_APPSECRET" android:value="vHvxl4yuJUAWvmiq9Yvry7" />
+        <service android:label="NotificationCenter" android:name="com.igexin.sdk.PushService" android:exported="true" android:process=":push">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message" />
+            </intent-filter>
+        </service>
+        <service android:label="NotificationCenterUser" android:name="com.igexin.sdk.PushServiceUser" android:exported="true">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.user.message" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.igexin.sdk.PushReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.igexin.sdk.action.refreshls" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.igexin.sdk.PushManagerReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.pushmanager" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.igexin.sdk.PushActivity" android:exported="false" android:process=":push" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:excludeFromRecents="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.igexin.sdk.GActivity" android:exported="true" android:process=":push" android:taskAffinity="com.igexin.sdk.PushActivityTask" android:excludeFromRecents="true" />
+        <service android:name="com.igexin.download.DownloadService" android:process=":push" />
+        <receiver android:name="com.igexin.download.DownloadReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.igexin.download.DownloadProvider" android:exported="true" android:process=":push" android:authorities="downloads.com.antutu.ABenchMark" />
+        <activity android:theme="@style/AppBaseTheme_NoTitleBar" android:name="com.antutu.redacc.activity.AccelerateActivity" android:excludeFromRecents="true" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/CustomActionBarTheme" android:label="@string/app_name" android:name="com.antutu.redacc.activity.MainActivity" android:excludeFromRecents="true" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/AppBaseTheme_NoTitleBar" android:name="com.antutu.redacc.activity.OptimizeActivity" android:exported="true" android:excludeFromRecents="true" android:configChanges="orientation|screenSize" />
+        <service android:name="com.antutu.redacc.service.OptimizeService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.antutu.redacc.service.OPTIMIZE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.antutu.redacc.service.Accessibility" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_config" />
+        </service>
+        <service android:name="com.antutu.redacc.service.FxService" android:exported="false" />
+        <service android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false" android:process=":push" />
+        <service android:name="com.xiaomi.push.service.XMPushService" android:enabled="true" android:process=":push" />
+        <service android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:enabled="true" android:exported="true" />
+        <service android:name="com.xiaomi.mipush.sdk.MessageHandleService" android:enabled="true" />
+        <receiver android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaomi.push.service.receivers.PingReceiver" android:exported="false" android:process=":push">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/Theme_IAPTheme" android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

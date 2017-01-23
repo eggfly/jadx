@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:padding="2dp" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="10" android:orientation="0" android:paddingLeft="20dp" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@b/filebrowserEntryFileImage" style="@g/BrowserImage" />
+        <TextView android:id="@b/filebrowserEntryName" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text=" " android:singleLine="true" style="@g/BrowserLabelLarge" />
+    </LinearLayout>
+</LinearLayout>

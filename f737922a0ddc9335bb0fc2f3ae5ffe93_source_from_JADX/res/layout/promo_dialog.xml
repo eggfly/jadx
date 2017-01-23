@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:background="@drawable/trainer_course_header" android:layout_width="-1" android:layout_height="50dp" />
+        <LinearLayout android:orientation="1" android:id="@b/promoDialogLayout" android:background="#fff" android:paddingBottom="50dp" android:layout_width="-1" android:layout_height="-2" /> />
+</ScrollView>

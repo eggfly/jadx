@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape>
+    <stroke android:width="1px" android:color="@color/suffix_input_edit_border" />
+    <padding android:left="10dp" android:top="7dp" android:right="10dp" android:bottom="7dp" />
+</shape>

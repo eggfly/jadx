@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@color/apptheme_primary">
+    <LinearLayout android:orientation="1" android:id="@id/linear_gpu" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:layout_gravity="1" android:orientation="1" android:id="@id/gpu_graph" android:layout_width="-1" android:layout_height="170dp" android:layout_marginLeft="12dp" android:layout_marginTop="20dp" android:layout_marginRight="12dp">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="@color/black" android:layout_gravity="11" android:id="@id/gpu_graph_text" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12dp">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="@color/black" android:id="@id/gpu_graph_clock" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="@color/black" android:id="@id/gpu_graph_max" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_gpu" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</ScrollView>

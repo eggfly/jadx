@@ -1,0 +1,6 @@
+{
+ "update_type": 2,
+ "report_url":"https://ms.cmcm.com/app",
+ "receiver_off":["location"],
+ "receiver_on": ["*"]
+}

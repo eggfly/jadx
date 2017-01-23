@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/luobo_container" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:id="@id/leve1" android:background="@drawable/star_gray" android:layout_width="20dp" android:layout_height="20dp" />
+    <ImageView android:id="@id/leve2" android:background="@drawable/star_gray" android:layout_width="20dp" android:layout_height="20dp" />
+    <ImageView android:id="@id/leve3" android:background="@drawable/star_gray" android:layout_width="20dp" android:layout_height="20dp" />
+    <ImageView android:id="@id/leve4" android:background="@drawable/star_gray" android:layout_width="20dp" android:layout_height="20dp" />
+    <ImageView android:id="@id/leve5" android:background="@drawable/star_gray" android:layout_width="20dp" android:layout_height="20dp" />
+</LinearLayout>

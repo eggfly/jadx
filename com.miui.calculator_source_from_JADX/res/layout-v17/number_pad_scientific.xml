@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/lyt_scientific" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="-1" android:layoutDirection="0"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:id="@id/btn_fac" android:text="@string/factorial" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_pow" android:text="@string/power" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_sqrt" android:text="@string/sqrt" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_pi" android:text="@string/pi" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <ImageView android:id="@id/btn_c_s" android:src="@drawable/btn_pad_c" android:scaleType="5" style="@style/CalWidget_Button_Pad_H_Symbol_Last" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:textSize="@dimen/btn_pad_symbol" android:id="@id/btn_sin" android:text="@string/sin" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_lp" android:text="@string/leftParen" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_rp" android:text="@string/rightParen" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_e" android:text="@string/e" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <ImageView android:id="@id/btn_del_s" android:src="@drawable/btn_pad_del" android:scaleType="5" style="@style/CalWidget_Button_Pad_H_Symbol_Last" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:textSize="@dimen/btn_pad_symbol" android:id="@id/btn_cos" android:text="@string/cos" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_7_s" android:text="@string/digit7" style="@style/CalWidget_Button_Pad_H" />
+        <Button android:id="@id/btn_8_s" android:text="@string/digit8" style="@style/CalWidget_Button_Pad_H" />
+        <Button android:id="@id/btn_9_s" android:text="@string/digit9" style="@style/CalWidget_Button_Pad_H" />
+        <ImageView android:id="@id/btn_div_s" android:src="@drawable/btn_pad_div" android:scaleType="5" style="@style/CalWidget_Button_Pad_H_Symbol_Last" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:textSize="@dimen/btn_pad_symbol" android:id="@id/btn_tan" android:text="@string/tan" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_4_s" android:text="@string/digit4" style="@style/CalWidget_Button_Pad_H" />
+        <Button android:id="@id/btn_5_s" android:text="@string/digit5" style="@style/CalWidget_Button_Pad_H" />
+        <Button android:id="@id/btn_6_s" android:text="@string/digit6" style="@style/CalWidget_Button_Pad_H" />
+        <ImageView android:id="@id/btn_mul_s" android:src="@drawable/btn_pad_mul" android:scaleType="5" style="@style/CalWidget_Button_Pad_H_Symbol_Last" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:textSize="@dimen/btn_pad_symbol" android:id="@id/btn_ln" android:text="@string/ln" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_1_s" android:text="@string/digit1" style="@style/CalWidget_Button_Pad_H" />
+        <Button android:id="@id/btn_2_s" android:text="@string/digit2" style="@style/CalWidget_Button_Pad_H" />
+        <Button android:id="@id/btn_3_s" android:text="@string/digit3" style="@style/CalWidget_Button_Pad_H" />
+        <ImageView android:id="@id/btn_minus_s" android:src="@drawable/btn_pad_minus" android:scaleType="5" style="@style/CalWidget_Button_Pad_H_Symbol_Last" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:textSize="@dimen/btn_pad_symbol" android:id="@id/btn_lg" android:text="@string/lg" style="@style/CalWidget_Button_Pad_H_Symbol" />
+        <Button android:id="@id/btn_0_s" android:text="@string/digit0" style="@style/CalWidget_Button_Pad_H" />
+        <Button android:id="@id/btn_dot_s" android:text="@string/dot" style="@style/CalWidget_Button_Pad_H" />
+        <ImageView android:id="@id/btn_equal_s" android:background="@drawable/btn_pad_equal_bg" android:src="@drawable/btn_pad_equal" android:scaleType="5" style="@style/CalWidget_Button_Pad_H" />
+        <ImageView android:id="@id/btn_plus_s" android:src="@drawable/btn_pad_plus" android:scaleType="5" style="@style/CalWidget_Button_Pad_H_Symbol_Last" />
+    </LinearLayout>
+</LinearLayout>

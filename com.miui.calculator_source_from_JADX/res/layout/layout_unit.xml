@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <View style="@style/CalWidget_Divider" />
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/lyt_unit" android:layout_width="-2" android:layout_height="-1">
+        <ImageView android:id="@id/img_unit_icon" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="@dimen/convert_unit_display" android:textColor="@color/convert_unit_display" android:id="@id/txv_unit_display" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:layout_gravity="10" android:background="@drawable/ic_down_arrow" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1.5dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/lyt_value" android:layout_width="-1" android:layout_height="-1">
+        <com.miui.calculator.common.widget.ScrollTextView android:textSize="@dimen/convert_value_size" android:textColor="@color/convert_unit_value" android:gravity="800005" android:id="@id/txv_value" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="@dimen/convert_unit_short_size" android:textColor="@color/convert_unit_short" android:layout_gravity="800005" android:id="@id/txv_unit_short" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</RelativeLayout>

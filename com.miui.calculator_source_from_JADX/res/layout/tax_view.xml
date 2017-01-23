@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/list_padding_vertical" android:layout_marginBottom="@dimen/list_padding_vertical">
+            <TextView android:textAppearance="@style/CalTextAppearance_Widget_List_Primary" android:layout_gravity="10" android:id="@id/tax_income_title" android:layout_width="-2" android:layout_height="-2" android:text="@string/tax_income_number" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_income_number" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+        <View android:id="@id/div_h" style="@style/CalWidget_Divider" />
+        <LinearLayout android:id="@id/lyt_last_salary" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/list_padding_vertical" android:layout_marginBottom="@dimen/list_padding_vertical">
+            <TextView android:textAppearance="@style/CalTextAppearance_Widget_List_Primary" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:text="@string/tax_last_salary_number" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/sni_last_salary_number" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/lyt_fixed" android:layout_width="-2" android:layout_height="-2">
+        <com.miui.calculator.common.widget.OptionItemView android:id="@id/oiv_city" android:layout_width="-1" android:layout_height="-2" />
+        <com.miui.calculator.common.widget.OptionItemView android:id="@id/oiv_threshold" android:layout_width="-1" android:layout_height="-2" />
+        <com.miui.calculator.tax.SiExtendableView android:id="@id/sev_si" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

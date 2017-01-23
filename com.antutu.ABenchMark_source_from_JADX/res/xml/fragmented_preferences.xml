@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/action_settings">
+        <ListPreference android:entries="@array/work_mode_titles" android:title="@string/work_mode" android:key="work_mode" android:summary="%s" android:defaultValue="root" android:positiveButtonText="@tnetstatuscode/EASY_REQ_STATE_OK" android:negativeButtonText="@tnetstatuscode/EASY_REQ_STATE_OK" android:entryValues="@array/work_mode_values" />
+        <CheckBoxPreference android:title="@string/background_service" android:key="background_service" android:summary="@string/background_service_info" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

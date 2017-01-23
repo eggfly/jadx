@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_sensors_light" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_sensors_gravity" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_sensors_accelerometer" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_sensors_gyroscope" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_sensors_magnetic" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_sensors_pressure" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</ScrollView>

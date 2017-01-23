@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/screen_item" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="100dp">
+    <Button android:layout_gravity="11" android:id="@id/icon" android:layout_width="60dp" android:layout_height="45dp" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_weight="3.0">
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:layout_centerVertical="true">
+            <TextView android:textSize="20sp" android:textColor="@color/white" android:id="@id/title" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:text="test1" />
+            <TextView android:textSize="15sp" android:textColor="@color/devinfo_txt_pre_color" android:id="@id/describe" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="test2" />
+        </LinearLayout>
+        <View android:background="@color/divide_line" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

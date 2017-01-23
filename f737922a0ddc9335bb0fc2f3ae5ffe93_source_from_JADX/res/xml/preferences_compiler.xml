@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="Run">
+        <com.aide.ui.preferences.PremiumCheckBoxPreference android:title="Run without user prompt" android:key="run_as_root" android:summary="Run the App directly without prompting the user on rooted devices." android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="SDK">
+        <EditTextPreference android:title="android.jar file" android:key="user_androidjar" android:summary="Specify the android.jar file to compile against." android:dialogTitle="Full path of android.jar file:" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Gradle">
+        <Preference android:title="Refresh Maven repository" android:key="refresh_maven_repository" android:summary="Refresh all downloaded Maven libraries." />
+        <com.aide.ui.preferences.PremiumEditTextPreference android:title="Local Maven repositories" android:key="user_m2repositories" android:summary="Specify local maven repositories to search for dependencies." android:dialogTitle="Full paths separetd by ; of local maven repositories (m2repository):" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Native code support">
+        <Preference android:title="Manage native code support" android:key="install_uninstall_ndksupport" android:summary="Install/Uninstall native code (C/C++) build support." />
+        <CheckBoxPreference android:title="Parallel build" android:key="native_build_parallel" android:summary="Build native code in parallel, faster on multi-core processors but needs more memory." android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="APK signing">
+        <CheckBoxPreference android:title="Custom keystore" android:key="use_user_keystore" android:summary="Use a custom keystore file for signing APKs during build." android:defaultValue="false" />
+        <EditTextPreference android:title="Keystore file" android:key="user_keystore" android:summary="Specify the keystore file used for signing APKs during build." android:dependency="use_user_keystore" android:dialogTitle="Full path of keystore file:" />
+        <Preference android:title="Create keystore file" android:key="generate_keystore" android:dependency="use_user_keystore" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Dexer">
+        <CheckBoxPreference android:title="Dexer optimizations" android:key="optimze_dex" android:summary="Enable dexer optimizations. This will make the Apps run faster but cause longer build times." android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

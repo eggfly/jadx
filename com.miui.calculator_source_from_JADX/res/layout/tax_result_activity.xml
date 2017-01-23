@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="200" android:fadingEdge="2000" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="@color/actionbar_bg" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:gravity="10" android:orientation="1" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="@dimen/tax_result_height">
+                <TextView android:textSize="@dimen/tax_result_primary_text_size" android:textColor="@color/item_high_light" android:id="@id/txv_real_get" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="13sp" android:textColor="@color/tax_result_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/tax_result_real_get" />
+            </LinearLayout>
+            <View style="@style/CalWidget_Divider" />
+            <LinearLayout android:gravity="10" android:orientation="1" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="@dimen/tax_result_height">
+                <TextView android:textSize="@dimen/tax_result_primary_text_size" android:textColor="@color/item_high_light_blue" android:id="@id/txv_income_tax" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="13sp" android:textColor="@color/tax_result_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/tax_individual_income_tax" />
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/CalWidget_Divider" />
+        <LinearLayout android:orientation="1" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+            <View style="@style/CalWidget_Divider" />
+            <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_income" android:layout_width="-1" android:layout_height="-2" />
+            <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_accumulation_fund" android:layout_width="-1" android:layout_height="-2" />
+            <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_medical" android:layout_width="-1" android:layout_height="-2" />
+            <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_endowment" android:layout_width="-1" android:layout_height="-2" />
+            <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_unemployment" android:layout_width="-1" android:layout_height="-2" />
+            <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_injuery" android:layout_width="-1" android:layout_height="-2" />
+            <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_birth" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/currency_update_time" android:textColor="@color/update_time_tax" android:id="@id/txv_cal_method" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" />
+    </LinearLayout>
+</ScrollView>

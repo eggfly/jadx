@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:id="0x1020000">
+        <shape>
+            <corners android:radius="5dp" />
+            <gradient android:startColor="#00000000" android:endColor="#00000000" android:angle="270.0" android:centerY="0.75" android:centerColor="#00000000" />
+        </shape>
+    </item>
+    <item android:id="0x102000d">
+        <clip>
+            <shape>
+                <corners android:radius="8dp" />
+                <gradient android:startColor="@color/light_red" android:endColor="@color/light_red" android:angle="270.0" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

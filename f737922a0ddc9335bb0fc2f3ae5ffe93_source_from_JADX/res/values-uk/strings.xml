@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_api_unavailable_text">Для роботи додатка %1$s потрібні один або декілька сервісів Google Play, які зараз недоступні. Зверніться по допомогу до розробника.</string>
+    <string name="common_google_play_services_enable_button">Увімкнути сервіси Google Play</string>
+    <string name="common_google_play_services_enable_text">Додаток %1$s не працюватиме, якщо не ввімкнути сервіси Google Play.</string>
+    <string name="common_google_play_services_enable_title">Увімкнути сервіси Google Play</string>
+    <string name="common_google_play_services_install_button">Установити сервіси Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Додаток %1$s не працюватиме без сервісів Google Play, яких немає на вашому телефоні.</string>
+    <string name="common_google_play_services_install_text_tablet">Додаток %1$s не працюватиме без сервісів Google Play, яких немає на вашому планшеті.</string>
+    <string name="common_google_play_services_install_title">Установити сервіси Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">Указаний обліковий запис не існує на цьому пристрої. Виберіть інший обліковий запис.</string>
+    <string name="common_google_play_services_invalid_account_title">Недійсний обліковий запис</string>
+    <string name="common_google_play_services_network_error_text">Щоб під’єднатися до сервісів Google Play, потрібен мобільний Інтернет.</string>
+    <string name="common_google_play_services_network_error_title">Помилка мережі</string>
+    <string name="common_google_play_services_notification_ticker">Помилка сервісів Google Play</string>
+    <string name="common_google_play_services_resolution_required_text">Виконайте дію, яку пропонує додаток %1$s.</string>
+    <string name="common_google_play_services_resolution_required_title">Сервіси Play пропонують виконати дію</string>
+    <string name="common_google_play_services_restricted_profile_text">З профілю, який має обмеження, не можна входити в облікові записи.</string>
+    <string name="common_google_play_services_restricted_profile_title">Профіль з обмеженнями</string>
+    <string name="common_google_play_services_sign_in_failed_text">Не вдалося ввійти в указаний обліковий запис. Виберіть інший.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Помилка під час входу</string>
+    <string name="common_google_play_services_unknown_issue">У додатка %1$s виникла проблема із сервісами Google Play. Якщо проблема не зникне, зверніться по допомогу до розробника.</string>
+    <string name="common_google_play_services_unsupported_text">Додаток %1$s працює завдяки сервісам Google Play, які не підтримуються на вашому пристрої. Зверніться по допомогу до виробника.</string>
+    <string name="common_google_play_services_unsupported_title">Сервіси Google Play</string>
+    <string name="common_google_play_services_update_button">Оновити</string>
+    <string name="common_google_play_services_update_text">Додаток %1$s не працюватиме, якщо не оновити сервіси Google Play.</string>
+    <string name="common_google_play_services_update_title">Оновіть сервіси Google Play</string>
+    <string name="common_google_play_services_updating_text">Додаток %1$s не працюватиме без сервісів Google Play, які зараз оновлюються.</string>
+    <string name="common_google_play_services_updating_title">Сервіси Google Play оновлюються</string>
+    <string name="common_google_play_services_wear_update_text">Потрібна нова версія сервісів Google Play. Вони невдовзі оновляться.</string>
+    <string name="common_open_on_phone">Відкрити на телефоні</string>
+    <string name="common_signin_button_text">Увійти</string>
+    <string name="common_signin_button_text_long">Увійти в облік. запис Google</string>
+</resources>

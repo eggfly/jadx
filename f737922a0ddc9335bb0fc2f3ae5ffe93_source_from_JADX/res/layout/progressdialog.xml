@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:padding="20dp" android:layout_width="-2" android:layout_height="-2">
+    <ProgressBar android:paddingRight="20dp" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@b/progressdialogLabel" android:layout_width="-2" android:layout_height="-2" android:layout_margin="3dp" android:minWidth="400dp" android:singleLine="true" />
+        <ProgressBar android:id="@b/progressdialogProgress" android:layout_width="-1" android:layout_margin="3dp" android:max="100" android:indeterminate="false" style="@g/BuildProgressBar" />
+    </LinearLayout>
+</LinearLayout>

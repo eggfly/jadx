@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:id="@id/layout_background" android:background="@color/round_corner_progress_bar_background_default" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/iv_progress_icon" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" android:adjustViewBounds="true" android:contentDescription="@tnetstatuscode/EASY_REQ_STATE_OK" />
+    <RelativeLayout android:id="@id/layout_progress_holder" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="0" android:id="@id/layout_secondary_progress" android:background="@color/round_corner_progress_bar_progress_default" android:layout_width="-1" android:layout_height="-1" />
+        <LinearLayout android:orientation="0" android:id="@id/layout_progress" android:background="@color/round_corner_progress_bar_secondary_progress_default" android:layout_width="-1" android:layout_height="-1" />
+    </RelativeLayout> />

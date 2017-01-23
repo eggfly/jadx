@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@color/layout_background" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textColor="@color/shallow_black_text" android:gravity="13" android:layout_gravity="13" android:id="@id/tv_key" android:layout_width="-2" android:layout_height="-2" android:text="key" android:singleLine="true" />
+    <View android:layout_width="0dp" android:layout_height="1px" android:layout_weight="1.0" />
+    <TextView android:textColor="@color/shallow_black_text" android:gravity="13" android:layout_gravity="13" android:id="@id/tv_value" android:layout_width="-2" android:layout_height="-2" android:minWidth="60dp" android:text="value" android:singleLine="true" />
+</LinearLayout>

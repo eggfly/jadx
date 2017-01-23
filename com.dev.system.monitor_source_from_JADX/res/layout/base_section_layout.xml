@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" style="@style/card_section_container">
+    <TextView android:id="@id/card_section_simple_title" style="@style/card_section_title" />
+</LinearLayout>

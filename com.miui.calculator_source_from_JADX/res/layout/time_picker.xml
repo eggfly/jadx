@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="1" android:orientation="0" android:id="@id/timePickerLayout" android:layout_width="-1" android:layout_height="-2">
+    <com.miui.support.widget.NumberPicker android:id="@id/hour" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="-2" android:layout_height="-2" android:text="@string/time_picker_label_hour" android:layout_weight="1.0" />
+    <com.miui.support.widget.NumberPicker android:id="@id/minute" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="-2" android:layout_height="-2" android:text="@string/time_picker_label_minute" android:layout_weight="1.0" />
+    <com.miui.support.widget.NumberPicker android:id="@id/amPm" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <rotate android:duration="500" android:fromDegrees="0.0" android:toDegrees="359.0" android:pivotX="50%" android:pivotY="50%" android:repeatCount="0" />
+</set>

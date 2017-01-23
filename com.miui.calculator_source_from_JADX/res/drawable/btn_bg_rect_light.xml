@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector miui:variablePadding="true">
+    <item miui:state_pressed="true" miui:drawable="@drawable/btn_bg_rect_pressed_light" />
+    <item miui:state_checked="true" miui:drawable="@drawable/btn_bg_rect_pressed_light" />
+    <item miui:drawable="@drawable/btn_bg_rect_normal_light" />
+</selector>

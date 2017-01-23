@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="@color/white" app:layout_width="-1" app:layout_height="-1">
+    <include app:id="@id/title_layout" layout="@layout/common_title_view" />
+    <com.antutu.benchmark.view.SettingTextAndToggle app:id="@id/stt_auto_update" app:layout_width="-1" app:layout_height="-2" app:stt_title="@string/auto_download_apk" app:subhead="@string/auto_download_on_wifi" />
+    <View app:background="@color/common_view_divider" app:layout_width="-1" app:layout_height="0.5dp" />
+    <com.antutu.benchmark.view.SettingTextAndToggle app:id="@id/stt_push_msg" app:layout_width="-1" app:layout_height="-2" app:stt_title="@string/setting_push_title" app:subhead="@string/setting_push_desc" />
+    <View app:background="@color/common_view_divider" app:layout_width="-1" app:layout_height="0.5dp" />
+</LinearLayout>

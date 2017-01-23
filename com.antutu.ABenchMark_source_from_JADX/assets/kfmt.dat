@@ -1,0 +1,15 @@
+antutu_public:1 xaid:string ver:string cn1:string cn2:string manufacturer:string brand:string model:string resolution:string capi:int osversion:string cl:string gpuser:bit net:string root:bit imei:string uptime2:int64 mcc:short mnc:short
+antutu_click_testtab:102 click:int
+antutu_tabshow:103 tab:int
+antutu_act:104 act:int
+antutu_install:105 install:int
+antutu_click_infotab:108 click:int name:string
+antutu_clickshow_infotab:109 click_show:int name:string
+antutu_gp_recorder:110 ads:int
+antutu_notibar_active:112 notibar:int temp:int temp_health:int cpu_use:int
+antutu_temp_heat:113 temp_now:int temp_health_now:int
+antutu_temp_main:114 temp_main:int app_select:int
+antutu_temp_finish:115 temp_finsh:int
+antutu_start:116 start:int
+antutu_push:117 push:int title:string source:string
+antutu_yanji_new:118 show_click:int

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.support.widget.SlidingButton android:layout_gravity="11" android:id="0x1020001" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />

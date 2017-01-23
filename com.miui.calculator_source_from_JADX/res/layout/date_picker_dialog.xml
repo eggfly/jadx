@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <com.miui.support.widget.DatePicker android:layout_gravity="1" android:id="@id/datePicker" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/date_picker_dialog_marginBottom" android:spinnersShown="true" android:calendarViewShown="false" />
+</FrameLayout>

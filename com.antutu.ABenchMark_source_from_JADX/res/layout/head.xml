@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@tnetstatuscode/EASY_REQ_STATE_OK" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:id="@id/head_contentLayout" android:paddingLeft="30dp" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="11" android:id="@id/head_arrowImageView" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/arrow_down_head" />
+            <ProgressBar android:layout_gravity="11" android:id="@id/head_progressBar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 1010079" />
+        </FrameLayout>
+        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true">
+            <TextView android:textSize="15dp" android:textColor="#b89766" android:id="@id/head_tipsTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/list_drag" />
+            <TextView android:textSize="12dp" android:textColor="#b89766" android:id="@id/head_lastUpdatedTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/list_last" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

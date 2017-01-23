@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:drawable="@drawable/abc_ic_clear_search_api_disabled_holo_light" />
+    <item android:drawable="@drawable/abc_ic_clear_search_api_holo_light" />
+</selector>

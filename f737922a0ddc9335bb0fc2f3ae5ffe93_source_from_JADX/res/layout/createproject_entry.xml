@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:paddingLeft="?unknown_attr_ref: 101004e" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="60dp">
+    <ImageView android:id="@b/projecttypeEntryImage" style="@g/SpinnerImage" />
+    <LinearLayout android:orientation="1" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@b/projecttypeEntryLabel" android:layout_width="-2" android:layout_height="-2" android:text=" " style="@g/DialogLabel" />
+        <TextView android:id="@b/projecttypeEntryDescription" android:paddingTop="4dp" android:layout_width="-2" android:layout_height="-2" android:text=" " style="@g/DialogLabelSmall" />
+    </LinearLayout>
+</LinearLayout>

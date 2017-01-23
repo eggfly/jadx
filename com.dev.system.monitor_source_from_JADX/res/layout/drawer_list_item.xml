@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_selector" android:layout_width="-1" android:layout_height="48dp">
+    <ImageView android:id="@id/icon" android:layout_width="25dp" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:src="@drawable/home" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/desc_list_item_icon" />
+    <TextView android:textAppearance="?unknown_attr_ref: 101039f" android:textColor="@color/list_item_title" android:gravity="10" android:id="@id/title" android:paddingRight="40dp" android:layout_width="-2" android:layout_height="-1" android:minHeight="?unknown_attr_ref: 1010387" android:layout_toRightOf="@id/icon" />
+    <TextView android:id="@id/counter" android:background="@drawable/counter_bg" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

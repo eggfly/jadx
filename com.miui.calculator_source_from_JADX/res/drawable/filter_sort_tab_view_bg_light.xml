@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item miui:state_pressed="false" miui:drawable="@drawable/filter_sort_tab_view_bg_first_normal_light" miui:state_first_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/filter_sort_tab_view_bg_first_pressed_light" miui:state_first_h="true" />
+    <item miui:drawable="@drawable/filter_sort_tab_view_bg_first_normal_light" miui:state_first_h="true" />
+    <item miui:state_pressed="false" miui:drawable="@drawable/filter_sort_tab_view_bg_middle_normal_light" miui:state_middle_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/filter_sort_tab_view_bg_middle_pressed_light" miui:state_middle_h="true" />
+    <item miui:drawable="@drawable/filter_sort_tab_view_bg_middle_normal_light" miui:state_middle_h="true" />
+    <item miui:state_pressed="false" miui:drawable="@drawable/filter_sort_tab_view_bg_last_normal_light" miui:state_last_h="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/filter_sort_tab_view_bg_last_pressed_light" miui:state_last_h="true" />
+    <item miui:drawable="@drawable/filter_sort_tab_view_bg_last_normal_light" miui:state_last_h="true" />
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="@id/ll_bg" android:background="@color/white" android:paddingTop="12dp" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+            <ImageView android:layout_width="4dp" android:layout_height="-1" android:layout_marginTop="3dp" android:layout_marginRight="2dp" android:layout_marginBottom="3dp" android:src="@drawable/title_icon" />
+            <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/light_red" android:gravity="10" android:layout_gravity="13" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/hot_news" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:gravity="15" android:layout_gravity="15" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="@string/all" />
+            <ImageView android:layout_gravity="10" android:id="@id/iv_arrow_right" android:layout_width="15dp" android:layout_height="15dp" android:src="@drawable/arrow_rignt" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp">
+            <com.antutu.benchmark.view.BaseViewPager android:layout_gravity="1" android:id="@id/viewPager" android:layout_width="-1" android:layout_height="187dp" />
+            <LinearLayout android:gravity="50" android:layout_gravity="50" android:orientation="1" android:background="@drawable/news_scroll_bg" android:layout_width="-1" android:layout_height="60dp">
+                <TextView android:textColor="@color/white" android:ellipsize="3" android:gravity="53" android:layout_gravity="53" android:id="@id/tv_title" android:layout_width="-1" android:layout_height="0dp" android:layout_margin="10dp" android:singleLine="true" android:layout_weight="1.0" style="@style/news_title" />
+                <LinearLayout android:gravity="1" android:layout_gravity="51" android:orientation="0" android:id="@id/layout_viewpager_indicator" android:layout_width="-2" android:layout_height="-2" android:layout_margin="2dp" /> />
+        </FrameLayout> /> />

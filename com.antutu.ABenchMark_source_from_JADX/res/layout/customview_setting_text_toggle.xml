@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="0" app:background="@color/white" app:layout_width="-1" app:layout_height="-1"
+    <LinearLayout app:orientation="0" app:id="@id/auto_check_update_layout" app:padding="10dp" app:layout_width="-1" app:layout_height="-2"
+        <LinearLayout app:gravity="10" app:layout_gravity="10" app:orientation="1" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0">
+            <TextView app:id="@id/tv_title" app:layout_width="-1" app:layout_height="-2" app:text="title" app:singleLine="true" style="@style/common_text_setting_title" />
+            <TextView app:id="@id/tv_subhead" app:layout_width="-2" app:layout_height="-2" app:text="content" app:singleLine="true" app:layout_below="@id/tv_title" style="@style/common_text_setting_entity" />
+        </LinearLayout>
+        <android.support.v7.widget.SwitchCompat app:layout_gravity="10" app:id="@id/ss_toggle" app:fadingEdge="1000" app:layout_width="-2" app:layout_height="25dp" app:layout_marginRight="10dp" />
+    </LinearLayout>
+</LinearLayout>

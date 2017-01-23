@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/white" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <ListView android:scrollbarStyle="2000000" android:id="@id/lv_exposurelist" android:background="@color/bg_home_list" android:scrollbars="200" android:layout_width="-1" android:layout_height="-1" android:divider="@color/news_list_divider" android:dividerHeight="0.5dp" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="?unknown_attr_ref: 7f010001" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:layout_width="-1" android:layout_height="@dimen/calculator_content_height"
+        <FrameLayout android:layout_gravity="50" android:layout_width="-1" android:layout_height="-1" android:layoutDirection="0" android:layout_marginStart="@dimen/cal_maring_left" android:layout_marginEnd="@dimen/cal_maring_right">
+            <com.miui.calculator.common.widget.ScrollTextView android:textSize="@dimen/cal_secondary" android:textColor="@color/cal_history" android:gravity="800005" android:layout_gravity="800005" android:id="@id/txv_history_out" android:layout_width="-2" android:layout_height="-2" />
+            <com.miui.calculator.common.widget.ScrollTextView android:textSize="@dimen/cal_secondary" android:textColor="@color/cal_history" android:gravity="800005" android:layout_gravity="800005" android:id="@id/txv_history" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+            <com.miui.calculator.common.widget.ScrollTextView android:textColor="@color/cal_equation" android:gravity="800005" android:layout_gravity="800005" android:id="@id/txv_equation" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+            <com.miui.calculator.cal.TypingTextView android:textColor="@color/cal_equation" android:id="@id/txv_equation_typing" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/cal_equation_margin_top" />
+            <com.miui.calculator.cal.ResultTextView android:gravity="800005" android:layout_gravity="800005" android:id="@id/txv_result" android:layout_width="-2" android:layout_height="-2" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.miui.calculator.common.widget.NumberPad android:id="@id/nbp_pad" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+</LinearLayout>

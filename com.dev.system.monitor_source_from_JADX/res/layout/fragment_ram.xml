@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="200dp" android:layout_marginTop="10dp">
+        <RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <com.faizmalkani.floatingactionbutton.Fab android:id="@id/fabbutton" android:layout_width="72dp" android:layout_height="72dp" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/graph_layout" android:layout_width="-1" android:layout_height="200dp">
+            <TextView android:textColor="@color/black" android:id="@id/textView3" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <com.echo.holographlibrary.PieGraph android:id="@id/graph" android:layout_width="-1" android:layout_height="200dp" android:layout_alignParentLeft="true" />
+            <ProgressBar android:layout_gravity="11" android:id="@id/progressBar" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:indeterminateOnly="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 101007a" />
+        </RelativeLayout>
+        <it.gmariotti.cardslib.library.view.CardView android:id="@id/card_ram" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="12dp" android:layout_marginTop="15dp" android:layout_marginRight="12dp" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</ScrollView>

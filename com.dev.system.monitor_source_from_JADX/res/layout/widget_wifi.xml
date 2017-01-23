@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/app_background" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textColor="@color/white" android:gravity="11" android:background="#318ce7" android:layout_width="-1" android:layout_height="20dp" android:text="WiFi" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textColor="@color/black" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="Download" />
+                <TextView android:textColor="@color/black" android:id="@id/widget_wifi_download" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="5" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textColor="@color/black" android:layout_gravity="5" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:text="Upload" />
+                <TextView android:textColor="@color/black" android:layout_gravity="5" android:id="@id/widget_wifi_upload" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:layout_gravity="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/widget_wifi_status" android:layout_width="46dp" android:layout_height="60dp" android:src="@drawable/wifi_off" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

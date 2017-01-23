@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.support.internal.widget.DialogParentPanel miui:orientation="1" miui:id="@id/parentPanel" miui:layout_width="-1" miui:layout_height="-2">
+    <FrameLayout miui:id="@id/topPanel" miui:layout_width="-1" miui:layout_height="-2">
+        <TextView miui:ellipsize="3" miui:layout_gravity="11" miui:id="@id/alertTitle" miui:paddingTop="@dimen/dialog_title_vertical_padding" miui:layout_width="-2" miui:layout_height="-2" miui:singleLine="true" miui:drawablePadding="@dimen/dialog_icon_drawable_padding" style="?unknown_attr_ref: 101005b" />
+    </FrameLayout>
+    <LinearLayout miui:orientation="1" miui:id="@id/contentPanel" miui:paddingTop="@dimen/dialog_message_vertical_padding" miui:layout_width="-1" miui:layout_height="-2" miui:layout_weight="1.0">
+        <ScrollView miui:id="@id/scrollView" miui:layout_width="-1" miui:layout_height="-2" miui:overScrollMode="1">
+            <TextView miui:id="@id/message" miui:layout_width="-1" miui:layout_height="-2" style="@style/TextAppearance_Medium_Dialog_Light" />
+        </ScrollView>
+    </LinearLayout>
+    <FrameLayout miui:id="@id/customPanel" miui:paddingTop="@dimen/dialog_custom_vertical_padding" miui:layout_width="-1" miui:layout_height="-2" miui:layout_weight="1.0"
+        <FrameLayout miui:id="0x102002b" miui:layout_width="-1" miui:layout_height="-2" /> />
+    <FrameLayout miui:id="@id/checkboxPanel" miui:paddingTop="@dimen/dialog_checkbox_vertical_padding" miui:paddingBottom="@dimen/dialog_checkbox_vertical_padding" miui:layout_width="-1" miui:layout_height="-2">
+        <CheckBox miui:id="0x1020001" miui:layout_width="-2" miui:layout_height="-2" miui:button="@android_graphics_drawable_drawable_class/LAYOUT_DIRECTION_LTR" miui:drawableStart="@drawable/btn_checkbox_dialog_light" style="@style/TextAppearance_Medium_Dialog_Light" />
+    </FrameLayout>
+    <LinearLayout miui:orientation="1" miui:id="@id/buttonPanel" miui:layout_width="-1" miui:layout_height="-2"
+        <LinearLayout miui:orientation="0" miui:id="@id/buttonGroup" miui:layout_width="-1" miui:layout_height="-2" miui:baselineAligned="false" miui:measureWithLargestChild="true" style="?unknown_attr_ref: 101032e">
+            <com.miui.support.internal.widget.GroupButton miui:gravity="11" miui:id="0x102001a" miui:layout_width="0dp" miui:layout_height="-2" miui:maxLines="2" miui:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+            <com.miui.support.internal.widget.GroupButton miui:gravity="11" miui:id="0x102001b" miui:layout_width="0dp" miui:layout_height="-2" miui:maxLines="2" miui:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+            <com.miui.support.internal.widget.GroupButton miui:gravity="11" miui:id="0x1020019" miui:layout_width="0dp" miui:layout_height="-2" miui:maxLines="2" miui:layout_weight="1.0" style="?unknown_attr_ref: 7f010035" />
+        </LinearLayout>
+    </LinearLayout>
+</com.miui.support.internal.widget.DialogParentPanel>

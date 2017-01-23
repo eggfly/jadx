@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="2dp" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="@b/errorbrowserEntryFile" android:paddingLeft="20dp" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@b/errorbrowserEntryFileImage" style="@g/BrowserImage" />
+        <TextView android:id="@b/errorbrowserEntryFileName" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text=" " style="@g/BrowserLabelLarge" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@b/errorbrowserEntryError" android:paddingLeft="40dp" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@b/errorbrowserEntryImage" style="@g/BrowserImage" />
+            <TextView android:id="@b/errorbrowserEntryMessage" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text=" " style="@g/BrowserLabelSmall" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

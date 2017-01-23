@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" class="android.support.v7.internal.widget.ScrollingTabContainerView$TabView" style="?attr/actionBarTabStyle" />

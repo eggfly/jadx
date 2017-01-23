@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:id="@b/logcatMenuPause" android:title="@f/command_logcat_pause" />
+    <item android:id="@b/logcatMenuResume" android:title="@f/command_logcat_resume" />
+    <item android:id="@b/logcatMenuFilterCurrent" android:title="@f/command_logcat_filter_current_app" />
+    <item android:id="@b/logcatMenuFilterByPrio" android:title="@f/command_logcat_filter_by_priority" />
+    <item android:id="@b/logcatMenuFilterByProcess" android:title="@f/command_logcat_filter_by_process" />
+    <item android:id="@b/logcatMenuFilterByTag" android:title="@f/command_logcat_filter_by_tag" />
+    <item android:id="@b/logcatMenuClearFilter" android:title="@f/command_logcat_clear_filter" />
+    <item android:id="@b/logcatMenuClear" android:title="@f/command_logcat_clear" />
+</menu>

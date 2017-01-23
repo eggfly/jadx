@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="1" android:useLevel="false">
+    <solid android:color="@color/news_tag" />
+    <padding android:left="2dp" android:top="1dp" android:right="20dp" android:bottom="1dp" />
+    <solid android:color="@color/news_tag" />
+    <size android:height="14dp" android:width="14dp" />
+</shape>

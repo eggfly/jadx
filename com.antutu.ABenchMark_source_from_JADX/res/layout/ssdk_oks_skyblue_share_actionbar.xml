@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00a4df" android:layout_width="-1" android:layout_height="48dp">
+    <ImageView android:id="@id/backImageView" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="5dp" android:src="@drawable/ssdk_oks_skyblue_actionbar_back_btn" android:scaleType="5" />
+    <TextView android:textSize="18sp" android:textStyle="1" android:textColor="#ffffff" android:layout_width="-2" android:layout_height="-2" android:text="@string/ssdk_oks_share" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/okImageView" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="5dp" android:src="@drawable/ssdk_oks_skyblue_actionbar_ok_btn" android:scaleType="5" android:layout_alignParentRight="true" />
+</RelativeLayout>

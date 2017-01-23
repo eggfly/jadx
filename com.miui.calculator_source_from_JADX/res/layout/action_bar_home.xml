@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:background="?unknown_attr_ref: 101039c" android:layout_width="-2" android:layout_height="-1" class="com.miui.support.internal.widget.ActionBarView$HomeView">
+    <ImageView android:layout_gravity="800013" android:id="@id/up" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="?unknown_attr_ref: 101030b" />
+    <ImageView android:layout_gravity="11" android:id="@id/home" android:layout_width="-2" android:layout_height="-2" android:scaleType="3" android:adjustViewBounds="true" />
+</view>

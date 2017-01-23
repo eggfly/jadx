@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/about_layout" android:background="@color/white" android:longClickable="true" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <ImageView android:id="@id/tag_icon" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:src="@drawable/about_logo" android:layout_below="@id/title_layout" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/antutu_label_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:layout_below="@id/tag_icon" android:layout_centerHorizontal="true" style="@style/about_label_text" />
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="30dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+        <LinearLayout android:gravity="11" android:layout_gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="40dp">
+            <TextView android:textSize="16sp" android:textColor="@color/shallow_gray_text" android:gravity="11" android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="@string/update_version" android:layout_marginEnd="5dp" />
+            <TextView android:textSize="16sp" android:textColor="@color/light_red" android:gravity="11" android:layout_gravity="11" android:id="@id/tv_check_update" android:layout_width="-2" android:layout_height="-2" android:text="@string/check_update" />
+        </LinearLayout>
+        <TextView android:textSize="14sp" android:textColor="@color/light_red" android:gravity="1" android:layout_gravity="1" android:id="@id/tv_termsofservice" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="@string/abenckmark_rules" />
+        <TextView android:textSize="14sp" android:textColor="@color/shallow_gray_text" android:gravity="1" android:autoLink="f" android:layout_gravity="1" android:id="@id/tv_official_website" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="@string/abenckmark_websize" />
+        <TextView android:textSize="14sp" android:textColor="@color/shallow_gray_text" android:gravity="1" android:autoLink="f" android:layout_gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="@string/contact_info" />
+        <TextView android:textSize="12sp" android:textColor="@color/shallow_gray_text" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="@string/about_copyright" />
+    </LinearLayout>
+</RelativeLayout>

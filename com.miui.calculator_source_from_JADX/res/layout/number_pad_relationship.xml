@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/lyt_relationship" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:id="@id/btn_husband" android:text="@string/chinese_character_husband" style="@style/CalWidget_Button_Pad_R" />
+        <Button android:id="@id/btn_wife" android:text="@string/chinese_character_wife" style="@style/CalWidget_Button_Pad_R" />
+        <ImageView android:id="@id/btn_del_relationship" android:src="@drawable/btn_pad_del" android:scaleType="5" style="@style/CalWidget_Button_Pad_R" />
+        <ImageView android:id="@id/btn_c_relationship" android:src="@drawable/btn_pad_ac" android:scaleType="5" style="@style/CalWidget_Button_Pad_R" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:id="@id/btn_father" android:text="@string/chinese_character_father" style="@style/CalWidget_Button_Pad_R" />
+        <Button android:id="@id/btn_mother" android:text="@string/chinese_character_mother" style="@style/CalWidget_Button_Pad_R" />
+        <Button android:id="@id/btn_elder_brother" android:text="@string/chinese_character_elder_brother" style="@style/CalWidget_Button_Pad_R" />
+        <Button android:id="@id/btn_younger_brother" android:text="@string/chinese_character_younger_brother" style="@style/CalWidget_Button_Pad_R" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:id="@id/btn_elder_sister" android:text="@string/chinese_character_elder_sister" style="@style/CalWidget_Button_Pad_R" />
+        <Button android:id="@id/btn_younger_sister" android:text="@string/chinese_character_younger_sister" style="@style/CalWidget_Button_Pad_R" />
+        <Button android:id="@id/btn_son" android:text="@string/chinese_character_son" style="@style/CalWidget_Button_Pad_R" />
+        <Button android:id="@id/btn_daughter" android:text="@string/chinese_character_daughter" style="@style/CalWidget_Button_Pad_R" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <Button android:enabled="false" android:id="@id/relationship_btn_cross_check" android:text="@string/chinese_character_cross_check" style="@style/CalWidget_Button_Pad_R_Last" />
+        <ImageView android:id="@id/btn_equal_relationship" android:background="@drawable/btn_pad_equal_bg" android:src="@drawable/btn_pad_equal" android:scaleType="5" style="@style/CalWidget_Button_Pad_H" />
+    </LinearLayout>
+</LinearLayout>

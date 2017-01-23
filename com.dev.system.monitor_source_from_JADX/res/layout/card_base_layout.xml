@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <View android:id="@id/card_main_content_layout" android:layout_width="-2" android:layout_height="@dimen/card_base_empty_height" style="@style/card_main_layout" />
+    <it.gmariotti.cardslib.library.view.component.CardShadowView android:id="@id/card_shadow_layout" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

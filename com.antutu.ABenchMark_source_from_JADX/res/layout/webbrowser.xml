@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="@id/main_content" app:background="@color/layout_background" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:background="@color/title_bar" app:padding="10dp" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:id="@id/menu_back_img" app:layout_width="@dimen/title_left_icon_width" app:layout_height="@dimen/title_left_icon_width" app:src="@drawable/main_title_icon_back" app:scaleType="6" app:layout_centerVertical="true" />
+        <TextView app:id="@id/share" app:background="@drawable/share" app:visibility="2" app:layout_width="@dimen/title_left_icon_width" app:layout_height="@dimen/title_left_icon_width" app:scaleType="7" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        <TextView app:textColor="@color/white" app:gravity="10" app:id="@id/app_title" app:paddingLeft="5dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="8dp" app:layout_marginBottom="10dp" app:singleLine="true" app:layout_toLeftOf="@id/share" app:layout_toRightOf="@id/menu_back_img" app:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout app:layout_width="-1" app:layout_height="-1">
+        <com.antutu.benchmark.view.CustomWebView app:id="@id/webView" app:layout_width="-1" app:layout_height="-1" />
+        <ProgressBar app:id="@id/progressWeb" app:visibility="2" app:layout_width="-1" app:layout_height="3dp" app:progressDrawable="@drawable/progress_web" style="?unknown_attr_ref: 1010078" />
+    </RelativeLayout>
+</LinearLayout>

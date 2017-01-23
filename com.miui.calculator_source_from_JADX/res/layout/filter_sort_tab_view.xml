@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:textAppearance="@style/TextAppearance_Widget_FilterSortTabView" android:id="0x1020014" android:layout_width="-2" android:layout_height="-2" />
+    <ImageView android:id="@id/arrow" android:background="@drawable/arrow_filter_sort_tab_view_light" android:layout_width="-2" android:layout_height="-2" />
+</merge>

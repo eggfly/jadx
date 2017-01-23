@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance_Widget_List_Secondary" android:layout_gravity="800003" android:id="@id/rate_data_provider" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/list_padding_vertical" android:text="@string/rate_data_provider" />

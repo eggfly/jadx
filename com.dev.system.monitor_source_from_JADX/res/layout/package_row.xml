@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:id="@id/back" android:tag="back" style="@style/ListBackContent">
+        <Button android:id="@id/example_row_b_action_1" android:layout_width="-2" android:layout_height="-2" android:text="Close" style="@style/ListButtonAction" />
+        <Button android:id="@id/example_row_b_action_2" android:layout_width="-2" android:layout_height="-2" android:text="Settings" style="@style/ListButtonAction" />
+        <Button android:id="@id/example_row_b_action_3" android:layout_width="-2" android:layout_height="-2" android:text="Uninstall" style="@style/ListButtonAction" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="1" android:id="@id/front" android:tag="front" style="@style/ListFrontContent">
+        <ImageView android:id="@id/example_row_iv_image" style="@style/ListImage" />
+        <TextView android:textSize="15dp" android:id="@id/example_row_tv_title" android:layout_width="90dp" android:layout_height="-2" android:layout_toRightOf="@id/example_row_iv_image" style="@style/ListTitle" />
+        <TextView android:textSize="12dp" android:id="@id/example_row_tv_description" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/example_row_iv_image" android:layout_below="@id/example_row_tv_title" style="@style/ListDescription" />
+        <TextView android:textSize="14dp" android:textColor="@color/black" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="85dp" android:layout_toRightOf="@id/example_row_tv_title" android:layout_alignBaseline="@id/example_row_tv_title" android:layout_alignBottom="@id/example_row_tv_title" />
+    </RelativeLayout>
+</FrameLayout>

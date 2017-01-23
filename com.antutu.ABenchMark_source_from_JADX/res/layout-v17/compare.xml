@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/compare_layout" android:background="@color/layout_background" android:longClickable="true" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <LinearLayout android:orientation="1" android:id="@id/ll_compare_content" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:layout_width="-1" android:layout_height="100dp" android:layout_marginLeft="7dp" android:layout_marginTop="7dp" android:layout_marginRight="7dp">
+            <ImageView android:id="@id/pic_vs" android:background="@drawable/vs" android:layout_width="76dp" android:layout_height="76dp" android:scaleType="5" android:layout_centerInParent="true" />
+            <TextView android:textSize="16sp" android:textStyle="1" android:textColor="@color/text_big" android:layout_gravity="11" android:id="@id/l_name" android:layout_width="105dp" android:layout_height="-2" android:text="@string/my_device" android:layout_toLeftOf="@id/pic_vs" android:layout_centerVertical="true" android:layout_toStartOf="@id/pic_vs" />
+            <TextView android:textSize="14sp" android:textColor="@color/text_big" android:layout_gravity="11" android:id="@id/l_brand" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="@string/my_device" android:drawableLeft="@drawable/icon_phone" android:drawablePadding="5dp" android:layout_alignLeft="@id/l_name" android:layout_centerHorizontal="true" android:drawableStart="@drawable/icon_phone" android:layout_alignStart="@id/l_name" />
+            <TextView android:textSize="16sp" android:textStyle="1" android:textColor="@color/text_big" android:gravity="5" android:id="@id/r_name" android:layout_width="105dp" android:layout_height="-2" android:singleLine="false" android:layout_toRightOf="@id/pic_vs" android:layout_centerVertical="true" android:layout_toEndOf="@id/pic_vs" />
+            <TextView android:textSize="14sp" android:textColor="@color/text_big" android:gravity="5" android:id="@id/r_brand" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:singleLine="false" android:drawableLeft="@drawable/icon_phone" android:drawablePadding="5dp" android:layout_alignRight="@id/r_name" android:layout_centerHorizontal="true" android:drawableStart="@drawable/icon_phone" android:layout_alignEnd="@id/r_name" />
+        </RelativeLayout>
+        <View android:background="#252627" android:layout_width="-1" android:layout_height="1dp" />
+        <ListView android:id="@id/CompareList" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp" android:cacheColorHint="@color/white" android:divider="#252627" android:dividerHeight="1px" />
+    </LinearLayout>
+</LinearLayout>

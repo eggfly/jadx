@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/cleaning_bg" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@id/ll_cleaning_bg" android:layout_width="-2" android:layout_height="-2">
+        <FrameLayout android:layout_width="-2" android:layout_height="-2">
+            <com.antutu.redacc.view.CircleCleanView android:layout_gravity="11" android:id="@id/progress" android:layout_width="130dp" android:layout_height="130dp" />
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/white" android:layout_gravity="11" android:id="@id/tv_apps_count" android:layout_width="-2" android:layout_height="-2" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/white" android:gravity="11" android:layout_gravity="1" android:id="@id/tips_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="18dp" android:text="@string/acceleratoring_phone" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="50" android:orientation="1" android:id="@id/cleaning_finish_view" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="64dp">
+        <Button android:textSize="@dimen/text_size_big" android:textColor="@color/text_0495d9" android:layout_gravity="11" android:id="@id/cleaning_finish_btn" android:background="@color/white" android:layout_width="200dp" android:layout_height="56dp" android:text="@string/finish" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <com.miui.support.widget.NumberPicker android:id="@id/day" style="@style/Widget_DateTimePicker" />
+    <com.miui.support.widget.NumberPicker android:id="@id/hour" android:text="@string/time_picker_label_hour" style="@style/Widget_DateTimePicker" />
+    <com.miui.support.widget.NumberPicker android:id="@id/minute" android:text="@string/time_picker_label_minute" style="@style/Widget_DateTimePicker" />
+</LinearLayout>

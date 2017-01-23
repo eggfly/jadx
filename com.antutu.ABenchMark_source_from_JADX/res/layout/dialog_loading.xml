@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:layout_gravity="11" app:orientation="1" app:background="@drawable/red_packet_calc_bg" app:padding="18dp" app:layout_width="-2" app:layout_height="-2">
+    <com.gc.materialdesign.views.ProgressBarCircularIndeterminateSingle app:id="@id/progressBarCircularIndetermininate" app:background="@color/colorPrimary_day" app:layout_width="40dp" app:layout_height="40dp" app:layout_marginBottom="15dp" app:layout_centerInParent="true" />
+    <TextView app:textSize="16sp" app:textColor="@color/white" app:gravity="1" app:layout_gravity="1" app:id="@id/tv_text" app:layout_width="80dp" app:layout_height="-2" app:text="@string/loading_dialog" />
+</LinearLayout>

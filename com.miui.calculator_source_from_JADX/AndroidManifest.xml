@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="105" android:versionName="10.0.5" package="com.miui.calculator" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.xiaomi.market.sdk.UPDATE" />
+    <application android:label="@string/app_name" android:icon="@drawable/app_icon" android:name="com.miui.calculator.CalculatorApplication" android:supportsRtl="true">
+        <meta-data android:name="mi_stat_channel" android:value="xiaomi" />
+        <activity android:theme="@style/Calculator_Theme_Dark" android:label="@string/app_name" android:name="com.miui.calculator.cal.CalculatorActivity" android:launchMode="singleTop" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_CALCULATOR" />
+                <category android:name="com.miui.support.intent.category.SYSAPP_TOOL" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Calculator_Theme_Light_Normal" android:label="@string/app_name" android:name="com.miui.calculator.cal.NormalCalculatorActivity" android:exported="true" android:screenOrientation="portrait" android:windowSoftInputMode="3" />
+        <activity android:theme="@style/Calculator_Theme_Light_Normal" android:label="@string/app_name" android:name="com.miui.calculator.cal.AllInOneCalculatorActivity" android:exported="true" android:screenOrientation="portrait" android:windowSoftInputMode="3" />
+        <activity android:theme="@style/Calculator_Theme_Light_Base" android:label="@string/item_title_mortgage" android:name="com.miui.calculator.mortgage.MortgageActivity" android:exported="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light" android:label="@string/mortgage_result" android:name="com.miui.calculator.mortgage.MortgageResultActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light" android:label="@string/mortgage_details" android:name="com.miui.calculator.mortgage.MortgageDetailActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light_Base" android:label="@string/tax_individual_income_tax" android:name="com.miui.calculator.tax.TaxActivity" android:exported="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light" android:label="@string/tax_individual_income_tax_result" android:name="com.miui.calculator.tax.TaxResultActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light" android:label="@string/tax_city_picker" android:name="com.miui.calculator.tax.CityPickerActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light" android:label="@string/tax_city_picker" android:name="com.miui.calculator.tax.TaxCalMethodActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light_Base" android:label="@string/wf_word_figure" android:name="com.miui.calculator.wordfigure.WordFigureActivity" android:exported="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light_Base" android:label="@string/convertion_unit" android:name="com.miui.calculator.convert.ConvertActivity" android:exported="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light_Base" android:label="@string/convert_currency" android:name="com.miui.calculator.convert.CurrencyActivity" android:exported="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light_Normal" android:label="" android:name="com.miui.calculator.relationship.RelationshipActivity" android:exported="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Calculator_Theme_Light" android:name="com.miui.calculator.cal.CalSettingsActivity" android:screenOrientation="portrait" />
+        <receiver android:name="com.xiaomi.market.sdk.DownloadCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="your_package_name.selfupdate.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

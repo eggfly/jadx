@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="?unknown_attr_ref: 7f010001" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="800055" android:orientation="1" android:layout_width="-1" android:layout_height="@dimen/cal_content_height" android:paddingStart="@dimen/relationship_input_padding_right" android:paddingEnd="@dimen/relationship_input_padding_right">
+        <TextView android:textSize="@dimen/cal_primary_min" android:textColor="@color/cal_result" android:gravity="800005" android:id="@id/text_view_input" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="@dimen/relationship_result_font_size" android:gravity="800005" android:id="@id/text_view_result" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/relationship_result_margin_top" android:layout_marginBottom="@dimen/relationship_result_margin_bottom" />
+    </LinearLayout>
+    <com.miui.calculator.common.widget.NumberPad android:id="@id/nbp_pad" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

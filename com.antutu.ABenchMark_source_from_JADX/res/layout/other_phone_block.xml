@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView card_view:layout_gravity="11" card_view:id="@id/card_view" card_view:layout_width="0dp" card_view:layout_height="-2" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardBackgroundColor="@color/white" card_view:cardCornerRadius="@dimen/normal_radius" card_view:cardElevation="5dp">
+    <com.antutu.benchmark.view.MaterialRippleLayout card_view:layout_gravity="11" card_view:id="@id/mr_bg" card_view:layout_width="-1" card_view:layout_height="@dimen/other_comment_textview_height">
+        <TextView card_view:textColor="@color/deep_black_text" card_view:gravity="11" card_view:id="@id/textView" card_view:background="@color/transparent" card_view:layout_width="-1" card_view:layout_height="-1" card_view:singleLine="true" />
+    </com.antutu.benchmark.view.MaterialRippleLayout>
+</android.support.v7.widget.CardView>

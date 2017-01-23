@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:layout_gravity="10" android:layout_width="-1" android:layout_height="-1">
+    <Button android:id="0x1020019" android:layout_width="-2" android:layout_height="-2" android:text="0x1040000" style="?unknown_attr_ref: 7f01002d" />
+    <FrameLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+        <TextView android:ellipsize="3" android:gravity="11" android:layout_gravity="11" android:id="0x1020016" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@style/TextAppearance_Widget_ActionMode_Title" />
+    </FrameLayout>
+    <Button android:id="0x102001a" android:layout_width="-2" android:layout_height="-2" android:text="0x104000a" style="?unknown_attr_ref: 7f01002e" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="64dp" android:minHeight="64dp">
+    <ImageView android:id="@id/icon_img_view" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginLeft="16dp" android:layout_marginTop="15dp" />
+    <TextView android:textSize="16sp" android:textColor="@color/clean_item_name" android:id="@id/label_text_view" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:singleLine="true" android:layout_toRightOf="@id/icon_img_view" android:layout_alignTop="@id/icon_img_view" />
+    <TextView android:textSize="12sp" android:textColor="@color/clean_item_size" android:id="@id/size_text_view" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:singleLine="true" android:layout_toRightOf="@id/icon_img_view" android:layout_below="@id/label_text_view" />
+    <ImageView android:id="@id/clean_complete_icon" android:visibility="2" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="16dp" android:src="@drawable/clean_done_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

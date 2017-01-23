@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" style="@g/TrainerBoxOuter"
+        <LinearLayout android:orientation="1" android:id="@b/trainerlistentryBox" android:padding="10dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" style="@g/TrainerBoxInner">
+            <TextView android:textColor="#ffffff" android:id="@b/trainerlistentryTitleView" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textColor="#ffffff" android:id="@b/trainerlistentryTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" />
+            <TextView android:textColor="#ffffff" android:id="@b/trainerlistentryRatingTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="35" android:id="@b/trainerlistentryNewImage" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="2dp" android:src="@drawable/badge_new" style="@g/TrainerBoxImage" />
+</FrameLayout>

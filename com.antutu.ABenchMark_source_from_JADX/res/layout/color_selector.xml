@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout materialdesign:id="@id/rootSelector" materialdesign:background="#55000000" materialdesign:padding="40dp" materialdesign:layout_width="-1" materialdesign:layout_height="-1">
+    <LinearLayout materialdesign:orientation="1" materialdesign:id="@id/contentSelector" materialdesign:background="@drawable/dialog_background" materialdesign:layout_width="-1" materialdesign:layout_height="-2" materialdesign:layout_centerInParent="true">
+        <View materialdesign:id="@id/viewColor" materialdesign:layout_width="-1" materialdesign:layout_height="10dp" />
+        <LinearLayout materialdesign:orientation="1" materialdesign:background="#fff" materialdesign:padding="16dp" materialdesign:layout_width="-1" materialdesign:layout_height="-2"
+            <LinearLayout materialdesign:gravity="10" materialdesign:orientation="0" materialdesign:layout_width="-1" materialdesign:layout_height="-2">
+                <TextView materialdesign:textSize="17sp" materialdesign:textColor="#4d4d4d" materialdesign:layout_width="-2" materialdesign:layout_height="-2" materialdesign:layout_marginRight="8dp" materialdesign:text="R" />
+                <com.gc.materialdesign.views.Slider materialdesign:id="@id/red" materialdesign:background="#4d4d4d" materialdesign:layout_width="-1" materialdesign:layout_height="-2" materialdesign:showNumberIndicator="true" materialdesign:c_max="255" materialdesign:c_min="0" />
+            </LinearLayout>
+            <LinearLayout materialdesign:gravity="10" materialdesign:orientation="0" materialdesign:layout_width="-1" materialdesign:layout_height="-2" materialdesign:layout_marginTop="16dp">
+                <TextView materialdesign:textSize="17sp" materialdesign:textColor="#4d4d4d" materialdesign:layout_width="-2" materialdesign:layout_height="-2" materialdesign:layout_marginRight="8dp" materialdesign:text="G" />
+                <com.gc.materialdesign.views.Slider materialdesign:id="@id/green" materialdesign:background="#4d4d4d" materialdesign:layout_width="-1" materialdesign:layout_height="-2" materialdesign:showNumberIndicator="true" materialdesign:c_max="255" materialdesign:c_min="0" />
+            </LinearLayout>
+            <LinearLayout materialdesign:gravity="10" materialdesign:orientation="0" materialdesign:layout_width="-1" materialdesign:layout_height="-2" materialdesign:layout_marginTop="16dp">
+                <TextView materialdesign:textSize="17sp" materialdesign:textColor="#4d4d4d" materialdesign:layout_width="-2" materialdesign:layout_height="-2" materialdesign:layout_marginRight="8dp" materialdesign:text="B" />
+                <com.gc.materialdesign.views.Slider materialdesign:id="@id/blue" materialdesign:background="#4d4d4d" materialdesign:layout_width="-1" materialdesign:layout_height="-2" materialdesign:showNumberIndicator="true" materialdesign:c_max="255" materialdesign:c_min="0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

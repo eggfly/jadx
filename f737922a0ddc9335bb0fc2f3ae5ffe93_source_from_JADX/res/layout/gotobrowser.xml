@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aide.ui.views.ActivityGotoLayout android:id="@b/gotobrowserBackground" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="5dp" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <EditText android:id="@b/gotobrowserSearchBox" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" style="@g/GotoEditText">
+                <requestFocus />
+            </EditText>
+            <Switch android:id="@b/gotobrowserSwitch" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:textOn="All" android:textOff="My" />
+        </LinearLayout>
+        <LinearLayout android:gravity="1" android:orientation="0" android:padding="1dp" android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:gravity="11" android:layout_width="-1" android:layout_height="-2" style="@g/GotoListWindow">
+                <ListView android:id="@b/gotobrowserSymbolList" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" style="@g/BrowserListView" />
+                <TextView android:gravity="11" android:id="@b/gotobrowserMessage" android:padding="20dp" android:layout_width="-1" android:layout_height="-2" android:text=" " style="@g/BrowserLabelLarge" />
+                <ProgressBar android:id="@b/gotobrowserProgress" android:padding="20dp" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" style="@g/BrowserProgress" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.aide.ui.views.ActivityGotoLayout>

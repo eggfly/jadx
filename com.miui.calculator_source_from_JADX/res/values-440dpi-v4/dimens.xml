@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_preferred_item_height">59.629974dip</dimen>
+    <dimen name="list_preferred_item_height_large">68.0dip</dimen>
+    <dimen name="list_preferred_item_height_small">49.5dip</dimen>
+    <dimen name="normal_text_size">15.0sp</dimen>
+    <dimen name="secondary_text_size">11.599976sp</dimen>
+    <dimen name="button_text_size">14.0sp</dimen>
+    <dimen name="small_text_size">10.0sp</dimen>
+    <dimen name="action_bar_default_height">45.799988dip</dimen>
+    <dimen name="preference_item_padding_inner">14.5dip</dimen>
+    <dimen name="split_action_bar_default_height">61.099976dip</dimen>
+    <dimen name="action_bar_large_height">60.0dip</dimen>
+    <dimen name="filter_sort_tab_view_image_margin">7.279999dip</dimen>
+    <dimen name="filter_sort_tab_view_text_size">10.899994sp</dimen>
+    <dimen name="message_view_close_margin_right">9.819977dip</dimen>
+    <dimen name="message_view_text_margin_left">26.179993dip</dimen>
+    <dimen name="message_view_text_margin_right">21.819977dip</dimen>
+    <dimen name="message_view_text_size">13.089996sp</dimen>
+</resources>

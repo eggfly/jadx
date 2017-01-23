@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="3" android:orientation="0" android:background="@drawable/trainer_course" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="3" android:orientation="0" android:id="@b/trainerCourseListEntryLayout" android:background="?unknown_attr_ref: 101030e" android:paddingTop="5dp" android:paddingBottom="5dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@b/trainerCourseListEntryLogo" android:padding="5dp" android:layout_width="-2" android:layout_height="?unknown_attr_ref: 10102eb" android:layout_marginLeft="10dp" android:scaleType="7" />
+    </LinearLayout>
+</LinearLayout>

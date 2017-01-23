@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@color/device_info_left_name" android:id="@id/core_txt" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/core_detail" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <Button android:textSize="12sp" android:textColor="@color/device_info_right_data" android:id="@id/btn_core_detail" android:layout_width="90dp" android:layout_height="29dp" android:layout_marginRight="10dp" android:text="@string/More" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/btn_text" />
+</RelativeLayout>

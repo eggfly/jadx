@@ -1,0 +1,4 @@
+package groovyjarjarantlr;
+
+interface ToolErrorHandler {
+}

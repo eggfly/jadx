@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="80dp" android:minWidth="280dp" android:layout_centerHorizontal="true"
+        <LinearLayout android:layout_gravity="1" android:orientation="0" android:id="@id/progressView" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp">
+            <ProgressBar android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/progress_bg" android:indeterminateBehavior="1" />
+            <TextView android:textSize="16sp" android:textColor="@color/title_text" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="@string/optimizing" android:layout_marginStart="5dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="1" android:orientation="0" android:id="@id/finishView" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_ok_big" />
+            <TextView android:textSize="18sp" android:textColor="@color/title_text" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="@string/optimize_ok" android:layout_marginStart="5dp" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="1" android:id="@id/appIcon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="15dp" android:src="@drawable/ic_notify" android:scaleType="3" />
+        <TextView android:textColor="@color/title_text" android:layout_gravity="1" android:id="@id/appName" android:layout_width="-2" android:layout_height="-2" android:layout_margin="3dp" android:text="@string/app_name" />
+    </LinearLayout>
+</RelativeLayout>

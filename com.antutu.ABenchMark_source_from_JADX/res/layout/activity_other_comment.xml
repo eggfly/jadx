@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:id="@id/no_content" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/deep_black_text" android:gravity="11" android:layout_gravity="11" android:id="@id/tv_device" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_gray_text" android:gravity="11" android:layout_gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/no_comment" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:id="@id/no_net" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:gravity="11" android:layout_gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="@string/no_net_comment_tips" />
+            <Button android:textSize="@dimen/text_size_little" android:textColor="@color/device_info_right_data" android:gravity="11" android:layout_gravity="11" android:id="@id/btn_refresh" android:background="@drawable/btn_common_selector" android:layout_width="90dp" android:layout_height="29dp" android:layout_marginTop="5dp" android:text="@string/refresh" />
+        </LinearLayout>
+        <com.antutu.benchmark.view.CustomSwipeRefreshLayout android:id="@id/sr_refresh" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="8dp" android:layout_marginRight="8dp">
+            <ListView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbarStyle="2000000" android:id="@id/list" android:scrollbars="200" android:layout_width="-1" android:layout_height="-1" android:divider="@color/pinglun_divide_line" android:dividerHeight="0dp" />
+        </com.antutu.benchmark.view.CustomSwipeRefreshLayout>
+    </FrameLayout>
+</LinearLayout>

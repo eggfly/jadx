@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.support.internal.widget.ArrowPopupView android:gravity="11" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010032">
+    <com.miui.support.internal.widget.ArrowPopupContentWrapper android:gravity="11" android:orientation="1" android:id="@id/content_wrapper" android:layout_width="-2" android:layout_height="-2">
+        <LinearLayout android:gravity="11" android:id="@id/title_layout" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <Button android:id="0x1020019" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@style/Widget_Button_EditDialog" />
+            <TextView android:ellipsize="3" android:gravity="11" android:id="0x1020016" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/Widget_DialogTitle" />
+            <Button android:id="0x102001a" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@style/Widget_Button_EditDialog_Default" />
+        </LinearLayout>
+        <FrameLayout android:gravity="11" android:layout_gravity="11" android:id="0x1020002" android:layout_width="-2" android:layout_height="-2" />
+    </com.miui.support.internal.widget.ArrowPopupContentWrapper>
+    <ImageView android:id="@id/popup_arrow" android:layout_width="-2" android:layout_height="-2" android:scaleType="3" />
+</com.miui.support.internal.widget.ArrowPopupView>

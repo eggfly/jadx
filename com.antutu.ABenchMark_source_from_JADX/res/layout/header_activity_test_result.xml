@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout card_view:orientation="1" card_view:background="@color/commen_light_bg" card_view:layout_width="-1" card_view:layout_height="-1">
+    <android.support.v7.widget.CardView card_view:background="@color/white" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_margin="8dp" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardBackgroundColor="@color/white" card_view:cardCornerRadius="@dimen/normal_radius">
+        <com.antutu.benchmark.view.MaterialRippleLayout card_view:id="@id/ll_bg" card_view:layout_width="-1" card_view:layout_height="-1">
+            <LinearLayout card_view:gravity="11" card_view:layout_gravity="1" card_view:orientation="1" card_view:layout_width="-1" card_view:layout_height="-2"
+                <LinearLayout card_view:layout_gravity="1" card_view:orientation="0" card_view:padding="12dp" card_view:layout_width="-1" card_view:layout_height="-2">
+                    <TextView card_view:textSize="@dimen/text_size_small" card_view:textColor="@color/green_text" card_view:gravity="51" card_view:layout_gravity="51" card_view:id="@id/tv_device_name" card_view:layout_width="-1" card_view:layout_height="-2" />
+                </LinearLayout>
+                <LinearLayout card_view:gravity="1" card_view:layout_gravity="1" card_view:orientation="0" card_view:layout_width="-1" card_view:layout_height="-2">
+                    <TextView card_view:textSize="50dp" card_view:textColor="@color/green_text" card_view:gravity="50" card_view:layout_gravity="50" card_view:id="@id/tv_score" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_marginLeft="3dp" />
+                    <TextView card_view:textSize="@dimen/text_size_little" card_view:textColor="@color/green_text" card_view:gravity="50" card_view:layout_gravity="50" card_view:id="@id/tv_score_tail" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_marginLeft="7dp" card_view:text="@string/score" />
+                </LinearLayout>
+                <LinearLayout card_view:orientation="0" card_view:padding="12dp" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginTop="4dp">
+                    <View card_view:layout_width="0dp" card_view:layout_height="1px" card_view:layout_weight="1.0" />
+                    <TextView card_view:textSize="@dimen/text_size_small" card_view:textColor="@color/shallow_black_text" card_view:gravity="15" card_view:layout_gravity="15" card_view:layout_width="-2" card_view:layout_height="-2" card_view:text="@string/detail_text" />
+                    <ImageView card_view:gravity="15" card_view:layout_gravity="15" card_view:id="@id/arrow" card_view:layout_width="-2" card_view:layout_height="-2" card_view:layout_marginLeft="3dp" card_view:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.antutu.benchmark.view.MaterialRippleLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

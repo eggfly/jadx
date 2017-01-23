@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/test_layout" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/start_test_layout" android:background="@color/top_test_bg" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.5">
+        <TextView android:id="@id/start_test_region" android:background="@drawable/btn_test_selector" android:focusable="true" android:nextFocusLeft="@id/start_test_region" android:nextFocusRight="@id/start_test_region" android:nextFocusUp="@id/start_test_region" android:nextFocusDown="@id/test_html5" android:layout_width="250dp" android:layout_height="250dp" android:layout_marginTop="23dp" android:layout_centerInParent="true">
+            <requestFocus />
+        </TextView>
+        <TextView android:id="@id/start_test_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="123dp" android:text="@string/start_str" android:layout_centerInParent="true" style="@style/start_test_text" />
+        <CheckBox android:gravity="10" android:id="@id/check_mem_optimization" android:background="@drawable/empty" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:button="@tnetstatuscode/EASY_REQ_STATE_OK" android:text="@string/Testing_optimize_mem" android:drawableLeft="@drawable/btn_optimize_mem_check" android:drawablePadding="7dp" android:layout_alignBottom="@id/start_test_region" android:layout_centerHorizontal="true" style="@style/mem_optimization_checkbox" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/bottom_test_layout1" android:background="@color/bottom_test_bg" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.5">
+        <RelativeLayout android:gravity="10" android:id="@id/test_html5" android:focusable="true" android:nextFocusLeft="@id/test_html5" android:nextFocusRight="@id/test_stability" android:nextFocusUp="@id/start_test_region" android:nextFocusDown="@id/test_battery" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:id="@id/html5_test_img" android:background="@drawable/btn_html5" android:duplicateParentState="true" android:layout_width="@dimen/custom_test_bottom_item_width" android:layout_height="@dimen/custom_test_bottom_item_width" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/stability_test_text" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="13dp" android:text="@string/html5_test" android:layout_below="@id/html5_test_img" android:layout_centerHorizontal="true" style="@style/test_item_text" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="10" android:id="@id/test_stability" android:focusable="true" android:nextFocusLeft="@id/test_html5" android:nextFocusRight="@id/test_stability" android:nextFocusUp="@id/start_test_region" android:nextFocusDown="@id/test_video" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:id="@id/test_stability_img" android:background="@drawable/bottom_stability_test_selector" android:duplicateParentState="true" android:layout_width="@dimen/custom_test_bottom_item_width" android:layout_height="@dimen/custom_test_bottom_item_width" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/test_stability_text" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="13dp" android:text="@string/stability_test" android:layout_below="@id/test_stability_img" android:layout_centerHorizontal="true" style="@style/test_item_text" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/bottom_test_layout2" android:background="@color/bottom_test_bg" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.5">
+        <RelativeLayout android:gravity="10" android:id="@id/test_battery" android:focusable="true" android:nextFocusLeft="@id/test_battery" android:nextFocusRight="@id/test_video" android:nextFocusUp="@id/test_html5" android:nextFocusDown="@id/test_battery" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:id="@id/test_battery_img" android:background="@drawable/btn_battery_selector" android:duplicateParentState="true" android:layout_width="@dimen/custom_test_bottom_item_width" android:layout_height="@dimen/custom_test_bottom_item_width" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/test_battery_text" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="13dp" android:text="@string/battery_test" android:layout_below="@id/test_battery_img" android:layout_centerHorizontal="true" style="@style/test_item_text" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="10" android:id="@id/test_video" android:focusable="true" android:nextFocusLeft="@id/test_battery" android:nextFocusRight="@id/test_video" android:nextFocusUp="@id/test_stability" android:nextFocusDown="@id/test_video" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:id="@id/video_test_img" android:background="@drawable/btn_video_selector" android:duplicateParentState="true" android:layout_width="@dimen/custom_test_bottom_item_width" android:layout_height="@dimen/custom_test_bottom_item_width" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/video_test_text" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="13dp" android:text="@string/video_test" android:layout_below="@id/video_test_img" android:layout_centerHorizontal="true" style="@style/test_item_text" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

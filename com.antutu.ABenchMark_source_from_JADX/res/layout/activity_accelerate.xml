@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_f7" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/layout_header" layout="@layout/layout_accelerate_header" />
+    <LinearLayout android:orientation="0" android:id="@id/layout_title" android:background="@color/bg_boost_header_cold" android:layout_width="-1" android:layout_height="50dp">
+        <ImageView android:layout_gravity="10" android:id="@id/iv_back" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/back" android:scaleType="5" />
+        <TextView android:textSize="20sp" android:textColor="0x106000b" android:gravity="10" android:layout_width="0dp" android:layout_height="50dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="@string/app_name" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="10" android:id="@id/iv_setting" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_setting" android:scaleType="5" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/rv_apps" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="60dp" android:layout_below="@id/layout_header" />
+    <RelativeLayout android:background="@drawable/button_bg" android:layout_width="-1" android:layout_height="70dp" android:layout_alignParentBottom="true">
+        <Button android:textSize="18sp" android:textColor="@color/white" android:gravity="11" android:id="@id/tv_accelerator_now" android:background="@color/text_tran_99" android:clickable="false" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:text="@string/accelerate2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

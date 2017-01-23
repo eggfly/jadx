@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="10" android:orientation="1" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="@dimen/tax_result_height" android:paddingStart="23dp"
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="30sp" android:textColor="@color/item_high_light" android:id="@id/txv_repayment_monthly" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="13sp" android:textColor="@color/item_high_light_secondary" android:layout_width="-2" android:layout_height="-2" android:text="@string/unit_yuan" android:layout_marginStart="2dp" />
+        </LinearLayout>
+        <TextView android:textSize="13sp" android:textColor="@color/tax_result_text" android:id="@id/txv_repayment_monthly_tip" android:layout_width="-2" android:layout_height="-2" android:text="@string/mortgage_average_repayment_monthly" />
+    </LinearLayout>
+    <View style="@style/CalWidget_Divider" />
+    <LinearLayout android:orientation="1" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+        <View style="@style/CalWidget_Divider" />
+        <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_interest" android:layout_width="-1" android:layout_height="-2" />
+        <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_repayment_amount" android:layout_width="-1" android:layout_height="-2" />
+        <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_loans_amount" android:layout_width="-1" android:layout_height="-2" />
+        <com.miui.calculator.common.widget.ResultItemView android:id="@id/riv_years_amount" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:background="@color/item_bg" android:layout_width="-1" android:layout_height="-2">
+        <View style="@style/CalWidget_Divider" />
+        <com.miui.calculator.common.widget.OptionItemView android:id="@id/miv_details" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

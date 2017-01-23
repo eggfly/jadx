@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item miui:state_pressed="true" miui:drawable="@drawable/list_small_item_single_bg_pressed_light" miui:state_single_h="true" miui:state_single_v="true" />
+    <item miui:drawable="@drawable/list_small_item_single_bg_normal_light" miui:state_single_h="true" miui:state_single_v="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/list_small_item_first_bg_pressed_light" miui:state_single_h="true" miui:state_first_v="true" />
+    <item miui:drawable="@drawable/list_small_item_first_bg_normal_light" miui:state_single_h="true" miui:state_first_v="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/list_small_item_middle_bg_pressed_light" miui:state_single_h="true" miui:state_middle_v="true" />
+    <item miui:drawable="@drawable/list_small_item_middle_bg_normal_light" miui:state_single_h="true" miui:state_middle_v="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/list_small_item_last_bg_pressed_light" miui:state_single_h="true" miui:state_last_v="true" />
+    <item miui:drawable="@drawable/list_small_item_last_bg_normal_light" miui:state_single_h="true" miui:state_last_v="true" />
+    <item miui:state_pressed="true" miui:drawable="@drawable/list_small_item_single_bg_pressed_light" />
+    <item miui:drawable="@drawable/list_small_item_single_bg_normal_light" />
+</selector>

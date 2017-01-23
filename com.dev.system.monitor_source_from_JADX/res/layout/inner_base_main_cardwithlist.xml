@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout card:orientation="1" card:layout_width="-1" card:layout_height="-2" card:layout_marginLeft="@dimen/card_base_cardwithlist_layout_leftmargin" card:layout_marginRight="@dimen/card_base_cardwithlist_layout_rightmargin">
+    <it.gmariotti.cardslib.library.prototypes.LinearListView card:id="@id/card_inner_base_main_cardwithlist" card:card_list_item_dividerHeight="@dimen/card_base_cardwithlist_dividerHeight" style="@style/cardwithlist" />
+    <ViewStub card:layout_gravity="11" card:id="@id/card_inner_base_empty_cardwithlist" card:layout_width="-2" card:layout_height="-2" />
+    <ViewStub card:layout_gravity="11" card:id="@id/card_inner_base_progressbar_cardwithlist" card:visibility="2" card:layout_width="-2" card:layout_height="-2" />
+</LinearLayout>

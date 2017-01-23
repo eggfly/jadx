@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_selected="true" android:drawable="@drawable/custom_tab_menu_on" />
+    <item android:state_selected="false" android:drawable="@drawable/custom_tab_menu" />
+</selector>

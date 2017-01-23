@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:padding="4dp" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@b/completionEntryImage" style="@g/BrowserImageSmall" />
+    <TextView android:id="@b/completionEntryName" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:text=" " android:layout_weight="1.0" style="@g/BrowserLabelSmall" />
+    <ImageView android:id="@b/completionHelpButton" android:src="@drawable/info" style="@g/BrowserHelpButton" />
+</LinearLayout>

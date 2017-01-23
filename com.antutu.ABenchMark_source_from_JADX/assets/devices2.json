@@ -1,0 +1,7 @@
+[
+  {"model":"*", "brand":"*", "gpuVendor":"VIVANTE", "gpuRender":"GC7000UL", "glVersion":"OpenGL ES 3"},
+  {"model":"*", "brand":"*", "gpuVendor":"VIVANTE", "gpuRender":"GC7000L", "glVersion":"OpenGL ES 3"},
+  {"model":"*", "brand":"*", "gpuVendor":"VIVANTE", "gpuRender":"GC4000", "glVersion":"OpenGL ES 3"},
+  {"model":"*", "brand":"*", "gpuVendor":"VIVANTE", "gpuRender":"GC2000", "glVersion":"OpenGL ES 3"},
+  {"model":"*", "brand":"*", "gpuVendor":"VIVANTE", "gpuRender":"PXA1928", "glVersion":"OpenGL ES 3"}
+]

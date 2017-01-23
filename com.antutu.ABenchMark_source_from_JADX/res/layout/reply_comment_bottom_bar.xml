@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:layout_gravity="50" android:orientation="1" android:id="@id/ll_add_comment" android:background="#ffdddbdb" android:paddingLeft="13dp" android:paddingTop="8dp" android:paddingRight="13dp" android:paddingBottom="3dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="75dp"
+        <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/shallow_gray_text" android:id="@id/reply_title" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+            <EditText android:enabled="true" android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:state_focused="true" android:state_enabled="true" android:gravity="10" android:layout_gravity="10" android:id="@id/et_comment_text" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/input" android:maxLines="4" android:maxEms="100" android:layout_weight="1.0">
+                <requestFocus />
+            </EditText>
+            <Button android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:gravity="11" android:layout_gravity="10" android:id="@id/send_btn" android:background="@drawable/send" android:layout_width="30dp" android:layout_height="25dp" android:layout_marginLeft="6dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

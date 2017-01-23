@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:enabled="false" android:orientation="0" android:background="?attr/actionBarItemBackground" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:layout_gravity="13" android:id="@id/up" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="?attr/homeAsUpIndicator" />
+    <LinearLayout android:layout_gravity="13" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:ellipsize="3" android:id="@id/action_bar_title" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+        <TextView android:ellipsize="3" android:id="@id/action_bar_subtitle" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/abc_action_bar_subtitle_top_margin" android:layout_marginBottom="@dimen/abc_action_bar_subtitle_bottom_margin" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

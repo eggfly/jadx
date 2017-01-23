@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape>
+    <solid android:color="#ffcfcfcf" />
+    <corners android:radius="5dp" />
+    <size android:width="3dp" />
+</shape>

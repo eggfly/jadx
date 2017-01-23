@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="?unknown_attr_ref: 7f010123" android:id="@b/commitMenuCommit" android:title="Commit…" android:showAsAction="6" />
+    <item android:icon="?unknown_attr_ref: 7f010127" android:id="@b/commitMenuDiscard" android:title="Discard…" android:showAsAction="6" />
+</menu>

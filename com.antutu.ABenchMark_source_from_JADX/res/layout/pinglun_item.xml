@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pinglun_bg" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="0" android:id="@id/line1" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="30" android:id="@id/headicon" android:background="@drawable/pic_9" android:layout_width="45dp" android:layout_height="45dp" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp"
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:ellipsize="3" android:gravity="13" android:layout_gravity="13" android:id="@id/name" android:layout_width="0dp" android:layout_height="-2" android:text="测试用昵称" android:singleLine="true" android:layout_weight="1.0" style="@style/comments_pinglun_item" />
+                <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/comment_item_color" android:gravity="51" android:layout_gravity="15" android:id="@id/tv_reply_icon" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:text="@string/reply" android:drawableLeft="@drawable/comment_count" android:drawablePadding="3dp" />
+                <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/comment_item_color" android:gravity="51" android:layout_gravity="15" android:id="@id/tv_love" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" android:drawableLeft="@drawable/heart" android:drawablePadding="3dp" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_little" android:gravity="3" android:layout_gravity="3" android:id="@id/time" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="今天 18:18" style="@style/comments_pinglun_item" />
+            <LinearLayout android:orientation="1" android:id="@id/ll_reply_root" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/black" android:id="@id/pinglun_content" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="测试 测试" />
+                <LinearLayout android:orientation="0" android:id="@id/start_ll" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+                    <TextView android:textSize="@dimen/text_size_small" android:gravity="13" android:layout_gravity="13" android:id="@id/star" android:layout_width="-2" android:layout_height="-2" android:text="@string/star_level" style="@style/comments_pinglun_item" />
+                    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="0" android:id="@id/luobo_container" android:layout_width="-2" android:layout_height="-2" /> /> />
+            <LinearLayout android:orientation="1" android:id="@id/ll_reply" android:background="@color/white" android:padding="10dp" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="13dp">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/black" android:id="@id/tv_reply" android:layout_width="-2" android:layout_height="-2" android:text="测试 测试" />
+                <LinearLayout android:orientation="0" android:id="@id/start_ll_child" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+                    <TextView android:textSize="@dimen/text_size_small" android:gravity="13" android:layout_gravity="13" android:layout_width="-2" android:layout_height="-2" android:text="@string/star_level" style="@style/comments_pinglun_item" />
+                    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="0" android:id="@id/luobo_container_child" android:layout_width="-2" android:layout_height="-2" /> /> /> /> />
+    <View android:background="@color/pinglun_divide_line" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

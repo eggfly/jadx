@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/search_suggestion_selector" android:layout_width="-1" android:layout_height="41dp" android:minHeight="41dp">
+    <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@id/search_suggestion_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="12dp" android:singleLine="true" />
+</LinearLayout>

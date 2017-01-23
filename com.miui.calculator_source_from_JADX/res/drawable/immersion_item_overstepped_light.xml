@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item miui:state_enabled="true" miui:state_pressed="true" miui:drawable="@drawable/immersion_item_overstepped_pressed_light" miui:state_first_v="true" />
+    <item miui:state_enabled="true" miui:state_pressed="true" miui:drawable="@drawable/immersion_item_overstepped_pressed_light" miui:state_middle_v="true" />
+    <item miui:drawable="@drawable/immersion_item_overstepped_normal_light" />
+</selector>

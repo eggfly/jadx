@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:layout_gravity="11" android:id="@id/rl_bg" android:background="@color/suggest_apps_bg" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@id/fl_image" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="11" android:id="@id/iv_image" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/test_suggest_apps" />
+        <ImageView android:layout_gravity="55" android:id="@id/iv_checked_image" android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/choosed" />
+    </FrameLayout>
+    <TextView android:textColor="@color/shallow_gray_text" android:id="@id/tv_bottom_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/fl_image" android:layout_centerHorizontal="true" />
+</RelativeLayout>

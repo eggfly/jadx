@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@b/commitFrame" android:background="?unknown_attr_ref: 7f010118" android:layout_width="-1" android:layout_height="-1">
+    <com.aide.ui.views.SplitView android:id="@b/commitSplitView" android:layout_width="-1" android:layout_height="-1">
+        <FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <com.aide.ui.views.CodeEditTextScrollView android:id="@b/commitDifferencesScrollView" android:focusable="false" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                    <HorizontalScrollView android:scrollbars="0" android:fadingEdge="0" android:layout_width="-2" android:layout_height="-2">
+                        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2"
+                            <LinearLayout android:layout_width="-1" android:layout_height="-2" style="@g/BrowserHeaderBackgroundOuter"
+                                <LinearLayout android:gravity="10" android:orientation="0" android:padding="3dp" android:layout_width="-1" android:layout_height="-2" style="@g/BrowserHeaderBackgroundInner">
+                                    <ImageView android:id="@b/commitHeaderFileIcon" android:paddingRight="5dp" android:src="@drawable/file_type_unknown" style="@g/BrowserHeaderImage" />
+                                    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                                        <TextView android:id="@b/commitHeaderFileName" android:paddingBottom="1dp" android:layout_width="-1" android:layout_height="-2" android:text="/" style="@g/BrowserHeaderLabel" />
+                                        <TextView android:ellipsize="1" android:id="@b/commitHeaderDirectoryName" android:layout_width="-1" android:layout_height="-2" android:text="/" android:singleLine="true" style="@g/BrowserHeaderLabelSmallGray" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <com.aide.ui.scm.DiffView android:id="@b/commitDiffView" android:background="#00000000" android:focusable="false" android:layout_width="-2" android:layout_height="-2" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </com.aide.ui.views.CodeEditTextScrollView>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:background="0x7f080010" android:paddingTop="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-2" />
+        <com.aide.ui.views.CustomKeysListView android:id="@b/modifiedFilesList" android:focusable="true" android:layout_width="-1" android:layout_height="-1" style="@g/BrowserListView" />
+    </com.aide.ui.views.SplitView>
+</FrameLayout>

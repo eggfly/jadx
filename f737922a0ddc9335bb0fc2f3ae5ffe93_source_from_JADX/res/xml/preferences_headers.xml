@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers>
+    <header android:title="Application" android:summary="Configure global application settings." android:fragment="com.aide.ui.preferences.ApplicationPreferencesFragment" />
+    <header android:title="Editor" android:summary="Configure the editor." android:fragment="com.aide.ui.preferences.EditorPreferencesFragment" />
+    <header android:title="Code Style" android:summary="Configure the code style." android:fragment="com.aide.ui.preferences.CodestylePreferencesFragment" />
+    <header android:title="Build & Run" android:summary="Configure build and execution settings." android:fragment="com.aide.ui.preferences.CompilerPreferencesFragment" />
+    <header android:title="Dropbox" android:summary="Configure Dropbox settings." android:fragment="com.aide.ui.preferences.DropboxPreferencesFragment" />
+    <header android:title="Git Source Control" android:summary="Configure Git Source Control settings." android:fragment="com.aide.ui.preferences.SourceControlPreferencesFragment" />
+    <header android:title="Keybindings" android:summary="Configure keybindings." android:fragment="com.aide.ui.preferences.KeyBindingsPreferencesFragment" />
+</preference-headers>

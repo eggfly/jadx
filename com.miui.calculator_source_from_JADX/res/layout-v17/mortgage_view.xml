@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/item_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="@dimen/list_padding_horizontal" android:layout_marginEnd="@dimen/list_padding_horizontal"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/list_padding_vertical">
+            <com.miui.calculator.mortgage.MortgageInputView android:id="@id/miv_total_1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="@dimen/list_padding_vertical" android:layout_weight="1.0" />
+            <com.miui.calculator.mortgage.MortgageInputView android:id="@id/miv_total_2" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="@dimen/list_padding_vertical" android:layout_weight="1.0" android:layout_marginStart="14dp" />
+        </LinearLayout>
+        <View style="@style/CalWidget_Divider" />
+    </LinearLayout>
+    <com.miui.calculator.common.widget.OptionItemView android:id="@id/miv_repayment" android:layout_width="-1" android:layout_height="-2" />
+    <com.miui.calculator.common.widget.OptionItemView android:id="@id/miv_mortgage_years" android:layout_width="-1" android:layout_height="-2" />
+    <com.miui.calculator.common.widget.OptionItemView android:id="@id/miv_start_time" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="@dimen/list_padding_horizontal" android:layout_marginEnd="@dimen/list_padding_horizontal">
+        <com.miui.calculator.mortgage.MortgageInputView android:id="@id/miv_rate_1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/list_padding_vertical" />
+        <com.miui.calculator.mortgage.MortgageInputView android:id="@id/miv_rate_2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14dp" />
+    </LinearLayout>
+    <include layout="@layout/txv_mortgage_rate_data_provider" />
+</LinearLayout>

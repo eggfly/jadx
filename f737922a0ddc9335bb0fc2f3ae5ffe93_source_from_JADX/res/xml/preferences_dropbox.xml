@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <CheckBoxPreference android:title="Auto-sync" android:key="auto_sync_dropbox" android:summary="Automatically sync with your Dropbox when opening files or projects." android:defaultValue="true" />
+</PreferenceScreen>

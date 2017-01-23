@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="@dimen/news_padding" android:layout_width="-1" android:layout_height="-2">
+    <android.support.v7.widget.CardView card_view:layout_gravity="11" card_view:id="@id/card_view" card_view:layout_width="-1" card_view:layout_height="-1" card_view:layout_margin="@dimen/card_margin" card_view:foreground="?unknown_attr_ref: 101030e" card_view:cardBackgroundColor="@color/white" card_view:cardCornerRadius="@dimen/normal_radius">
+        <com.antutu.benchmark.view.MaterialRippleLayout card_view:id="@id/ll_bg" card_view:padding="@dimen/news_padding" card_view:layout_width="-1" card_view:layout_height="-1">
+            <LinearLayout card_view:layout_gravity="11" card_view:orientation="1" card_view:layout_width="-2" card_view:layout_height="-2">
+                <TextView card_view:gravity="10" card_view:layout_gravity="10" card_view:id="@id/tv_title" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginBottom="14dp" card_view:singleLine="true" style="@style/news_title" />
+                <ImageView card_view:layout_gravity="11" card_view:id="@id/iv_img" card_view:layout_width="340dp" card_view:layout_height="187dp" card_view:scaleType="3" card_view:adjustViewBounds="true" />
+                <LinearLayout card_view:gravity="10" card_view:orientation="0" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginTop="8dp"
+                    <LinearLayout card_view:gravity="53" card_view:layout_gravity="50" card_view:layout_width="0dp" card_view:layout_height="-2" card_view:layout_weight="1.0">
+                        <ImageView card_view:layout_gravity="50" card_view:layout_width="-2" card_view:layout_height="-2" card_view:src="@drawable/comment_count" />
+                        <TextView card_view:gravity="53" card_view:layout_gravity="53" card_view:id="@id/tv_comment_count" card_view:layout_width="0dp" card_view:layout_height="-2" card_view:layout_marginLeft="3dp" card_view:layout_weight="1.0" style="@style/news_subtitle" />
+                    </LinearLayout>
+                    <LinearLayout card_view:gravity="33" card_view:layout_gravity="30" card_view:layout_width="0dp" card_view:layout_height="-2" card_view:layout_weight="1.0">
+                        <TextView card_view:gravity="33" card_view:layout_gravity="50" card_view:id="@id/tv_love" card_view:layout_width="-2" card_view:layout_height="-2" card_view:drawableLeft="@drawable/heart" card_view:drawablePadding="3dp" style="@style/news_subtitle" />
+                    </LinearLayout>
+                    <TextView card_view:gravity="35" card_view:layout_gravity="10" card_view:id="@id/tv_date" card_view:layout_width="0dp" card_view:layout_height="-2" card_view:layout_weight="1.0" style="@style/news_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.antutu.benchmark.view.MaterialRippleLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

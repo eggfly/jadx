@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:id="@b/editorMenuOpenKeyboard" android:title="@f/command_edit" />
+    <item android:id="@b/editorMenuFix" android:title="@f/command_fix">
+        <menu>
+            <item android:id="@b/editorMenuFix0" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix1" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix2" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix3" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix4" android:title="@f/command_fix" />
+            <item android:id="@b/editorMenuFix5" android:title="@f/command_fix" />
+        </menu> />
+    <item android:id="@b/editorMenuPreview" android:title="@f/command_design" />
+</menu>

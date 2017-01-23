@@ -1,0 +1,10 @@
+New: Support for Multi-Window Mode for Android 7 (Nougat) and above
+New: Updated Google repository and Android Support Libraries to latest version
+
+Older changes
+Improved: Updated Android Support Libraries
+Fixed: Problems with Iterator class
+New: Support for Android 7.1
+Improved: Updated Android support repository and Google repository to latest version
+Fixed: Problems with vector drawables on pre-Lollipop devices
+New: Support for Google Firebase libraries

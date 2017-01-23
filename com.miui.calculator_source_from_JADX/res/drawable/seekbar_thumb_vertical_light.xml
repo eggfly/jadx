@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:drawable="@drawable/seekbar_thumb_vertical_disabled_light" />
+    <item android:state_pressed="true" android:drawable="@drawable/seekbar_thumb_vertical_pressed_light" />
+    <item android:state_selected="true" android:drawable="@drawable/seekbar_thumb_vertical_focused_light" />
+    <item android:drawable="@drawable/seekbar_thumb_vertical_normal_light" />
+</selector>

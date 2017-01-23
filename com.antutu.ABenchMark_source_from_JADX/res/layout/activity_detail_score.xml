@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <ExpandableListView android:id="@id/elv_detail_score" android:background="@color/bg_home_list" android:layout_width="-1" android:layout_height="-1" android:childDivider="@color/bg_home_list" android:divider="@color/gray_divider" android:dividerHeight="1dp" />
+</LinearLayout>

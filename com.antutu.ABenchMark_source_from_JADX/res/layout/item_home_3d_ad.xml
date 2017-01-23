@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/transparent" android:padding="@dimen/home_translate_padding" android:layout_width="-1" android:layout_height="@dimen/home_item_height">
+    <FrameLayout android:background="@color/white" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@id/ll_loading" android:background="@color/white" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <com.gc.materialdesign.views.ProgressBarCircularIndeterminateSingle android:layout_gravity="11" android:id="@id/progress" android:layout_width="50dp" android:layout_height="50dp" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/loading_3d_game" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@id/ll_no_content" android:background="@color/white" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/shallow_gray_text" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/no_content_3d_ad" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="@id/ll_content" android:background="@color/white" android:padding="12dp" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/deep_black_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/game_3d_title" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_gray_text" android:layout_gravity="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="@string/game_3d_subtitle" android:singleLine="true" />
+            <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="10" android:id="@id/iv_ad_img" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="3" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/deep_black_text" android:gravity="13" android:layout_gravity="10" android:id="@id/tv_ad_name" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:id="@id/btn_ad_download" android:background="@color/light_red" android:layout_width="-2" android:layout_height="30dp" android:text="@string/download" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

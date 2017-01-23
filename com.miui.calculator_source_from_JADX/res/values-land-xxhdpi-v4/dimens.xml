@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_fun_size">24.0dip</dimen>
+    <dimen name="button_normal_size">19.0dip</dimen>
+    <dimen name="display_text_size">42.0dip</dimen>
+    <dimen name="display_history_margin_result">0.0dip</dimen>
+    <dimen name="history_display_off_set">12.0dip</dimen>
+    <dimen name="history_text_size">22.0dip</dimen>
+    <dimen name="screen_display_margin_bottom">22.0dip</dimen>
+    <dimen name="screen_text_margin_border">26.0dip</dimen>
+    <dimen name="button_scien_fun_size">16.0dip</dimen>
+    <dimen name="screen_top_history_margin_top">25.0dip</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mortgage_summary_years">
+        <item quantity="other">%1$d років (%2$d місяців)</item>
+        <item quantity="one">%1$d на рік (%2$d на місяць)</item>
+        <item quantity="few">%1$d роки (%2$d місяці)</item>
+    </plurals>
+</resources>

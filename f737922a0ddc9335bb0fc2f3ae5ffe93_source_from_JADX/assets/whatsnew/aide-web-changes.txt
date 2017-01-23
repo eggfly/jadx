@@ -1,0 +1,12 @@
+New: Support for Multi-Window Mode for Android 7 (Nougat) and above
+
+Older changes
+Fixed: Rerunning JavaScript console programs
+Fixed: Code completion
+Improved: UI improvements
+New: Open browsers by swipe
+Improved: Keyboard navigation
+Improved: Material design for Nexus 9
+Fixed: JavaScript console programs do not run sometimes
+Fixed: Insert tabs as spaces
+Improved: Typing assistance for }

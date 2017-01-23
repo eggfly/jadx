@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:paddingTop="@dimen/guide_popup_vertical_padding" android:paddingBottom="@dimen/guide_popup_vertical_padding" android:layout_width="-2" android:layout_height="-2" />

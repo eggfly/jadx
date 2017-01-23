@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/layout_test" android:layout_width="-1" android:layout_height="-1">
+        <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+        <LinearLayout android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <RelativeLayout android:layout_gravity="11" android:layout_width="160dp" android:layout_height="150dp" android:layout_margin="8dp">
+                    <com.antutu.utils.library.TitanicTextView android:textSize="120sp" android:textColor="#313131" android:gravity="11" android:id="@id/text_percent" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:text="@string/zero" />
+                    <TextView android:textSize="24sp" android:textColor="#ffc14141" android:gravity="50" android:id="@id/text_percent_mark" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="%" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <Button android:textColor="#ffefefef" android:layout_gravity="11" android:id="@id/btn_test_stop" android:background="@color/red_button_bg" android:layout_width="100dp" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/stop_str" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <TextView android:textSize="24sp" android:textColor="#ff000000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="@string/stress_test" android:layout_centerHorizontal="true" />
+                <LinearLayout android:layout_gravity="1" android:orientation="0" android:id="@id/testing_layout" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="80dp">
+                    <RelativeLayout android:layout_gravity="11" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="20dp">
+                        <ImageView android:id="@id/img_static" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/loading_sm" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/img_anim" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/loading_big" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="18sp" android:textColor="#ff393939" android:layout_gravity="11" android:id="@id/text_info_testing" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1dp" android:text="@string/Testing" />
+                </LinearLayout>
+                <TextView android:textSize="15sp" android:textColor="#ff696969" android:gravity="11" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginTop="50dp" android:layout_marginRight="30dp" android:text="@string/stress_test_tips" android:layout_below="@id/testing_layout" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/layout_result" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+        <include android:id="@id/title_layout_result" layout="@layout/common_title_view" />
+        <TextView android:textSize="18sp" android:textColor="@color/black" android:gravity="11" android:layout_gravity="11" android:id="@id/device_name" android:layout_width="-2" android:layout_height="-2" android:layout_margin="8dp" android:text="@string/stress_test" />
+        <RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <ListView android:id="@id/listViewChart" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="60dp" />
+            <Button android:textSize="15sp" android:textColor="#ffefefef" android:id="@id/btn_test_again" android:background="@color/red_button_bg" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_marginBottom="5dp" android:text="@string/test_again" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

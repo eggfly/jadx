@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="16sp" android:textColor="@color/title_text" android:gravity="10" android:background="#ff000000" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="46dp" android:text="@string/app_name_long" android:drawableLeft="@drawable/logo_s" android:drawablePadding="10dp" />
+    <ListView android:id="@id/listViewApps" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="50dp" android:layout_marginBottom="60dp" />
+    <TextView android:textSize="24sp" android:id="@id/textNoApp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/no_app" android:layout_centerInParent="true" />
+    <Button android:id="@id/btn_one_click" android:layout_width="200dp" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="@string/one_click_kill" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="0" android:id="@id/layoutProgress" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ProgressBar android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 1010077" />
+        <TextView android:textSize="20sp" android:layout_gravity="10" android:id="@id/textProgress" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/loading" android:layout_marginStart="5dp" />
+        <TextView android:textSize="20sp" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:text="@string/please_wait" />
+    </LinearLayout>
+</RelativeLayout>

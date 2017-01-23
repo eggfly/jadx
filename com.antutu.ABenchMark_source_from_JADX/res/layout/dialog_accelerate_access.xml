@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/white_bg_radius" android:padding="12dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/black" android:layout_gravity="1" android:paddingTop="12dp" android:paddingBottom="24dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/download_antutu_accelerate_now" android:singleLine="true" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/gray" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:text="@string/acceler_access_desc" />
+    <LinearLayout android:gravity="1" android:layout_gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40dp">
+        <Button android:textSize="@dimen/text_size_little" android:textColor="@color/gray" android:id="@id/btn_next_continue" android:background="@color/white" android:layout_width="108dp" android:layout_height="-2" android:layout_marginRight="20dp" android:text="@string/next_continue" />
+        <Button android:textSize="@dimen/text_size_little" android:textColor="@color/white" android:id="@id/btn_accelerate" android:background="@drawable/blue_btn_bg" android:layout_width="108dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="@string/accelerate_now" />
+    </LinearLayout>
+</LinearLayout>

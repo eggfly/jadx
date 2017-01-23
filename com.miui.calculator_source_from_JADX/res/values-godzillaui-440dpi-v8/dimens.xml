@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_preferred_item_height">99.629974dip</dimen>
+    <dimen name="list_preferred_item_height_large">121.09dip</dimen>
+    <dimen name="list_preferred_item_height_small">73.44998dip</dimen>
+    <dimen name="normal_text_size">20.779999sp</dimen>
+    <dimen name="preference_item_padding_bottom">17.0dip</dimen>
+    <dimen name="preference_item_padding_top">17.0dip</dimen>
+    <dimen name="secondary_text_size">13.25sp</dimen>
+</resources>

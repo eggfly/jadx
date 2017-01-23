@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout chg:orientation="1" chg:background="@color/app_background" chg:layout_width="-1" chg:layout_height="-1">
+    <view chg:layout_gravity="11" chg:id="@id/view" chg:layout_width="-1" chg:layout_height="-1" class="it.gmariotti.changelibs.library.view.ChangeLogListView" />
+</LinearLayout>

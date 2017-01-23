@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_selected="true" android:color="@color/filter_sort_tab_view_text_selected" />
+    <item android:state_selected="false" android:color="@color/filter_sort_tab_view_text_normal" />
+    <item android:color="@color/filter_sort_tab_view_text_normal" />
+</selector>

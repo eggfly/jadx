@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:id="@b/appwizardSectionContainer" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="40dp" android:id="@b/appwizardSectionTextView" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

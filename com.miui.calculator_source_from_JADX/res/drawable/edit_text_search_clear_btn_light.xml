@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="@integer/button_exit_fade_duration">
+    <item android:state_empty="false" android:drawable="@drawable/edit_text_search_clear_btn_on_light" />
+    <item android:drawable="0x106000d" />
+</selector>

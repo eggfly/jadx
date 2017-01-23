@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@b/designerFrame" android:layout_width="-1" android:layout_height="-1">
+    <android.support.v4.widget.DrawerLayout android:id="@b/designerDrawer" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:id="@b/designerHeaderLearnTask" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" style="@g/TrainerHeaderOuter"
+                <LinearLayout android:orientation="1" android:id="@b/designerHeaderLearnTaskInner" android:focusable="true" android:layout_width="-1" android:layout_height="-2" style="@g/TrainerHeaderInner">
+                    <TextView android:textColor="#ffffff" android:id="@b/designerHeaderLearnTaskTitle" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                    <TextView android:textColor="#ffffff" android:id="@b/designerHeaderLearnTaskText" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-2" android:text="" android:textIsSelectable="true" />
+                    <TextView android:textColor="#ffffff" android:id="@b/designerHeaderLearnButton" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@b/designerContent" android:layout_width="-1" android:layout_height="-1" />
+        </LinearLayout>
+        <ListView android:layout_gravity="800003" android:id="@b/designerViewList" android:background="?unknown_attr_ref: 1010054" android:layout_width="240dp" android:layout_height="-1" android:divider="0x106000d" android:dividerHeight="0dp" />
+    </android.support.v4.widget.DrawerLayout>
+</FrameLayout>

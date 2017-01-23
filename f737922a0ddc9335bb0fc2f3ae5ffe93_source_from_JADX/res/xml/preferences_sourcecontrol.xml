@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="Git">
+        <EditTextPreference android:title="User Name" android:key="git_user_name" android:summary="Full name (recorded with commits)" android:dialogTitle="Enter full name:" />
+        <EditTextPreference android:title="User Email" android:key="git_user_email" android:summary="Email (recorded with commits)" android:dialogTitle="Enter email:" />
+        <EditTextPreference android:title=".ssh directory" android:key="git_dot_ssh_dir" android:summary="Path to OpenSSH-compatible .ssh directory" android:dialogTitle="Enter path to .ssh directory" />
+        <CheckBoxPreference android:title="Keep SSH session information" android:key="git_keep_ssh_session_info" android:summary="Keep SSH session information such as the decrypted private key in memory" android:defaultValue="false" />
+        <CheckBoxPreference android:title="Create Repo" android:key="git_create_for_projects" android:summary="Create Git repository for new projects" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

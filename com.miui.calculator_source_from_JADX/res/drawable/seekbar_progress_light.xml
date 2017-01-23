@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:id="0x1020000" android:drawable="@drawable/seekbar_bg_light" />
+    <item android:id="0x102000d">
+        <scale android:drawable="@drawable/seekbar_progress_primary_light" android:scaleWidth="100%" />
+    </item>
+</layer-list>

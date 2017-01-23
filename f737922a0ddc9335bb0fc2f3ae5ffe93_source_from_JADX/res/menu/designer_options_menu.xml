@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="?unknown_attr_ref: 7f010133" android:id="@b/designerMenuRun" android:title="Run" android:showAsAction="6" />
+    <item android:icon="?unknown_attr_ref: 7f010136" android:id="@b/designerMenuShowBorders" android:title="View" android:showAsAction="2" />
+    <item android:icon="?unknown_attr_ref: 7f010129" android:id="@b/designerMenuHideBorders" android:title="Edit" android:showAsAction="2" />
+    <item android:icon="?unknown_attr_ref: 7f010135" android:id="@b/designerMenuUndo" android:title="Undo" android:showAsAction="1" />
+    <item android:icon="?unknown_attr_ref: 7f010132" android:id="@b/designerMenuRedo" android:title="Redo" android:showAsAction="1" />
+    <item android:id="@b/designerMenuPaste" android:title="Paste XML" android:showAsAction="0" />
+    <item android:id="@b/designerMenuCopy" android:title="Copy XML" android:showAsAction="0" />
+    <item android:id="@b/designerMenuShare" android:title="Share XML" android:showAsAction="0" />
+</menu>

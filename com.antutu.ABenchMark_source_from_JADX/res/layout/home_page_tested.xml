@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0">
+    <ListView android:id="@id/lv_testedlist" android:background="@color/bg_home_list" android:scrollbars="0" android:layout_width="-1" android:layout_height="-1" android:divider="@tnetstatuscode/EASY_REQ_STATE_OK" android:dividerHeight="0dp" />
+</LinearLayout>

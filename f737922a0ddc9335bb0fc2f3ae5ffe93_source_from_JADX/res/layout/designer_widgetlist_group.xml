@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="18sp" android:gravity="10" android:id="@b/widgetlistGroupName" android:paddingLeft="?unknown_attr_ref: 101004e" android:layout_width="-1" android:layout_height="60dp" android:minHeight="60dp" />

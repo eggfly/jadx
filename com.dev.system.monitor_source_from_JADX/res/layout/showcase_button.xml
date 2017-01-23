@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@id/showcase_button" android:text="@string/ok" style="@style/ShowcaseButton" />

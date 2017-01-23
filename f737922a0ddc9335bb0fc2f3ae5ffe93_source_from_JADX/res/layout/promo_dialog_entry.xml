@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="3" android:orientation="0" android:background="@drawable/trainer_course" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="13" android:orientation="0" android:id="@b/promoListEntryLayout" android:background="?unknown_attr_ref: 101030e" android:paddingTop="5dp" android:paddingBottom="5dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@b/promoListEntryLogo" android:padding="5dp" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="15dp" />
+        <LinearLayout android:orientation="1" android:padding="5dp" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="14sp" android:textColor="#333333" android:id="@b/promoListEntryText1" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="14sp" android:textStyle="1" android:textColor="#333333" android:id="@b/promoListEntryText2" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

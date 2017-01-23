@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/search_result_layout" android:background="@color/layout_background" android:longClickable="true" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_layout" layout="@layout/common_title_view" />
+    <LinearLayout android:orientation="0" android:id="@id/start_search_layout" android:background="@color/search_edit_bg" android:layout_width="-1" android:layout_height="48dp">
+        <FrameLayout android:layout_gravity="10" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_weight="1.0">
+            <EditText android:textSize="16sp" android:textColor="@color/white" android:textColorHint="@color/search_hint" android:layout_gravity="10" android:id="@id/search_edit_text" android:background="@drawable/search_input" android:paddingLeft="8dp" android:layout_width="-1" android:layout_height="36dp" android:hint="@string/search_hint" android:singleLine="true" />
+            <ImageView android:layout_gravity="15" android:id="@id/clear_search_btn" android:visibility="2" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="8dp" android:src="@drawable/search_cancel_btn" />
+        </FrameLayout>
+        <LinearLayout android:gravity="11" android:layout_gravity="15" android:id="@id/start_search_ll" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="5dp" android:layout_marginRight="15dp">
+            <ImageView android:layout_gravity="11" android:id="@id/start_search_btn" android:background="@drawable/rank_search" android:layout_width="20dp" android:layout_height="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/linear_result" android:background="@color/white" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:orientation="1" android:id="@id/linear_no_result" android:visibility="2" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:layout_width="-1" android:layout_height="64dp">
+                <TextView android:textSize="20sp" android:textStyle="1" android:textColor="@color/black" android:gravity="11" android:layout_gravity="11" android:layout_width="-1" android:layout_height="-2" android:text="@string/search_no_result" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.handmark.pulltorefresh.library.PullToRefreshListView android:scrollbarStyle="2000000" android:id="@id/ListViewRank" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:cacheColorHint="#00000000" android:divider="@color/search_divider" android:dividerHeight="1dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="11" android:id="@id/linear_searching" android:visibility="2" android:layout_width="-2" android:layout_height="-1">
+        <ProgressBar android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:indeterminateDrawable="@drawable/progress_mini" />
+        <TextView android:textSize="16sp" android:textColor="@color/text_grey" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:text="@string/searching" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="1" android:id="@id/linear_fail" android:visibility="2" android:layout_width="-2" android:layout_height="-1">
+        <TextView android:textSize="20sp" android:textColor="@color/text_grey" android:gravity="11" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:text="@string/load_fail" />
+    </LinearLayout>
+</LinearLayout>

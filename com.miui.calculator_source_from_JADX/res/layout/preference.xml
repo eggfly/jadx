@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:layout_gravity="10" android:background="?unknown_attr_ref: 7f010059" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:minWidth="@dimen/preference_icon_minWidth">
+        <ImageView android:gravity="11" android:layout_gravity="11" android:id="0x1020006" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/preference_item_padding_inner" android:layout_marginBottom="@dimen/preference_item_padding_inner" android:scaleType="3" android:adjustViewBounds="true" style="@style/Widget_PreferenceIcon" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="10" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" style="@style/Widget_PreferenceItem">
+        <TextView android:textAppearance="@style/TextAppearance_PreferenceList" android:ellipsize="3" android:id="0x1020016" android:fadingEdge="1000" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" />
+        <TextView android:textAppearance="@style/TextAppearance_List_Secondary_Preference" android:id="0x1020010" android:layout_width="-2" android:layout_height="-2" android:maxLines="10" android:layout_below="0x1020016" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="0x1020018" android:layout_width="-2" android:layout_height="-1" android:minWidth="@dimen/preference_widget_width" />
+    <ImageView android:gravity="11" android:layout_gravity="800015" android:id="@id/arrow_right" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/arrow_right" />
+</LinearLayout>

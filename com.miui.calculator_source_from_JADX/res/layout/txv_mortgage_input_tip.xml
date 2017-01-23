@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance_Widget_List_Secondary" android:layout_gravity="1" android:id="@id/txv_tip" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" />

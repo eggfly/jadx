@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textAppearance="@style/CalTextAppearance_Widget_List_Primary" android:layout_gravity="10" android:id="@id/txv_title" android:layout_width="-2" android:layout_height="-2" android:text="@string/mortgage_amount" android:layout_marginEnd="7dp" />
+        <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/met_input_1" android:layout_width="71dp" android:layout_height="-2" />
+            <TextView android:textAppearance="@style/CalTextAppearance_Widget_List_Primary" android:id="@id/txv_multiply" android:layout_width="-2" android:layout_height="-2" android:text="@string/mul" android:layout_marginStart="3dp" android:layout_marginEnd="3dp" />
+            <com.miui.calculator.common.widget.SuffixNumberInput android:id="@id/met_input_2" android:layout_width="71dp" android:layout_height="-2" />
+            <TextView android:textAppearance="@style/CalTextAppearance_Widget_List_Primary" android:id="@id/txv_equal" android:layout_width="-2" android:layout_height="-2" android:text="@string/mortgage_equals" android:layout_marginStart="6dp" />
+            <TextView android:textAppearance="@style/CalTextAppearance_Widget_List_Primary" android:textSize="@dimen/suffix_number_input_text_size" android:id="@id/txv_result" android:layout_width="0dp" android:layout_height="-2" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/txv_mortgage_input_tip" />
+</LinearLayout>

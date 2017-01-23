@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.ActionBar" parent="@style/Widget">
+        <item name="android:background">?actionBarBackground</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:divider">@null</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.WindowTitle</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.WindowTitle.Subtitle</item>
+        <item name="android:progressBarPadding">@dimen/actionbar_progressbar_horizontal_padding</item>
+        <item name="android:homeLayout">@layout/action_bar_home</item>
+        <item name="android:itemPadding">0.0dip</item>
+        <item name="android:backgroundStacked">?actionBarStackBackground</item>
+        <item name="android:backgroundSplit">?actionBarSplitBackground</item>
+        <item name="android:paddingStart">@dimen/action_bar_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/action_bar_horizontal_padding</item>
+        <item name="actionBarEmbededTabsBackground">?actionBarEmbededTabsBackground</item>
+        <item name="actionBarStackedBackground">?actionBarStackedBackground</item>
+        <item name="translucentTabIndicator">true</item>
+        <item name="tabIndicator">@null</item>
+    </style>
+    <style name="Widget.ActionBar.Split" parent="@style/Widget.ActionBar">
+        <item name="android:height">@dimen/split_action_bar_default_height</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="Widget.ActionButton" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Widget.ActionButton</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/action_button_text_light</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:background">@drawable/action_button_bg_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:drawablePadding">@dimen/action_button_drawable_padding</item>
+        <item name="android:hapticFeedbackEnabled">true</item>
+        <item name="android:paddingStart">@dimen/action_menu_item_view_padding_left</item>
+        <item name="android:paddingEnd">@dimen/action_menu_item_view_padding_right</item>
+    </style>
+    <style name="Widget.ActionMode" parent="@style/Widget">
+        <item name="android:background">?android:actionModeBackground</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@null</item>
+        <item name="android:backgroundSplit">?android:actionModeSplitBackground</item>
+        <item name="android:paddingStart">@dimen/action_bar_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/action_bar_horizontal_padding</item>
+    </style>
+    <style name="Widget.Dark.SeekBar.Vertical" parent="@style/Widget.Dark.SeekBar">
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="Widget.Dark.TabView" parent="@style/Widget.Dark">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_bg_dark</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="Widget.DropDownItem" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.AlertDialogListItem.SingleChoice</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/list_preferred_item_padding_left</item>
+        <item name="android:paddingEnd">@dimen/list_preferred_item_padding_right</item>
+    </style>
+    <style name="Widget.DropDownItem.Spinner" parent="@style/Widget.DropDownItem">
+        <item name="android:textColor">@color/dialog_list_text_light_single_choice</item>
+        <item name="android:background">@drawable/list_item_bg_dialog_light</item>
+        <item name="android:checkMark">?android:listChoiceIndicatorSingle</item>
+        <item name="android:paddingStart">0.0dip</item>
+    </style>
+    <style name="Widget.DropdownSelector.Spinner" parent="@style/Widget.DropdownSelector">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">?textColorSpinnerDropdownSelector</item>
+        <item name="android:background">@drawable/spinner_dropdown_selector_bg</item>
+        <item name="android:paddingStart">@dimen/spinner_dropdown_selector_padding</item>
+    </style>
+    <style name="Widget.ExpandableListView.GroupItem" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.ExpandableListView.GroupItem</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:background">?expander_group_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingStart">?android:expandableListPreferredItemPaddingLeft</item>
+    </style>
+    <style name="Widget.ListMenuItem" parent="@style/Widget">
+        <item name="android:itemBackground">@drawable/list_menu_item_bg_light</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="Widget.PreferenceItem" parent="@style/Widget">
+        <item name="android:paddingTop">@dimen/preference_item_padding_top</item>
+        <item name="android:paddingBottom">@dimen/preference_item_padding_bottom</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">@dimen/preference_item_padding_inner</item>
+    </style>
+    <style name="Widget.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">@dimen/seekbar_height</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progress_light</item>
+        <item name="android:minHeight">@dimen/seekbar_height</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_light</item>
+        <item name="android:thumbOffset">8.0dip</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+        <item name="progressMask">@drawable/seekbar_progress_mask_light</item>
+    </style>
+    <style name="Widget.SeekBar.Vertical" parent="@style/Widget.SeekBar">
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_vertical_light</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="display_style">
+        <item name="android:textSize">@dimen/display_text_size</item>
+        <item name="android:textColor">@color/show_screen_display_color</item>
+        <item name="android:gravity">end</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+</resources>
